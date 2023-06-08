@@ -225,7 +225,7 @@ export function SecondaryFeatures() {
             Simplify parenthood.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-          {{"Rest easy knowing that you're making the best possible choices for your growing family."}}
+          Rest easy knowing that you&#39;re making the best possible choices for your growing family.
           </p>
         </div>
         <FeaturesMobile />
