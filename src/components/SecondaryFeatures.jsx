@@ -7,14 +7,22 @@ import { Container } from '@/components/Container'
 import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
+import screenshotShare from '@/images/screenshots/share.png'
+import screenshotRegistry from '@/images/screenshots/registry.png'
+import screenshotPrice from '@/images/screenshots/price.png'
 
 const features = [
   {
     name: 'Reporting',
-    summary: 'Stay on top of things with always up-to-date reporting features.',
-    description:
-      'We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.',
-    image: screenshotProfitLoss,
+    summary: 'Build your baby registry in just a few seconds.',
+    description: `
+    Our AI-powered assistant uses data from a 
+    variety of sources, and your preferences, to build your registry
+    quickly. Don't waste time researching!
+    t
+    
+    `,
+    image: screenshotRegistry,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -46,10 +54,10 @@ const features = [
   {
     name: 'Inventory',
     summary:
-      'Never lose track of what’s in stock with accurate inventory tracking.',
-    description:
-      'We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.',
-    image: screenshotInventory,
+    `Get notified when prices change so you can buy at the best time.`,
+    description: `Our automatic price tacking functionality sends you a notification when a 
+    better price is available. Never overpay again!`,
+    image: screenshotPrice,
     icon: function InventoryIcon() {
       return (
         <>
@@ -74,10 +82,9 @@ const features = [
   {
     name: 'Contacts',
     summary:
-      'Organize all of your contacts, service providers, and invoices in one place.',
-    description:
-      'This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.',
-    image: screenshotContacts,
+      'Share your registry with friends.',
+    description: `Our registry is easy to share with friends on your phone and on-the-go. Track your gifts and thank your friends!`,
+    image: screenshotShare,
     icon: function ContactsIcon() {
       return (
         <>
@@ -118,7 +125,6 @@ function Feature({ feature, isActive, className, ...props }) {
           isActive ? 'text-blue-600' : 'text-slate-600'
         )}
       >
-        {feature.name}
       </h3>
       <p className="mt-2 font-display text-xl text-slate-900">
         {feature.summary}
@@ -136,12 +142,12 @@ function FeaturesMobile() {
           <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
           <div className="relative mt-10 pb-10">
             <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
-            <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <div className="relative mx-auto w-[20rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
                 src={feature.image}
                 alt=""
-                sizes="52.75rem"
+                sizes="20rem"
               />
             </div>
           </div>
@@ -187,12 +193,12 @@ function FeaturesDesktop() {
                   style={{ transform: `translateX(-${selectedIndex * 100}%)` }}
                   aria-hidden={featureIndex !== selectedIndex}
                 >
-                  <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+                  <div className="w-[20rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
                     <Image
                       className="w-full"
                       src={feature.image}
                       alt=""
-                      sizes="52.75rem"
+                      sizes="20rem"
                     />
                   </div>
                 </Tab.Panel>
@@ -216,11 +222,10 @@ export function SecondaryFeatures() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Simplify everyday business tasks.
+            Simplify parenthood.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Because you’d probably be a little confused if we suggested you
-            complicate your everyday business tasks instead.
+          Rest easy knowing that you're making the best possible choices for your growing family.
           </p>
         </div>
         <FeaturesMobile />
