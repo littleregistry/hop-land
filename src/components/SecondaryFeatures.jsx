@@ -8,19 +8,16 @@ import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 import screenshotShare from '@/images/screenshots/share.png'
-import screenshotRegistry from '@/images/screenshots/registry.png'
-import screenshotPrice from '@/images/screenshots/price.png'
+import screenshotRegistry from '@/images/registry.gif'
+import screenshotPrice from '@/images/wizard.gif'
 
 const features = [
   {
     name: 'Reporting',
     summary: 'Build your baby registry in just a few seconds.',
     description: `
-    Our AI-powered assistant uses data from a 
-    variety of sources, and your preferences, to build your registry
-    quickly. Don't waste time researching!
-    t
-    
+    Build a beautiful baby registry with all the essentials to share your friends in just a few seconds.
+    Don't waste hours researching!
     `,
     image: screenshotRegistry,
     icon: function ReportingIcon() {
@@ -54,9 +51,9 @@ const features = [
   {
     name: 'Inventory',
     summary:
-    `Get notified when prices change so you can buy at the best time.`,
-    description: `Our automatic price tacking functionality sends you a notification when a 
-    better price is available. Never overpay again!`,
+    `Take a quick and easy quiz to get a truly personalized registry.`,
+    description: `No one size fits all. Our AI-powered shopping assistant uses various data sources and your individual
+    preferences in order to narrow down 1000+ products to just a few essentials tailored to you.`,
     image: screenshotPrice,
     icon: function InventoryIcon() {
       return (
@@ -73,28 +70,6 @@ const features = [
           />
           <path
             d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
-  },
-  {
-    name: 'Contacts',
-    summary:
-      'Share your registry with friends.',
-    description: `Our registry is easy to share with friends on your phone and on-the-go. Track your gifts and thank your friends!`,
-    image: screenshotShare,
-    icon: function ContactsIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M25.778 25.778c.39.39 1.027.393 1.384-.028A11.952 11.952 0 0 0 30 18c0-6.627-5.373-12-12-12S6 11.373 6 18c0 2.954 1.067 5.659 2.838 7.75.357.421.993.419 1.384.028.39-.39.386-1.02.036-1.448A9.959 9.959 0 0 1 8 18c0-5.523 4.477-10 10-10s10 4.477 10 10a9.959 9.959 0 0 1-2.258 6.33c-.35.427-.354 1.058.036 1.448Z"
-            fill="#fff"
-          />
-          <path
-            d="M12 28.395V28a6 6 0 0 1 12 0v.395A11.945 11.945 0 0 1 18 30c-2.186 0-4.235-.584-6-1.605ZM21 16.5c0-1.933-.5-3.5-3-3.5s-3 1.567-3 3.5 1.343 3.5 3 3.5 3-1.567 3-3.5Z"
             fill="#fff"
           />
         </>
@@ -126,28 +101,27 @@ function Feature({ feature, isActive, className, ...props }) {
         )}
       >
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-900">
+      <p className="mt-2 font-display text-2xl text-slate-900">
         {feature.summary}
       </p>
-      <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
+      <p className="mt-4 text-lg text-slate-600">{feature.description}</p>
     </div>
   )
 }
 
 function FeaturesMobile() {
   return (
-    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6 lg:hidden">
+    <div className="-mx-4 mt-20 flex flex-col gap-y-10 overflow-hidden px-4 sm:-mx-6 sm:px-6">
       {features.map((feature) => (
         <div key={feature.name}>
-          <Feature feature={feature} className="mx-auto max-w-2xl" isActive />
+          <Feature feature={feature} className="mx-auto max-w-2xl mb-12" isActive />
           <div className="relative mt-10 pb-10">
-            <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
-            <div className="relative mx-auto w-[20rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <div className="relative mx-auto w-full lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
                 src={feature.image}
                 alt=""
-                sizes="20rem"
+                sizes="25rem"
               />
             </div>
           </div>
@@ -217,19 +191,18 @@ export function SecondaryFeatures() {
     <section
       id="secondary-features"
       aria-label="Features for simplifying everyday business tasks"
-      className="pb-14 pt-20 sm:pb-20 sm:pt-32 lg:pb-32"
+      className="pb-14 sm:pb-20 lg:pb-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
+        {/* <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
             Simplify parenthood.
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
           Rest easy knowing that you&#39;re making the best possible choices for your growing family.
           </p>
-        </div>
+        </div> */}
         <FeaturesMobile />
-        <FeaturesDesktop />
       </Container>
     </section>
   )

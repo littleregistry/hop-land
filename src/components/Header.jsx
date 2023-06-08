@@ -8,7 +8,6 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
-import babypouchLogo from '@/images/logos/babypouch.jpg'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -95,15 +94,8 @@ export function Header() {
   return (
     <header className="py-10">
       <Container>
-        <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
-            <Link href="#" aria-label="Home">
-            <Image
-              className="w-14 h-14"
-              src={babypouchLogo}
-              alt=""
-            />
-            </Link>
+        <nav className="relative z-50 flex items-center">
+          <div className="flex md:gap-x-12">
             {/* <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
