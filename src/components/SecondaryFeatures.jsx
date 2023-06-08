@@ -118,7 +118,7 @@ function FeaturesMobile() {
           <div className="relative mt-10 pb-10">
             <div className="relative mx-auto w-full lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
-                className="w-full"
+                className="w-full h-screen"
                 src={feature.image}
                 alt=""
                 sizes="25rem"
