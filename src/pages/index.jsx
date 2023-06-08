@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Baby Pouch - The world's first AI baby registry</title>
+        <title>Baby Pouch - The world&#39;s first AI baby registry</title>
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
