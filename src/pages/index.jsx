@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 
 import { CallToAction } from '@/components/CallToAction'
 import { Faqs } from '@/components/Faqs'
@@ -9,6 +10,7 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import screenshotRegistry from '@/images/registry.gif'
 
 export default function Home() {
   return (
@@ -32,6 +34,17 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+        <div className="relative pb-10">
+            <div className="relative mx-auto w-full lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+              <Image
+                className="w-full"
+                src={screenshotRegistry}
+                alt=""
+                sizes="25rem"
+              />
+            </div>
+          </div>
+
         <SecondaryFeatures />
       </main>
       <Footer />

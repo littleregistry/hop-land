@@ -12,42 +12,42 @@ import screenshotRegistry from '@/images/registry.gif'
 import screenshotPrice from '@/images/wizard.gif'
 
 const features = [
-  {
-    name: 'Reporting',
-    summary: 'Build your baby registry in just a few seconds.',
-    description: `
-    Build a beautiful baby registry with all the essentials to share your friends in just a few seconds.
-    Don't waste hours researching!
-    `,
-    image: screenshotRegistry,
-    icon: function ReportingIcon() {
-      let id = useId()
-      return (
-        <>
-          <defs>
-            <linearGradient
-              id={id}
-              x1="11.5"
-              y1={18}
-              x2={36}
-              y2="15.5"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset=".194" stopColor="#fff" />
-              <stop offset={1} stopColor="#6692F1" />
-            </linearGradient>
-          </defs>
-          <path
-            d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
-            stroke={`url(#${id})`}
-            strokeWidth={2}
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </>
-      )
-    },
-  },
+  // {
+  //   name: 'Reporting',
+  //   summary: 'Build your baby registry in just a few seconds.',
+  //   description: `
+  //   Build a beautiful baby registry with all the essentials to share your friends in just a few seconds.
+  //   Don't waste hours researching!
+  //   `,
+  //   image: screenshotRegistry,
+  //   icon: function ReportingIcon() {
+  //     let id = useId()
+  //     return (
+  //       <>
+  //         <defs>
+  //           <linearGradient
+  //             id={id}
+  //             x1="11.5"
+  //             y1={18}
+  //             x2={36}
+  //             y2="15.5"
+  //             gradientUnits="userSpaceOnUse"
+  //           >
+  //             <stop offset=".194" stopColor="#fff" />
+  //             <stop offset={1} stopColor="#6692F1" />
+  //           </linearGradient>
+  //         </defs>
+  //         <path
+  //           d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
+  //           stroke={`url(#${id})`}
+  //           strokeWidth={2}
+  //           strokeLinecap="round"
+  //           strokeLinejoin="round"
+  //         />
+  //       </>
+  //     )
+  //   },
+  // },
   {
     name: 'Inventory',
     summary:
