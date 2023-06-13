@@ -250,7 +250,7 @@ export function SecondaryFeatures() {
           Shop with peace of mind
         </p>
         <p className="mt-4 text-lg text-slate-600">
-          Get personalized advice on items best for every stage of your baby's development.
+          Get personalized advice on items best for every stage of your baby&apos;s development.
         </p>
         <div className="grid grid-cols-2 md:grid-cols-4 mt-8">
           <div className="lg:block md:col-span-2">

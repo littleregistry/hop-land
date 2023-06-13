@@ -43,8 +43,9 @@ export function LogoCloud() {
         <div className="relative pb-10">
           <div className="relative mx-auto w-6/6 lg:w-[40rem] overflow-hidden rounded-xl">            
             <div class="grid grid-rows-4 grid-flow-col flex items-center gap-4">            
-              {logos.map((logo) => {
+              {logos.map((logo, idx) => {
               return <Image                
+                  key={idx}
                   src={logo}
                   alt=""
                   sizes="12rem"
