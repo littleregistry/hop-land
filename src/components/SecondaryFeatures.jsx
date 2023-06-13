@@ -12,49 +12,47 @@ import screenshotRegistry from '@/images/registry.gif'
 import screenshotPrice from '@/images/wizard.gif'
 
 const features = [
-  // {
-  //   name: 'Reporting',
-  //   summary: 'Build your baby registry in just a few seconds.',
-  //   description: `
-  //   Build a beautiful baby registry with all the essentials to share your friends in just a few seconds.
-  //   Don't waste hours researching!
-  //   `,
-  //   image: screenshotRegistry,
-  //   icon: function ReportingIcon() {
-  //     let id = useId()
-  //     return (
-  //       <>
-  //         <defs>
-  //           <linearGradient
-  //             id={id}
-  //             x1="11.5"
-  //             y1={18}
-  //             x2={36}
-  //             y2="15.5"
-  //             gradientUnits="userSpaceOnUse"
-  //           >
-  //             <stop offset=".194" stopColor="#fff" />
-  //             <stop offset={1} stopColor="#6692F1" />
-  //           </linearGradient>
-  //         </defs>
-  //         <path
-  //           d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
-  //           stroke={`url(#${id})`}
-  //           strokeWidth={2}
-  //           strokeLinecap="round"
-  //           strokeLinejoin="round"
-  //         />
-  //       </>
-  //     )
-  //   },
-  // },
+  {
+    name: 'Reporting',
+    summary: 'Help us get to know you',
+    description: `
+    Tell us about your lifestyle, budget & preferences. 
+    `,
+    image: screenshotRegistry, //survey 
+    icon: function ReportingIcon() {
+      let id = useId()
+      return (
+        <>
+          <defs>
+            <linearGradient
+              id={id}
+              x1="11.5"
+              y1={18}
+              x2={36}
+              y2="15.5"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop offset=".194" stopColor="#fff" />
+              <stop offset={1} stopColor="#6692F1" />
+            </linearGradient>
+          </defs>
+          <path
+            d="m30 15-4 5-4-11-4 18-4-11-4 7-4-5"
+            stroke={`url(#${id})`}
+            strokeWidth={2}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </>
+      )
+    },
+  },
   {
     name: 'Inventory',
     summary:
-    `Take a quick and easy quiz to get a truly personalized registry.`,
-    description: `No one size fits all. Our AI-powered shopping assistant uses various data sources and your individual
-    preferences in order to narrow down 1000+ products to just a few essentials tailored to you.`,
-    image: screenshotPrice,
+    `Get products picked just for you`,
+    description: `See expertly curated products that match your parenting style & price points.`,
+    image: screenshotPrice, //Our reasons for picking + you may like 
     icon: function InventoryIcon() {
       return (
         <>
@@ -76,6 +74,60 @@ const features = [
       )
     },
   },
+  {
+    name: 'Inventory',
+    summary:
+    `Shop at the best price`,
+    description: `Always get the best price. Never overpay.`,
+    image: screenshotPrice, //Price options screenshots
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      )
+    },
+  },
+  {
+    name: 'Inventory',
+    summary:
+    `Shop with peace of mind`,
+    description: `Get personalized advice on items best for every stage of your baby's development.`,
+    image: screenshotPrice, //Items on registry (age-approp. toys, ...)
+    icon: function InventoryIcon() {
+      return (
+        <>
+          <path
+            opacity=".5"
+            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            opacity=".3"
+            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+          <path
+            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
+            fill="#fff"
+          />
+        </>
+      )
+    },
+  }
 ]
 
 function Feature({ feature, isActive, className, ...props }) {
@@ -116,7 +168,7 @@ function FeaturesMobile() {
         <div key={feature.name}>
           <Feature feature={feature} className="mx-auto max-w-2xl mb-12" isActive />
           <div className="relative mt-10 pb-10">
-            <div className="relative mx-auto w-full lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <div className="relative mx-auto w-5/6 lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
                 src={feature.image}

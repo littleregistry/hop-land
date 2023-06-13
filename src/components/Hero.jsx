@@ -49,14 +49,13 @@ export function Hero() {
         <h1 className="text-2xl font-semibold mt-4 mb-8">Baby Pouch</h1>
       </Link>
       <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Create your baby registry in seconds
+        Create a personalized baby registry in seconds
       </h1>
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
-      With our AI shopping assistant, you can build a beautiful baby registry with all the essentials in just a few seconds. Find the right 
-      baby products for you based on your lifestyle and preferences, at the best price.
+      Our AI shopping assistant will find what you actually need instantly
       </p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/" className="bg-pouch-snow-500 hover:bg-pouch-snow-700 px-8 py-3 text-[#fff]">Create your registry</Button>
+        <Button href="/" className="bg-pouch-snow-500 hover:bg-pouch-snow-700 px-8 py-3 text-[#fff]">Try now</Button>
       </div>
       <div className="mt-36 lg:mt-44">
       </div>
