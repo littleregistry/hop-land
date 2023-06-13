@@ -6,11 +6,12 @@ import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { LogoCloud } from '@/components/LogoCloud'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-import screenshotRegistry from '@/images/registry.gif'
+import screenshotRegistry from '@/images/main.gif'
 
 export default function Home() {
   return (
@@ -34,8 +35,10 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
+
+        {/* screenshot of registry */}
         <div className="relative pb-10">
-            <div className="relative mx-auto w-full lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
+            <div className="relative mx-auto w-5/6 lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
               <Image
                 className="w-full"
                 src={screenshotRegistry}
@@ -46,6 +49,11 @@ export default function Home() {
           </div>
 
         <SecondaryFeatures />
+
+        {/* all the logos */}
+
+        <LogoCloud />              
+
       </main>
       <Footer />
     </>
