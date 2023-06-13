@@ -10,7 +10,7 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
-import screenshotRegistry from '@/images/registry.gif'
+import screenshotRegistry from '@/images/main.gif'
 
 export default function Home() {
   return (

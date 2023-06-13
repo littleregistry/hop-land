@@ -8,8 +8,17 @@ import screenshotContacts from '@/images/screenshots/contacts.png'
 import screenshotInventory from '@/images/screenshots/inventory.png'
 import screenshotProfitLoss from '@/images/screenshots/profit-loss.png'
 import screenshotShare from '@/images/screenshots/share.png'
-import screenshotRegistry from '@/images/registry.gif'
-import screenshotPrice from '@/images/wizard.gif'
+import screenshotRegistry from '@/images/main.gif'
+import screenshotPreferences from '@/images/preferences.gif'
+import screenshotPicked from '@/images/pickedforyou.png'
+import screenshotPrice from '@/images/price.png'
+import breastfeedingCard from '@/images/features-cards/breastfeeding.png'
+import toysCard from '@/images/features-cards/toys.png'
+import diaperCard from '@/images/features-cards/diaper.png'
+import strollerCard from '@/images/features-cards/stroller.png'
+import amazonPriceCard from '@/images/features-cards/amazon-price.png'
+import cratePriceCard from '@/images/features-cards/crate-price.png'
+import mobyPriceCard from '@/images/features-cards/moby-price.png'
 
 const features = [
   {
@@ -18,7 +27,7 @@ const features = [
     description: `
     Tell us about your lifestyle, budget & preferences. 
     `,
-    image: screenshotRegistry, //survey 
+    image: screenshotPreferences, //survey 
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -52,7 +61,7 @@ const features = [
     summary:
     `Get products picked just for you`,
     description: `See expertly curated products that match your parenting style & price points.`,
-    image: screenshotPrice, //Our reasons for picking + you may like 
+    image: screenshotPicked, //Our reasons for picking + you may like 
     icon: function InventoryIcon() {
       return (
         <>
@@ -74,60 +83,6 @@ const features = [
       )
     },
   },
-  {
-    name: 'Inventory',
-    summary:
-    `Shop at the best price`,
-    description: `Always get the best price. Never overpay.`,
-    image: screenshotPrice, //Price options screenshots
-    icon: function InventoryIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            opacity=".3"
-            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
-  },
-  {
-    name: 'Inventory',
-    summary:
-    `Shop with peace of mind`,
-    description: `Get personalized advice on items best for every stage of your baby's development.`,
-    image: screenshotPrice, //Items on registry (age-approp. toys, ...)
-    icon: function InventoryIcon() {
-      return (
-        <>
-          <path
-            opacity=".5"
-            d="M8 17a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            opacity=".3"
-            d="M8 24a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-          <path
-            d="M8 10a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2Z"
-            fill="#fff"
-          />
-        </>
-      )
-    },
-  }
 ]
 
 function Feature({ feature, isActive, className, ...props }) {
@@ -238,6 +193,17 @@ function FeaturesDesktop() {
   )
 }
 
+const buyingOptions = [
+  {
+    name: 'Babylist',
+    price: 799,
+    logo:
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80',
+  },
+  // More people...
+]
+
+
 export function SecondaryFeatures() {
   return (
     <section
@@ -255,6 +221,55 @@ export function SecondaryFeatures() {
           </p>
         </div> */}
         <FeaturesMobile />
+      <div
+        className="mx-auto relative max-w-2xl mb-12 mt-12"
+      >
+        <p className="mt-2 font-display text-2xl text-slate-900">
+          Shop at the best price
+        </p>
+        <p className="mt-4 text-lg text-slate-600">
+          Always get the best price. Never overpay.
+        </p>
+        <div className="flex flex-col items-center mt-8">
+          <div className="lg:block">
+            <Image src={mobyPriceCard} className="" alt="" />
+          </div>
+          <div className="lg:block">
+            <Image src={amazonPriceCard} className="" alt="" />
+          </div>
+          <div className="lg:block">
+            <Image src={cratePriceCard} className="" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div
+        className="mx-auto relative max-w-2xl mb-12 mt-12"
+      >
+        <p className="mt-2 font-display text-2xl text-slate-900">
+          Shop with peace of mind
+        </p>
+        <p className="mt-4 text-lg text-slate-600">
+          Get personalized advice on items best for every stage of your baby's development.
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-4 mt-8">
+          <div className="lg:block md:col-span-2">
+            <Image src={strollerCard} className="m-0 p-0" alt="" />
+          </div>
+          <div className="lg:block col-span-1 md:col-span-1">
+            <Image src={breastfeedingCard} className="" alt="" />
+          </div>
+          <div className="hidden md:block md:col-span-1">
+          <div className="col-span-1 lg:block ml-auto">
+            <Image src={toysCard} className="" alt="" />
+          </div>
+
+          <div className="col-span-1">
+            <Image src={diaperCard} className="" alt="" />
+          </div>
+          </div>
+        </div>
+      </div>
       </Container>
     </section>
   )
