@@ -16,20 +16,67 @@ import mobyCard from '@/images/hero-cards/moby-wrap.png'
 import diaperCard from '@/images/hero-cards/diaper-fund.png'
 import toyCard from '@/images/hero-cards/nursery-toys.png'
 
+import { Disclosure } from '@headlessui/react'
+import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+
+const faqs = [
+  {
+    question: "What's the best thing about Switzerland?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "What's the best thing about Switzerland?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  // More questions...
+]
+
 
 
 export function Faq() {
   return (
-    <Container className="pt-20 relative max-w-7xl text-center lg:pt-32">     
+    <div className="pt-20 relative lg:pt-32 lg:pb-24 bg-[#E6B8E6]">     
 
-      <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Still have questions? 
+      <h1 className="mx-auto max-w-2xl text-[#461F69] text-center mb-20 font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      🤔 Still have questions?
       </h1>
       <p className="mx-auto max-w-lg text-2xl text-[#005394] tracking-tight">
         {/* We get it – things can get really overwhelming. That’s why we create tools to help! */}
       </p>
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
+      <div className="bg-gray-900">
+        <div className="mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">
+          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Frequently asked questions</h2>
+          <dl className="mt-10 space-y-6 divide-y divide-white/10">
+            {faqs.map((faq) => (
+              <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-8 rounded-lg">
+                {({ open }) => (
+                  <>
+                    <dt>
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                        <span className="text-xl font-semibold leading-7">{faq.question}</span>
+                        <span className="ml-6 flex h-7 items-center">
+                          {open ? (
+                            <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                          ) : (
+                            <PlusSmallIcon className="h-6 w-6" aria-hidden="true" />
+                          )}
+                        </span>
+                      </Disclosure.Button>
+                    </dt>
+                    <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                      <p className="text-xl leading-7 text-gray-300">{faq.answer}</p>
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+            ))}
+          </dl>
+        </div>
+    </div>
       {/* <div className="mt-10 flex justify-center gap-x-6">
         <input
           type="email"
@@ -43,6 +90,6 @@ export function Faq() {
       </div> */}
       <div className="mt-36 lg:mt-44">
       </div>
-    </Container>
+    </div>
   )
 }
