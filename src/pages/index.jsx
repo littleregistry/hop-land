@@ -16,6 +16,10 @@ import { Testimonials } from '@/components/Testimonials'
 import screenshotRegistry from '@/images/main.gif'
 import { AddToPouch } from '@/components/AddToPouch'
 import { SetupCashFund } from '@/components/SetupCashFund'
+import { ShareWishList } from '@/components/ShareWishList.jsx'
+import { EasyWithPouch } from '@/components/EasyWithPouch.jsx'
+import { Faq } from '@/components/Faq.jsx'
+
 
 export default function Home() {
   return (
@@ -41,14 +45,19 @@ export default function Home() {
         <HeroTwo />
         <AddToPouch />
         <SetupCashFund />
+        <ShareWishList />
+
+        <EasyWithPouch />
+
+        <Faq />
         
         <SectionTwo />
 
-        <SecondaryFeatures />
+        {/* <SecondaryFeatures /> */}
 
         {/* all the logos */}
 
-        <LogoCloud />              
+        {/* <LogoCloud />               */}
 
       </main>
       <Footer />
