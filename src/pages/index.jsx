@@ -6,6 +6,8 @@ import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
+import { HeroTwo } from '@/components/HeroTwo'
+import { SectionTwo } from '@/components/SectionTwo'
 import { LogoCloud } from '@/components/LogoCloud'
 import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
@@ -17,7 +19,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Baby Pouch - The world&#39;s first AI baby registry</title>
+        <title>Baby Pouch - People-Friendly Baby Registry</title>
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
@@ -34,19 +36,8 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <Hero />
-
-        {/* screenshot of registry */}
-        <div className="relative pb-10">
-            <div className="relative mx-auto w-5/6 lg:w-[30rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-slate-900/5 ring-1 ring-slate-500/10">
-              <Image
-                className="w-full"
-                src={screenshotRegistry}
-                alt=""
-                sizes="25rem"
-              />
-            </div>
-          </div>
+        <HeroTwo />
+        <SectionTwo />
 
         <SecondaryFeatures />
 
