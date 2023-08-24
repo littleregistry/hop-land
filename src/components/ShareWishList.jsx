@@ -16,7 +16,7 @@ import mobyCard from '@/images/hero-cards/moby-wrap.png'
 import diaperCard from '@/images/hero-cards/diaper-fund.png'
 import toyCard from '@/images/hero-cards/nursery-toys.png'
 import mainRegistry from '@/images/mainregistry.png'
-import cashfunds from '@/images/cashfunds.png'
+import shareWishList from '@/images/shareWishList.png'
 import hero from '@/images/hero.png'
 
 
@@ -27,7 +27,7 @@ export function ShareWishList() {
     <Container className="relative max-w-7xl lg:pt-32">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
                 <div className="max-w-xl">
-                    <Image src={cashfunds} />
+                    <Image src={shareWishList} />
                 </div>
                 <div>
                 <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#005394] sm:text-7xl">
