@@ -21,7 +21,7 @@ import hero from '@/images/hero.png'
 
 
 
-export function AddToPouch() {
+export function ShareWishList() {
   return (
     <div className="bg-[#FEF6EA]">
     <Container className="relative max-w-7xl lg:pt-32">
@@ -31,10 +31,11 @@ export function AddToPouch() {
                 </div>
                 <div>
                 <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#005394] sm:text-7xl">
-                  Add anything from any store
+                Share your Wishlist & Receive gifts from friends & family
+
                 </h1>
                 <p className="mt-6 max-w-lg text-2xl text-[#005394] tracking-tight">
-                Yes! You're not restricted to just one store. Keep track of everything you need all in one place.
+                We’ve got the easiest checkout experience out of any universal baby registries. Designed for guests of any age. 
                 </p>
                 <div className="mt-10 flex gap-x-6">
                 </div>
@@ -47,5 +48,6 @@ export function AddToPouch() {
       </div>
     </Container>
     </div>
+
   )
 }
