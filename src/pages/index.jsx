@@ -14,6 +14,8 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import screenshotRegistry from '@/images/main.gif'
+import { AddToPouch } from '@/components/AddToPouch'
+import { SetupCashFund } from '@/components/SetupCashFund'
 
 export default function Home() {
   return (
@@ -37,6 +39,9 @@ export default function Home() {
       <Header />
       <main>
         <HeroTwo />
+        <AddToPouch />
+        <SetupCashFund />
+        
         <SectionTwo />
 
         <SecondaryFeatures />
