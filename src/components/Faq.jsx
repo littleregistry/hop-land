@@ -19,18 +19,57 @@ import toyCard from '@/images/hero-cards/nursery-toys.png'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
-const faqs = [
+const faqs = [  
   {
-    question: "What's the best thing about Switzerland?",
+    question: "Why do I need a baby registry?",
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
   {
-    question: "What's the best thing about Switzerland?",
+    question: "How does BabyPouch work?",
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
-  // More questions...
+  {
+    question: "Why should I use BabyPouch?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },  
+  {
+    question: "What makes BabyPouch better than the other baby registry options?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "I’m outside of the US. Can I use BabyPouch to build my registry?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "How can I make my BabyPouch baby registry site extra personalized?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "How does gift checkout work for guests?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "What happens when items are out of stock?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "What is your return policy? ",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
+  {
+    question: "Is BabyPouch free?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },   
 ]
 
 
@@ -41,15 +80,11 @@ export function Faq() {
 
       <h1 className="mx-auto max-w-2xl text-[#461F69] text-center mb-20 font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
       🤔 Still have questions?
-      </h1>
-      <p className="mx-auto max-w-lg text-2xl text-[#005394] tracking-tight">
-        {/* We get it – things can get really overwhelming. That’s why we create tools to help! */}
-      </p>
+      </h1>      
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
       <div className="bg-gray-900">
-        <div className="mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-white">Frequently asked questions</h2>
+        <div className="mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
           <dl className="mt-10 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-8 rounded-lg">
