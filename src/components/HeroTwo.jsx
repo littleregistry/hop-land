@@ -18,9 +18,11 @@ import diaperCard from '@/images/hero-cards/diaper-fund.png'
 import toyCard from '@/images/hero-cards/nursery-toys.png'
 import mainRegistry from '@/images/mainregistry.png'
 import hero from '@/images/hero.png'
-import herotwo from '@/images/herotwo.png'
+import registryGraphicOne from '@/images/hero-one.png'
+import registryGraphicTwo from '@/images/hero-two.png'
+import registryGraphicThree from '@/images/hero-three.png'
 
-const colors = [hero, herotwo];
+const colors = [registryGraphicOne, registryGraphicTwo, registryGraphicThree];
 
 export function HeroTwo() {
     const [index, setIndex] = useState(0);
