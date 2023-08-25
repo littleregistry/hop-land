@@ -20,8 +20,9 @@ import toyCard from '@/images/hero-cards/nursery-toys.png'
 
 export function SectionTwo() {
   return (
-    <Container className="pt-20 relative max-w-7xl text-center lg:pt-32">
-      <div className="hidden lg:block rotate-6 absolute -top-10 md:left-1">
+    <div className="bg-[#FAEAE7] py-48">
+    <Container className="relative max-w-7xl text-center lg:pt-32">
+      <div className="hidden lg:block rotate-6 absolute -top-10 md:-left-20">
         <Image src={toyCard} className="" alt="" />
       </div>
 
@@ -60,5 +61,6 @@ export function SectionTwo() {
       <div className="mt-36 lg:mt-44">
       </div>
     </Container>
+    </div>
   )
 }
