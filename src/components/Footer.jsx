@@ -11,11 +11,6 @@ export function Footer() {
     <footer className="bg-slate-50">
       <Container>
         <div className="py-16">
-          <Image
-              className="w-14 h-14"
-            src={babypouchLogo}
-            alt=""
-          />
           {/* <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">
               <NavLink href="#features">Features</NavLink>

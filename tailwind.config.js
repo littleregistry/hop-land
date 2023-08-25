@@ -24,6 +24,9 @@ module.exports = {
       '9xl': ['8rem', { lineHeight: '1' }],
     },
     extend: {
+      animation: {
+        fade: 'fadeOut 3s ease-in-out',
+      },
       borderRadius: {
         '4xl': '2rem',
       },

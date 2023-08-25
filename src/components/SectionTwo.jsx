@@ -50,11 +50,12 @@ export function SectionTwo() {
           type="email"
           name="email"
           id="email"
-          className="block rounded-full border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+          className="block px-8 rounded-full border-0 py-1.5 ring-1 ring-[#d1d1d1] text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-xl sm:leading-6"
           placeholder="babypouch.co/myregistry"
           aria-describedby="email-description"
         />
-        <Button href="/" className="bg-pouch-snow-500 hover:bg-pouch-snow-700 px-8 py-3 text-[#fff]">Claim your link</Button>
+
+        <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Claim your link</Button>
       </div>
       <div className="mt-36 lg:mt-44">
       </div>

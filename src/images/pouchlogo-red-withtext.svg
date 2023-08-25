@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 600 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="-0.27" y="-2.967" width="605.123" height="109.832" style="fill:rgb(250,234,231);"/>
+    <g transform="matrix(0.644001,0,0,0.652122,218.072,-291.475)">
+        <path d="M529.181,451.048C529.181,451.048 518.041,468.45 522.303,480.833C526.565,493.216 538.725,499.286 538.725,499.286C538.725,499.286 548.495,487.274 546.79,473.32C545.085,459.366 529.181,451.048 529.181,451.048Z" style="fill:rgb(252,25,56);"/>
+    </g>
+    <g transform="matrix(0.597454,0,0,0.63613,15.6114,-262.927)">
+        <circle cx="910.544" cy="512.225" r="40.456" style="fill:rgb(252,25,56);stroke:rgb(252,25,56);stroke-width:9.72px;"/>
+    </g>
+    <g transform="matrix(0.647507,0.56491,-0.557876,0.655672,504.757,-586.887)">
+        <path d="M529.181,451.048C529.181,451.048 518.041,468.45 522.303,480.833C526.565,493.216 538.725,499.286 538.725,499.286C538.725,499.286 548.495,487.274 546.79,473.32C545.085,459.366 529.181,451.048 529.181,451.048Z" style="fill:rgb(252,25,56);"/>
+    </g>
+    <g transform="matrix(0.516878,0,0,0.523396,79.4405,-219.952)">
+        <circle cx="889.197" cy="555.434" r="25.573" style="fill:rgb(252,25,56);"/>
+    </g>
+    <g transform="matrix(1,0,0,1,-217.139,-16.7566)">
+        <g transform="matrix(82.2222,0,0,82.2222,735.444,101.023)">
+        </g>
+        <text x="215.132px" y="101.023px" style="font-family:'GTMaruMono-Black', 'GT Maru Mono';font-weight:900;font-size:82.222px;fill:rgb(252,25,56);">BabyPouch</text>
+    </g>
+</svg>
