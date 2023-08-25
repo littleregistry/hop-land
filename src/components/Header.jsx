@@ -8,6 +8,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
+import pouchLogo from '@/images/pouchlogo-red-withtext.svg'
 
 function MobileNavLink({ href, children }) {
   return (
@@ -92,10 +93,11 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="">
-      <Container>
-        <nav className="relative z-50 flex items-center">
-          <div className="flex md:gap-x-12">
+    <header className="bg-[#FAEAE7] py-8">
+      <Container className="bg-[#FAEAE7]">
+        <nav className="relative z-50  bg-[#FAEAE7] flex items-center">
+          <div className="flex md:gap-x-6 align-baseline">
+            <Image src={pouchLogo} width={215} />
             {/* <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>

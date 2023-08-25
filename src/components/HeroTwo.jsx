@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import babypouchLogo from '@/images/logos/babypouch.jpg'
+import { useEffect, useState, useRef } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -17,14 +18,40 @@ import diaperCard from '@/images/hero-cards/diaper-fund.png'
 import toyCard from '@/images/hero-cards/nursery-toys.png'
 import mainRegistry from '@/images/mainregistry.png'
 import hero from '@/images/hero.png'
+import herotwo from '@/images/herotwo.png'
 
-
+const colors = [hero, herotwo];
 
 export function HeroTwo() {
+    const [index, setIndex] = useState(0);
+    const timeoutRef = useRef(null);
+    const delay = 2500;
+
+    function resetTimeout() {
+        if (timeoutRef.current) {
+          clearTimeout(timeoutRef.current);
+        }
+    }
+
+    useEffect(() => {
+        resetTimeout();
+
+        timeoutRef.current = setTimeout(
+        () =>
+            setIndex((prevIndex) =>
+            prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+            ),
+        delay
+        );
+
+        return () => {
+            resetTimeout();
+        };
+    }, [index]);
   return (
     <div className="bg-[#FAEAE7]">
-    <Container className="relative max-w-7xl lg:pt-32">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
+    <Container className="relative max-w-7xl">
+      <div className="mx-auto max-w-7xl pb-32 lg:flex lg:items-center lg:gap-x-10">
                 <div>
                 <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FC1938] sm:text-7xl">
                     Create a beautiful baby registry in minutes
@@ -38,16 +65,22 @@ export function HeroTwo() {
                     type="email"
                     name="email"
                     id="email"
-                    className="block rounded-full border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-100 placeholder:text-gray-400 sm:text-xl sm:leading-6"
+                    className="block px-8 rounded-full border-0 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-xl sm:leading-6"
                     placeholder="babypouch.co/myregistry"
                     aria-describedby="email-description"
                     />
                     <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Try now</Button>
                 </div>
                 </div>
-                <div className="max-w-xl">
-                    <Image src={hero} />
-
+                <div className="m-auto max-w-2xl w-full overflow-hidden">
+                    <div 
+                        className="w-full whitespace-nowrap h-200"
+                        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
+                    >
+                        {colors.map((backgroundColor, idx) => (
+                            <Image src={backgroundColor} key={idx} className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}/>
+                        ))}
+                    </div>
                 </div>
       </div>
 

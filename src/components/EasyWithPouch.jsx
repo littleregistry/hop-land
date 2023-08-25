@@ -13,29 +13,70 @@ import logoTuple from '@/images/logos/tuple.svg'
 import RegInspoGraphic from '@/images/reg-inspo-graphic.png'
 import checkListGraphic from '@/images/checklist-graphic.png'
 
+const posts = [
+  {
+    id: 1,
+    title: 'Interactive registry checklist to make sure you get the right products.',
+    href: '#',
+    description: '',
+    imageUrl: checkListGraphic,
+  },
+  {
+    id: 2,
+    title: 'Discover registry inspiration when you don\'t know what to get.',
+    href: '#',
+    description: '',
+    imageUrl: RegInspoGraphic,
+  },
 
+  // More posts...
+]
 
 export function EasyWithPouch() {
   return (
-    <Container className="pt-20 relative max-w-7xl text-center lg:pt-32">
-      <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+    <div className="bg-[#f9f9f9] py-8">
+    <Container className="pt-20 relative max-w-5xl lg:pt-32">
+      <h1 className="mx-auto max-w-2xl text-center font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         We make baby registry building fun, fast & easy
       </h1>
-      <p className="mx-auto max-w-lg text-2xl text-[#005394] tracking-tight">
+      <p className="mx-auto max-w-lg text-2xl text-center text-[#005394] tracking-tight">
         We get it – things can get really overwhelming. That’s why we create tools to help!
       </p>
+      <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          {posts.map((post) => (
+            <article key={post.id} className="flex flex-col bg-[#fff] pt-16 px-8 rounded-3xl justify-between">
+              <div className="relative w-full">
+                <Image
+                  src={post.imageUrl}
+                  alt=""
+                  className="w-full rounded-2xl bg-gray-100 object-contain sm:aspect-[2/1] lg:aspect-[3/2] mb-12"
+                />
+              </div>
+              <div className="max-w-xl">
+                <div className="mt-8 flex items-center gap-x-4 text-xs">
+                </div>
+                <div className="group relative text-center">
+                  <h3 className="mt-3 text-xl leading-6 text-gray-900 group-hover:text-gray-600">
+                    <a href={post.href}>
+                      <span className="absolute inset-0" />
+                      {post.title}
+                    </a>
+                  </h3>
+                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                </div>
+                <div className="relative mt-8 flex items-center gap-x-4">
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
-      
-      <div className='flex'>
-        <div className='bg-white h-full'><Image className='p-10 h-72 w-72' src={checkListGraphic} /></div>
-        
-        <Image className='p-10 h-72 w-72' src={RegInspoGraphic} />
-      </div>
       
      
       <div className="mt-36 lg:mt-44">
       </div>
     </Container>
+    </div>
   )
 }
