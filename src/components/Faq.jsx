@@ -21,12 +21,7 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [  
   {
-    question: "Why do I need a baby registry?",
-    answer:
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
-  },
-  {
-    question: "How does BabyPouch work?",
+    question: "Why do I need an all-in-one baby registry?",
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },
@@ -35,6 +30,11 @@ const faqs = [
     answer:
       "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
   },  
+  {
+    question: "How does BabyPouch work?",
+    answer:
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+  },
   {
     question: "What makes BabyPouch better than the other baby registry options?",
     answer:
@@ -78,7 +78,7 @@ export function Faq() {
   return (
     <div className="pt-20 relative lg:pt-32 lg:pb-24 bg-[#E6B8E6]">     
 
-      <h1 className="mx-auto max-w-2xl text-[#461F69] text-center mb-20 font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto max-w-2xl text-[#461F69] text-center mb-20 font-display text-5xl font-medium tracking-tight text-slate-900">
       🤔 Still have questions?
       </h1>      
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
