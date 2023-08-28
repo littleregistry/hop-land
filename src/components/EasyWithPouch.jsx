@@ -16,14 +16,16 @@ import checkListGraphic from '@/images/checklist-graphic.png'
 const posts = [
   {
     id: 1,
-    title: 'Interactive registry checklist to make sure you get the right products.',
+    title: 'Interactive registry checklist',
+    desc: 'Bite-size tips on how to pick the best products',
     href: '#',
     description: '',
     imageUrl: checkListGraphic,
   },
   {
     id: 2,
-    title: 'Discover registry inspiration when you don\'t know what to get.',
+    title: 'Registry Inspos',
+    desc: 'From baby must-haves to the most organic, child-safe products',
     href: '#',
     description: '',
     imageUrl: RegInspoGraphic,
@@ -62,7 +64,7 @@ export function EasyWithPouch() {
                       {post.title}
                     </a>
                   </h3>
-                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                  <p className="mt-5 line-clamp-3 text-md leading-6 text-gray-600">{post.desc}</p>
                 </div>
                 <div className="relative mt-8 flex items-center gap-x-4">
                 </div>

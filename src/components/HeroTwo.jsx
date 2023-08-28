@@ -55,20 +55,16 @@ export function HeroTwo() {
     <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl pb-32 lg:flex lg:items-center lg:gap-x-10">
                 <div>
-                <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FC1938] sm:text-7xl">
+                <h1 className="max-w-2xl font-display text-6xl font-medium tracking-tight text-[#FC1938] sm:text-6xl">
                     Create a beautiful baby registry in minutes
-                </h1>
-                <p className="mt-6 max-w-lg text-2xl text-[#FC1938] tracking-tight">
-                    One link to curate your baby wish list + help your loved ones
-                    get what you need for your new family.
-                </p>
+                </h1>                
                 <div className="mt-10 flex gap-x-6">
                     <input
                     type="email"
                     name="email"
                     id="email"
                     className="block px-8 rounded-full border-0 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-xl sm:leading-6"
-                    placeholder="babypouch.co/myregistry"
+                    placeholder="babypouch.co/me"
                     aria-describedby="email-description"
                     />
                     <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Try now</Button>
