@@ -5,19 +5,6 @@ import { useEffect, useState, useRef } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
-import logoLaravel from '@/images/logos/laravel.svg'
-import logoMirage from '@/images/logos/mirage.svg'
-import logoStatamic from '@/images/logos/statamic.svg'
-import logoStaticKit from '@/images/logos/statickit.svg'
-import logoTransistor from '@/images/logos/transistor.svg'
-import logoTuple from '@/images/logos/tuple.svg'
-import nunaCard from '@/images/hero-cards/nuna-trvl-stroller.png'
-import collegeCard from '@/images/hero-cards/college-fund.png'
-import mobyCard from '@/images/hero-cards/moby-wrap.png'
-import diaperCard from '@/images/hero-cards/diaper-fund.png'
-import toyCard from '@/images/hero-cards/nursery-toys.png'
-import mainRegistry from '@/images/mainregistry.png'
-import hero from '@/images/hero.png'
 import registryGraphicOne from '@/images/hero-one.png'
 import registryGraphicTwo from '@/images/hero-two.png'
 import registryGraphicThree from '@/images/hero-three.png'
@@ -51,7 +38,7 @@ export function HeroTwo() {
         };
     }, [index]);
   return (
-    <div className="bg-[#FAEAE7]">
+    <div className="bg-[#FAEAE7] p-10">
     <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl pb-32 lg:flex lg:items-center lg:gap-x-10">
                 <div>
@@ -64,7 +51,7 @@ export function HeroTwo() {
                     name="email"
                     id="email"
                     className="block px-8 rounded-full border-0 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-xl sm:leading-6"
-                    placeholder="babypouch.co/me"
+                    placeholder="babypouch.co/you"
                     aria-describedby="email-description"
                     />
                     <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Try now</Button>
