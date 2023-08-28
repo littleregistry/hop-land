@@ -16,7 +16,7 @@ import checkListGraphic from '@/images/checklist-graphic.png'
 const posts = [
   {
     id: 1,
-    title: 'Interactive registry checklist',
+    title: 'Interactive Registry Checklist',
     desc: 'Bite-size tips on how to pick the best products',
     href: '#',
     description: '',
@@ -25,7 +25,7 @@ const posts = [
   {
     id: 2,
     title: 'Registry Inspos',
-    desc: 'From baby must-haves to the most organic, child-safe products',
+    desc: 'From must-haves to the most organic, child-safe baby products',
     href: '#',
     description: '',
     imageUrl: RegInspoGraphic,
@@ -38,7 +38,7 @@ export function EasyWithPouch() {
   return (
     <div className="bg-[#f9f9f9] py-8">
     <Container className="pt-20 relative max-w-5xl lg:pt-32">
-      <h1 className="mx-auto max-w-2xl text-center font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
+      <h1 className="mx-auto max-w-2xl text-center font-display text-5xl font-medium tracking-tight text-slate-900">
         We make baby registry building fun & easy
       </h1>
       <p className="mx-auto p-5 max-w-lg text-2xl text-center text-[#005394] tracking-tight">

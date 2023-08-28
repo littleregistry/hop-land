@@ -40,9 +40,9 @@ export function HeroTwo() {
   return (
     <div className="bg-[#FAEAE7] p-10">
     <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl pb-32 lg:flex lg:items-center lg:gap-x-10">
+      <div className="mx-auto max-w-7xl pb-32 xl:flex lg:items-center lg:gap-x-10">
                 <div>
-                <h1 className="max-w-2xl font-display text-6xl font-medium tracking-tight text-[#FC1938] sm:text-6xl">
+                <h1 className="max-w-3xl font-display text-5xl font-medium tracking-tight text-[#FC1938]">
                     Create a beautiful baby registry in minutes
                 </h1>                
                 <div className="mt-10 flex gap-x-6">
@@ -50,14 +50,14 @@ export function HeroTwo() {
                     type="email"
                     name="email"
                     id="email"
-                    className="block px-8 rounded-full border-0 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 sm:text-xl sm:leading-6"
-                    placeholder="babypouch.co/you"
+                    className="block px-8 rounded-full border-0 py-1.5 text-gray-900 shadow-sm placeholder:text-gray-400 w-72 sm:text-lg sm:leading-6"
+                    placeholder="babypouch.co/yourname"
                     aria-describedby="email-description"
                     />
                     <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Try now</Button>
                 </div>
                 </div>
-                <div className="m-auto max-w-2xl w-full overflow-hidden">
+                <div className="mt-10 mx-auto max-w-2xl w-full overflow-hidden">
                     <div 
                         className="w-full whitespace-nowrap h-200"
                         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
