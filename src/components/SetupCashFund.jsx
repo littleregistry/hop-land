@@ -24,10 +24,11 @@ import hero from '@/images/hero.png'
 export function SetupCashFund() {
   return (
     <div className="bg-[#13253B]">
-    <Container className="relative max-w-7xl lg:pt-32">
+      {/* lg:pt-32 */}
+    <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
                 <div>
-                <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FEF2D4] sm:text-7xl">
+                <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FEF2D4] sm:text-5xl">
                   Set up a cash fund
                 </h1>
                 <p className="mt-6 max-w-lg text-2xl text-[#FEF2D4] tracking-tight">

@@ -84,7 +84,7 @@ export function Faq() {
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
       <div className="bg-gray-900">
-        <div className="mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
+        <div className="p-10 mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
           <dl className="mt-10 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
               <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-8 rounded-lg">
@@ -92,7 +92,7 @@ export function Faq() {
                   <>
                     <dt>
                       <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
-                        <span className="text-xl font-semibold leading-7">{faq.question}</span>
+                        <span className="p-3 text-2xl font-semibold leading-7">{faq.question}</span>
                         <span className="ml-6 flex h-7 items-center">
                           {open ? (
                             <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />

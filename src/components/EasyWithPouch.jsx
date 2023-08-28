@@ -16,14 +16,16 @@ import checkListGraphic from '@/images/checklist-graphic.png'
 const posts = [
   {
     id: 1,
-    title: 'Interactive registry checklist to make sure you get the right products.',
+    title: 'Interactive registry checklist',
+    desc: 'Bite-size tips on how to pick the best products',
     href: '#',
     description: '',
     imageUrl: checkListGraphic,
   },
   {
     id: 2,
-    title: 'Discover registry inspiration when you don\'t know what to get.',
+    title: 'Registry Inspos',
+    desc: 'From baby must-haves to the most organic, child-safe products',
     href: '#',
     description: '',
     imageUrl: RegInspoGraphic,
@@ -37,9 +39,9 @@ export function EasyWithPouch() {
     <div className="bg-[#f9f9f9] py-8">
     <Container className="pt-20 relative max-w-5xl lg:pt-32">
       <h1 className="mx-auto max-w-2xl text-center font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        We make baby registry building fun, fast & easy
+        We make baby registry building fun & easy
       </h1>
-      <p className="mx-auto max-w-lg text-2xl text-center text-[#005394] tracking-tight">
+      <p className="mx-auto p-5 max-w-lg text-2xl text-center text-[#005394] tracking-tight">
         We get it – things can get really overwhelming. That’s why we create tools to help!
       </p>
       <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -62,7 +64,7 @@ export function EasyWithPouch() {
                       {post.title}
                     </a>
                   </h3>
-                  <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">{post.description}</p>
+                  <p className="mt-5 line-clamp-3 text-md leading-6 text-gray-600">{post.desc}</p>
                 </div>
                 <div className="relative mt-8 flex items-center gap-x-4">
                 </div>

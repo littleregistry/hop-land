@@ -22,6 +22,7 @@ export function SectionTwo() {
   return (
     <div className="bg-[#FAEAE7] py-48">
     <Container className="relative max-w-7xl text-center lg:pt-32">
+      
       <div className="hidden lg:block rotate-6 absolute -top-10 md:-left-20">
         <Image src={toyCard} className="" alt="" />
       </div>
@@ -32,7 +33,6 @@ export function SectionTwo() {
       <div className="hidden lg:block rotate-4 absolute top-96 md:-left-25">
         <Image src={diaperCard} className="" alt="" />
       </div>
-
 
       <div className="hidden lg:block -rotate-6 absolute md:-right-24">
         <Image src={nunaCard} className="" alt="" />
@@ -58,8 +58,8 @@ export function SectionTwo() {
 
         <Button href="/" className="bg-[#FC1938] hover:bg-[#FC1938] px-8 py-3 text-[#fff] text-xl">Claim your link</Button>
       </div>
-      <div className="mt-36 lg:mt-44">
-      </div>
+      {/* <div className="mt-36 lg:mt-44">
+      </div> */}
     </Container>
     </div>
   )
