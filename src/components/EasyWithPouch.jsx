@@ -44,7 +44,7 @@ export function EasyWithPouch() {
       <p className="mx-auto p-5 max-w-lg text-2xl text-center text-[#005394] tracking-tight">
         We get it – things can get really overwhelming. That’s why we create tools to help!
       </p>
-      <div className="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+      <div className="mx-auto mt-20 grid max-w-lg grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           {posts.map((post) => (
             <article key={post.id} className="flex flex-col bg-[#fff] pt-16 px-8 rounded-3xl justify-between">
               <div className="relative w-full">

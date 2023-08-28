@@ -28,10 +28,10 @@ export function AddToPouch() {
     <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl px-6 py-10 sm:py-10 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40 flex-wrap md:flex-nowrap flex-row-reverse">
                 <div>
-                  <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#005394]">
+                  <h1 className="mx-auto max-w-lg font-display text-5xl font-medium tracking-tight text-[#005394]">
                     Add anything from any store
                   </h1>
-                  <p className="mt-6 max-w-lg text-2xl text-[#005394] tracking-tight">
+                  <p className="mx-auto mt-6 max-w-lg text-2xl text-[#005394] tracking-tight">
                   Yes! You're not restricted to just one store. Keep track of everything you need all in one place.
                   </p>
                 <div className="mt-10 flex gap-x-6">
