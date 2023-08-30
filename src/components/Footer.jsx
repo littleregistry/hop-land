@@ -11,7 +11,7 @@ export function Footer() {
 
   const links = {    
     "About": [
-        {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
+        // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
         {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
@@ -20,7 +20,7 @@ export function Footer() {
       {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
     ],
     "Resources": [
-      {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
+      // {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
        // {'label': 'Reg Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
         // {'label': 'Blog', 'link': '/checklist', 'key': 'checklist-link'},        
         {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
@@ -46,7 +46,7 @@ export function Footer() {
             <div className="text-2xl py-2 font-semibold">About Us</div>
                   {
                       links['About'].map((link) => {
-                          return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                          return (<Link key={link.key} href={link.link} className="text-xl text-[#7f7b7b] hover:underline">
                             <div>{link.label}</div></Link>)
                       })
                   } 
@@ -56,7 +56,7 @@ export function Footer() {
             <div className="text-2xl py-2 font-semibold">Compare</div>
               {
                   links['Compare'].map((link) => {
-                      return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                      return (<Link key={link.key} href={link.link} className="text-xl text-[#7f7b7b] hover:underline">
                         <div>{link.label}</div></Link>)
                   })
               }
@@ -66,7 +66,7 @@ export function Footer() {
             <div className="text-2xl py-2 font-semibold">Resources</div>
               {
                   links['Resources'].map((link) => {
-                      return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                      return (<Link key={link.key} href={link.link} className="text-xl text-[#7f7b7b] hover:underline">
                         <div>{link.label}</div></Link>)
                   })
               }

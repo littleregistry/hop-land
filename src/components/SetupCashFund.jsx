@@ -35,6 +35,10 @@ export function SetupCashFund() {
                 Let your friends and family contribute and save towards anything from diapers, 
                 doula, childcare, or baby’s future savings accounts.
                 </p>
+                <div className="">
+                  <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] mt-10 px-8 py-5 text-[#545154] text-xl">Join Now</Button>
+                </div>
+
                 <div className="mt-10 flex gap-x-6">
                 </div>
                 </div>
