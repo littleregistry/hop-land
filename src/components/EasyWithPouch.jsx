@@ -17,7 +17,7 @@ const posts = [
   {
     id: 1,
     title: 'Interactive Registry Checklist',
-    desc: 'Bite-size tips on how to pick the best products',
+    desc: 'Pro tips for what to register for',
     href: '#',
     description: '',
     imageUrl: checkListGraphic,
@@ -38,12 +38,17 @@ export function EasyWithPouch() {
   return (
     <div className="bg-[#f9f9f9] py-8">
     <Container className="pt-20 relative max-w-5xl lg:pt-32">
-      <h1 className="mx-auto max-w-2xl text-center font-display text-5xl font-medium tracking-tight text-slate-900">
+      <h1 className="mx-auto max-w-4xl text-center font-display md:text-7xl text-5xl font-medium tracking-tight text-slate-900">
         We make baby registry building fun & easy
       </h1>
-      <p className="mx-auto p-5 max-w-lg text-2xl text-center text-[#005394] tracking-tight">
+      <p className="mx-auto p-5 max-w-5xl text-2xl text-center text-[#005394] tracking-tight">
         We get it – things can get really overwhelming. That’s why we create tools to help!
       </p>
+
+      <div className="text-center ">
+        <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] m-5 px-8 py-5 text-[#545154] text-xl">Get Started Now</Button>
+      </div>
+
       <div className="mx-auto mt-20 grid max-w-lg grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           {posts.map((post) => (
             <article key={post.id} className="flex flex-col bg-[#fff] pt-16 px-8 rounded-3xl justify-between">

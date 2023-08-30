@@ -93,9 +93,11 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="bg-[#FAEAE7] py-8">
-      <Container className="bg-[#FAEAE7]">
-        <nav className="relative z-50  bg-[#FAEAE7] flex items-center">
+    <header className="bg-[#FAEAE7]">
+      <Container className="">      
+        <nav className="">
+          <div className="bg-[#fff] z-20 w-full h-24 fixed rounded-full flex justify-between items-center right-10 left-10 top-10">
+            
           <div className="flex md:gap-x-6 align-baseline">
             <Image src={pouchLogo} width={215} />
             {/* <div className="hidden md:flex md:gap-x-6">
@@ -104,18 +106,25 @@ export function Header() {
               <NavLink href="#pricing">Pricing</NavLink>
             </div> */}
           </div>
-          <div className="flex items-center gap-x-5 md:gap-x-8">
-            {/* <div className="hidden md:block">
-              <NavLink href="/login">Sign in</NavLink>
-            </div> */}
-            {/* <Button href="/register" color="blue">
-              <span>
-                Get started <span className="hidden lg:inline">today</span>
-              </span>
-            </Button> */}
+
+          <div className="flex items-end">         
+
+            <Button href="/register">
+              <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
+                Log in
+              </div>            
+            </Button>
+
+            <Button href="/register">
+              <div className="bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-xl p-4 rounded-full">
+                Sign up free
+              </div>
+            </Button>
+
             <div className="-mr-1 md:hidden">
               {/* <MobileNavigation /> */}
             </div>
+          </div>
           </div>
         </nav>
       </Container>
