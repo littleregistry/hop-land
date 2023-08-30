@@ -13,6 +13,7 @@ export function Footer() {
     "About": [
         // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
+        {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
         {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
     "Compare": [

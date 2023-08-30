@@ -97,7 +97,8 @@ export function Header() {
       <Container className="">      
         <nav className="">
           <div className="bg-[#fff] z-20 w-full h-24 fixed rounded-full flex justify-between items-center right-10 left-10 top-10">
-            
+          
+          <a href="/">
           <div className="flex md:gap-x-6 align-baseline">
             <Image src={pouchLogo} width={215} />
             {/* <div className="hidden md:flex md:gap-x-6">
@@ -106,13 +107,13 @@ export function Header() {
               <NavLink href="#pricing">Pricing</NavLink>
             </div> */}
           </div>
+          </a>
 
-          <div className="flex items-end">         
-
+          <div className="flex py-6 ">
             <Button href="/register">
-              <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
-                Log in
-              </div>            
+                  <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
+                    Log in
+                  </div>            
             </Button>
 
             <Button href="/register">
@@ -120,11 +121,13 @@ export function Header() {
                 Sign up free
               </div>
             </Button>
-
-            <div className="-mr-1 md:hidden">
-              {/* <MobileNavigation /> */}
-            </div>
           </div>
+
+          {/* <div className="flex items-end">          */}
+            {/* <div className="-mr-1 md:hidden"> */}
+              {/* <MobileNavigation /> */}
+            {/* </div> */}
+          {/* </div> */}
           </div>
         </nav>
       </Container>
