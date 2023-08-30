@@ -31,7 +31,7 @@ export function SetupCashFund() {
                 <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FEF2D4]">
                   Set up a cash fund
                 </h1>
-                <p className="mt-6 max-w-lg text-2xl text-[#FEF2D4] tracking-tight">
+                <p className="mx-auto mt-6 max-w-lg text-2xl text-[#FEF2D4] tracking-tight">
                 Let your friends and family contribute and save towards anything from diapers, 
                 doula, childcare, or baby’s future savings accounts.
                 </p>

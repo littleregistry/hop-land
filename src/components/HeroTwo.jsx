@@ -45,6 +45,9 @@ export function HeroTwo() {
                 <h1 className="max-w-3xl font-display text-5xl font-medium tracking-tight text-[#FC1938]">
                     Create a beautiful baby registry in minutes
                 </h1>                
+                <p className="mt-6 max-w-lg text-2xl text-[#FC1938] tracking-tight">
+                  One link to curate everything you need for your new baby
+                  </p>
                 <div className="mt-10 flex gap-x-6">
                     <input
                     type="email"

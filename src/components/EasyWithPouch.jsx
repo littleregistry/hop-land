@@ -17,7 +17,7 @@ const posts = [
   {
     id: 1,
     title: 'Interactive Registry Checklist',
-    desc: 'Bite-size tips on how to pick the best products',
+    desc: 'Pro tips for what to register for',
     href: '#',
     description: '',
     imageUrl: checkListGraphic,

@@ -32,7 +32,7 @@ export function AddToPouch() {
                     Add anything from any store
                   </h1>
                   <p className="mx-auto mt-6 max-w-lg text-2xl text-[#005394] tracking-tight">
-                  Yes! You're not restricted to just one store. Keep track of everything you need all in one place.
+                  Stay organized with one list while enjoying all the perks from any store registries
                   </p>
                 <div className="mt-10 flex gap-x-6">
                 </div>
