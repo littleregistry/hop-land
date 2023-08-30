@@ -26,19 +26,19 @@ export function SetupCashFund() {
     <div className="bg-[#13253B]">
       {/* lg:pt-32 */}
     <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
+      <div className="mx-auto max-w-7xl px-6 py-24 xl:flex  lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
                 <div>
-                <h1 className="mx-auto max-w-2xl font-display text-5xl font-medium tracking-tight text-[#FEF2D4]">
+                <h1 className="max-w-4xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#FEF2D4]">
                   Set up a cash fund
                 </h1>
-                <p className="mx-auto mt-6 max-w-lg text-2xl text-[#FEF2D4] tracking-tight">
+                <p className="mt-6 max-w-5xl text-2xl text-[#FEF2D4] tracking-tight">
                 Let your friends and family contribute and save towards anything from diapers, 
                 doula, childcare, or baby’s future savings accounts.
                 </p>
                 <div className="mt-10 flex gap-x-6">
                 </div>
                 </div>
-                <div className="max-w-xl">
+                <div className="mx-auto max-w-xl">
                     <Image src={cashfunds} />
                 </div>
 

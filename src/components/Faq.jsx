@@ -96,7 +96,7 @@ export function Faq() {
   return (
     <div className="pt-20 relative lg:pt-32 lg:pb-24 bg-[#E6B8E6]">     
 
-      <h1 className="mx-auto max-w-2xl text-[#461F69] text-center mb-20 font-display text-5xl font-medium tracking-tight text-slate-900">
+      <h1 className="mx-auto max-w-4xl text-[#461F69] text-center mb-20 font-display md:text-7xl text-5xl font-medium tracking-tight text-slate-900">
       🤔 Still have questions?
       </h1>      
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">

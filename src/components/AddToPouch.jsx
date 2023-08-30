@@ -25,20 +25,21 @@ export function AddToPouch() {
   return (
     <div className="bg-[#FEF6EA]">
       {/* lg:pt-2 */}
-    <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl px-6 py-10 sm:py-10 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40 flex-wrap md:flex-nowrap flex-row-reverse">
+    <Container className="relative max-w-10xl">
+        
+      <div className="px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 lex-wrap md:flex-nowrap flex-row-reverse">
                 <div>
-                  <h1 className="mx-auto max-w-lg font-display text-5xl font-medium tracking-tight text-[#005394]">
+                  <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#005394]">
                     Add anything from any store
                   </h1>
-                  <p className="mx-auto mt-6 max-w-lg text-2xl text-[#005394] tracking-tight">
+                  <p className="mt-6 max-w-5xl text-2xl text-[#005394] tracking-tight">
                   Stay organized with one list while enjoying all the perks from any store registries
                   </p>
                 <div className="mt-10 flex gap-x-6">
                 </div>
                 </div>
 
-                <div className="max-w-xl">
+                <div className="mx-auto max-w-xl">
                     <Image src={addAnything} />
                 </div>
 

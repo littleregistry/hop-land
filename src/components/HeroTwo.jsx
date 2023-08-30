@@ -42,10 +42,10 @@ export function HeroTwo() {
     <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl pb-32 xl:flex lg:items-center lg:gap-x-10">
                 <div>
-                <h1 className="max-w-3xl font-display text-5xl font-medium tracking-tight text-[#FC1938]">
+                <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#FC1938]">
                     Create a beautiful baby registry in minutes
                 </h1>                
-                <p className="mt-6 max-w-lg text-2xl text-[#FC1938] tracking-tight">
+                <p className="mt-6 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
                   One link to curate everything you need for your new baby
                   </p>
                 <div className="mt-10 flex gap-x-6">
