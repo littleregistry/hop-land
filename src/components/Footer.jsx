@@ -11,12 +11,19 @@ export function Footer() {
 
   const links = {    
     "About": [
-        {'label': 'About Us', 'link': '/about', 'key': 'about-link'},
+        {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
-        {'label': 'Checklist', 'link': '/checklist', 'key': 'checklist-link'}
-        // {'label': 'Reg Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
+        {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
+    ],
+    "Compare": [
+      {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
+      {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
+    ],
+    "Resources": [
+      {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
+       // {'label': 'Reg Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
         // {'label': 'Blog', 'link': '/checklist', 'key': 'checklist-link'},        
-        // {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
+        {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
         // {'label': 'Terms', 'link': '/terms', 'key': 'terms-link'},        
         // {'label': 'Privacy', 'link': '/privacy', 'key': 'privacy-link'}        
     ]
@@ -33,17 +40,41 @@ export function Footer() {
             </div>
           </nav> */}
                 
-        <div className="max-w-[625px] px-4 py-10">                
-        <div className=""></div>
-                {
-                    links['About'].map((link) => {
-                        return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
-                          <div>{link.label}</div></Link>)
-                    })
-                }         
+        <div className="max-w-[625px] px-4 py-10 flex">    
+
+          <div >
+            <div className="text-2xl py-2 font-semibold">About Us</div>
+                  {
+                      links['About'].map((link) => {
+                          return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                            <div>{link.label}</div></Link>)
+                      })
+                  } 
+          </div>
+
+          <div className="pl-20">
+            <div className="text-2xl py-2 font-semibold">Compare</div>
+              {
+                  links['Compare'].map((link) => {
+                      return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                        <div>{link.label}</div></Link>)
+                  })
+              }
+          </div> 
+
+          <div className="pl-20">
+            <div className="text-2xl py-2 font-semibold">Resources</div>
+              {
+                  links['Resources'].map((link) => {
+                      return (<Link key={link.key} href={link.link} className="text-xl text-slate-500 hover:underline">
+                        <div>{link.label}</div></Link>)
+                  })
+              }
+          </div> 
+
         </div>
 
-        <div className="flex">
+        <div className="flex py-6 ">
         <Button href="/register">
               <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
                 Log in
@@ -56,10 +87,10 @@ export function Footer() {
           </div>
         </Button>
         </div>
+        
+        <div className="flex flex-col items-center py-6 sm:flex-row-reverse sm:justify-between border-t border-[#d1d1d1]">
 
-        {/* border-t border-slate-400/10 */}
-        <div className="flex flex-col items-center py-6 sm:flex-row-reverse sm:justify-between">
-        <p className="mt-6 text-sm text-slate-500 sm:mt-0">
+        <p className="mt-6 text-sm text-[#b5b3b3] sm:mt-0">
             Copyright &copy; {new Date().getFullYear()} Baby Pouch. All rights
             reserved.
           </p>
