@@ -25,14 +25,14 @@ export function AddToPouch() {
   return (
     <div className="bg-[#FEF6EA]">
       {/* lg:pt-2 */}
-    <Container className="relative max-w-10xl">
+    <Container className="relative max-w-7xl">
         
-      <div className="px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 lex-wrap md:flex-nowrap flex-row-reverse">
+      <div className="mx-auto px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 lex-wrap md:flex-nowrap flex-row-reverse">
                 <div>
-                  <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#005394]">
+                  <h1 className="max-w-4xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#005394]">
                     Add anything from any store
                   </h1>
-                  <p className="mt-6 max-w-5xl text-2xl text-[#005394] tracking-tight">
+                  <p className="mt-6 max-w-4xl text-2xl text-[#005394] tracking-tight">
                   Stay organized with one list while enjoying all the perks from any store registries
                   </p>
                 <div className="mt-10 flex gap-x-6">

@@ -40,7 +40,7 @@ export function HeroTwo() {
   return (
     <div className="bg-[#FAEAE7] p-10">
     <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl pb-32 xl:flex lg:items-center lg:gap-x-10">
+      <div className="mx-auto max-w-7xl pt-28 pb-32 xl:flex lg:items-center lg:gap-x-10">
                 <div>
                 <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#FC1938]">
                     Create a beautiful baby registry in minutes
