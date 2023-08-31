@@ -4,11 +4,12 @@ import Image from 'next/image'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { HeroTwo } from '@/components/HeroTwo'
-import { AddToPouch } from '@/components/AddToPouch'
-import { Faq } from '@/components/Faq.jsx'
+
+import { HowItWorksHero } from '@/components/HowItWorksHero'
+import { HowItWorks } from '@/components/HowItWorks'
 
 
-export default function Howitworks() {
+export default function HowitworksPage() {
   return (
     <>
       <Head>
@@ -29,9 +30,9 @@ export default function Howitworks() {
       </Head>
       <Header />
       <main>
-
-        <HeroTwo />
-        <AddToPouch />        
+        
+        <HowItWorksHero />
+        <HowItWorks />        
 
       </main>
       <Footer />

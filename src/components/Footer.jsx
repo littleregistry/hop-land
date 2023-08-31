@@ -14,20 +14,20 @@ export function Footer() {
         // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
-        {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
+        // {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
     "Compare": [
       {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
       {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
     ],
-    "Resources": [
+    // "Resources": [
       // {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
        // {'label': 'Reg Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
         // {'label': 'Blog', 'link': '/checklist', 'key': 'checklist-link'},        
-        {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
+        // {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
         // {'label': 'Terms', 'link': '/terms', 'key': 'terms-link'},        
         // {'label': 'Privacy', 'link': '/privacy', 'key': 'privacy-link'}        
-    ]
+    // ]
   }
 
   return (
@@ -63,7 +63,7 @@ export function Footer() {
               }
           </div> 
 
-          <div className="pl-20">
+          {/* <div className="pl-20">
             <div className="text-2xl py-2 font-semibold">Resources</div>
               {
                   links['Resources'].map((link) => {
@@ -71,7 +71,7 @@ export function Footer() {
                         <div>{link.label}</div></Link>)
                   })
               }
-          </div> 
+          </div>  */}
 
         </div>
 
