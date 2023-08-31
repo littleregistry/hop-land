@@ -36,9 +36,9 @@ export function ShareWishList() {
                 We’ve got the easiest checkout experience out of any universal baby registries. Designed for guests of any age. 
                 </p>
                 <div className="flex">
-                    <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] mt-10 mr-5 px-8 py-5 text-[#545154] text-xl">Try it</Button>
+                    <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 mr-5 px-8 py-5 text-[#fff] text-xl">Try it</Button>
 
-                    <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] mt-10 px-8 py-5 text-[#545154] text-xl">View Sample</Button>
+                    <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 px-8 py-5 text-[#fff] text-xl">View Sample</Button>
                 </div>
                 <div className="mt-10 flex gap-x-6">
                 </div>
