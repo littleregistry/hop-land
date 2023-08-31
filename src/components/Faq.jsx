@@ -33,9 +33,9 @@ const faqs = [
   {
     question: "Why should I use BabyPouch?",
     answer:
-      "BabyPouch is the most beautiful baby registry that gives you total flexibility to register anything - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
+      "BabyPouch gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
       "Here are 6 other reasons to use BabyPouch. You want: <br/><br/>"+ 
-      "1. <b>A registry that works across Canada</b> – BabyPouch works with all Canadian stores. You can take advantage of any registry perks and completion discounts.<br/><br/>"+ 
+      "1. <b>A registry that works across Canada</b> – You can use BabyPouch with all Canadian stores. You can take advantage of any registry perks and completion discounts.<br/><br/>"+ 
       "2. <b>Group gifting</b> – We let your loved ones chip in for any big ticket items, like strollers, car seats or high chairs. If you want to save up for diaper deliveries or baby’s future college fund, we let you add any cash funds for others to contribute.<br/><br/>"+ 
       "3. <b>Privacy</b> - With BabyPouch, your address and contact info stays private. No need to pass your address back and forth with guests.<br/><br/>" + 
       "4. <b>Unlimited gift exchange</b> - You might change your mind and want to get something else even after you send out the registry. When someone buys from your BabyPouch registry, you receive the cash equivalent of the product. You can take that cash out and swap for something else that you actually want. Your guest won’t be notified when you swap behind the scenes. <br/><br/>"+
@@ -46,9 +46,9 @@ const faqs = [
     question: "How does BabyPouch work?",
     answer:
       "There are 4 steps to using BabyPouch. <br/><br/>"+ 
-      "1. <b>Personalize & customize your registry </b>– Add a photo, greeting message and update the background colour of your registry. <br/><br/>"+
+      "1. <b>Customize your registry </b>– Add a photo, greeting message and update the background colour of your registry. <br/><br/>"+
       "2. <b>Add gifts & cash funds</b> – In a click, you can add gifts from any URL or registries and set up your custom cash fund. <br/><br/>"+
-      "3. <b>Preview & share</b> – Once you’re done adding gifts, you can start sharing it with friends and family.  <br/><br/>"+
+      "3. <b>Share your registry</b> – Once you’re done adding gifts, you can start sharing it with friends and family.  <br/><br/>"+
       "4. <b>Get notified & track gifts </b>– Get notified when guests buy you something and track what’s remaining on your registry. <br/><br/>"+
       "When guests buy you something, we proceed to convert the value of the gift to cash. This cash can then be used at your discretion to purchase anything you actually need. <br/><br/>"
   },
@@ -62,13 +62,13 @@ const faqs = [
     question: "How is BabyPouch different from other baby registries?",
     answer:
       "The biggest complaint people have about other universal registries is the complex checkout experience – redirecting guests to checkout in other stores, then going back to mark products as purchased. <br/><br/>"+
-      "This experience often leads to confusion if guests forget to mark gifts as purchased or enter the wrong shipping address. When that happens, you have a high chance of receiving nothing or duplicates from different friends and family members. It’s awkward to ask for a gift receipt to return someone’s gift. <br/><br/>"+
-      "We eliminate these concerns entirely with our unique approach. BabyPouch offers a 1-click checkout experience for your guests just like Amazon. Except we also let you register gifts from anywhere and retain any store benefits. BabyPouch also offers the most customizations options and flexibility compared to any baby registries. You have full control over what gets ordered and shipped at your leisure."
+      "This experience often leads to confusion if guests forget to mark gifts as purchased or enter the wrong shipping address. When that happens, you have a high chance of receiving nothing or duplicates from different friends and family members. It’s awkward to ask for a gift receipt to return someone’s gift. BabyPouch eliminate these concerns entirely with our unique approach. <br/><br/>"+
+      "BabyPouch offers a 1-step checkout experience for your guests. Your guests can shop and checkout all in one place. BabyPouch also offers the most customizations options compared to any baby registries. You have full control over what gets ordered and shipped at your leisure."
   },
   {
     question: "What countries does BabyPouch support? ",
     answer:
-      "Our registry mostly supports customers in Canada. However, our features work for both US & Canada customers.",
+      "Our customer support team only supports customers in Canada. However, our features work for users in both US & Canada. <br/><br/> If you have family members and friends from the US who want to contribute to your baby registry, they can do so with no problem.",
   },
   {
     question: "Do you offer any completion discounts?",
