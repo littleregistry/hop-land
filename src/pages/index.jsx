@@ -41,7 +41,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <Header />
-      <main>
+      <main className="w-fit">
 
         <HeroTwo />
         <AddToPouch />
