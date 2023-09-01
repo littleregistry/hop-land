@@ -22,7 +22,7 @@ export function Footer() {
     ],
     // "Resources": [
       // {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
-       // {'label': 'Reg Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
+       // {'label': 'Registry Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
         // {'label': 'Blog', 'link': '/checklist', 'key': 'checklist-link'},        
         // {'label': 'FAQs', 'link': '/faq', 'key': 'faq-link'}        
         // {'label': 'Terms', 'link': '/terms', 'key': 'terms-link'},        

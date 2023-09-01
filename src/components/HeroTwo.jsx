@@ -46,7 +46,7 @@ export function HeroTwo() {
                     Create a beautiful baby registry in minutes
                 </h1>                
                 <p className="mt-6 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
-                  One link to curate everything you need for your new baby
+                  All-in-one baby registry for Canadian families 🍁 One link to curate everything you need for your new baby. 
                   </p>
                 <div className="mt-10 flex gap-x-6">
                     <input

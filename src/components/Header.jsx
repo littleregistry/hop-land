@@ -96,7 +96,7 @@ export function Header() {
     <header className="bg-[#FAEAE7]">
       <Container className="">      
         <nav className="">
-          <div className="bg-[#fff] z-20 w-full h-24 fixed rounded-full flex justify-between items-center right-10 left-10 top-10">
+          <div className="bg-[#fff] z-20 h-24 fixed rounded-full flex justify-between items-center right-10 left-10 top-10">
           
           <a href="/">
           <div className="flex md:gap-x-6 align-baseline">

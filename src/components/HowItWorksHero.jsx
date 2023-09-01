@@ -43,20 +43,24 @@ export function HowItWorksHero() {
       <div className="mx-auto max-w-7xl pt-32 pb-32 xl:flex lg:items-center lg:gap-x-10">
                 <div>
                 <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#FC1938]">
-                    Getting Started is as easy as 1-2-3
+                    Getting Started
                 </h1>                
                 <p className="mt-6 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
-                  One link to curate everything you need for your new baby
-                  </p>              
-                </div>
+                  Creating a Baby Registry Wish List is fun with BabyPouch. 
+                </p>              
+                <p className="mt-1 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
+                Help your loved ones get what you actually need for your new baby. 
+                </p>              
+                </div>                
+                  
                 <div className="mt-10 mx-auto max-w-2xl w-full overflow-hidden">
                     <div 
                         className="w-full whitespace-nowrap h-200"
                         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
                     >
-                        {colors.map((backgroundColor, idx) => (
+                        {/* {colors.map((backgroundColor, idx) => (
                             <Image src={backgroundColor} key={idx} className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}/>
-                        ))}
+                        ))} */}
                     </div>
                 </div>
       </div>

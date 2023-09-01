@@ -33,11 +33,11 @@ export function AddToPouch() {
                     Add anything from any store
                   </h1>
                   <p className="mt-6 max-w-4xl text-2xl text-[#005394] tracking-tight">
-                  Stay organized with one list while enjoying all the perks from any store registries
+                  Stay organized with one list while enjoying all the perks from any Canadian store registries
                   </p>
 
                   <div className="">
-                    <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] mt-10 px-8 py-5 text-[#545154] text-xl">Start Adding Gifts</Button>
+                    <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 px-8 py-5 text-[#fff] text-xl">Start Adding Gifts</Button>
                   </div>
 
                 <div className="mt-10 flex gap-x-6">
