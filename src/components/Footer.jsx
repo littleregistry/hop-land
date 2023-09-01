@@ -16,10 +16,10 @@ export function Footer() {
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
         // {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
-    "Compare": [
-      {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
-      {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
-    ],
+    // "Compare": [
+    //   {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
+    //   {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
+    // ],
     // "Resources": [
       // {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
        // {'label': 'Registry Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
@@ -53,7 +53,7 @@ export function Footer() {
                   } 
           </div>
 
-          <div className="pl-20">
+          {/* <div className="pl-20">
             <div className="text-2xl py-2 font-semibold">Compare</div>
               {
                   links['Compare'].map((link) => {
@@ -61,7 +61,7 @@ export function Footer() {
                         <div>{link.label}</div></Link>)
                   })
               }
-          </div> 
+          </div>  */}
 
           {/* <div className="pl-20">
             <div className="text-2xl py-2 font-semibold">Resources</div>
