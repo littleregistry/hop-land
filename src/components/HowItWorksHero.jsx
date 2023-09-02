@@ -8,6 +8,7 @@ import { Container } from '@/components/Container'
 import registryGraphicOne from '@/images/hero-one.png'
 import registryGraphicTwo from '@/images/hero-two.png'
 import registryGraphicThree from '@/images/hero-three.png'
+import pinkBalloon from '@/images/pink-balloon.jpg'
 
 const colors = [registryGraphicOne, registryGraphicTwo, registryGraphicThree];
 
@@ -38,19 +39,23 @@ export function HowItWorksHero() {
         };
     }, [index]);
   return (
-    <div className="bg-[#FAEAE7] p-10">
-    <Container className="relative max-w-7xl">
+    <>
+
+{/* brighter image ---  https://images.unsplash.com/photo-1552861067-ada40cee5c8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80  */}
+
+      <div className="bg-cover bg-right bg-[url('https://images.unsplash.com/photo-1552861067-ada40cee5c8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1176&q=80')]">
+        <div className="relative h-[600px]">
+      <div className="absolute w-full h-full top-0 left-0" style={{background: 'rgba(0,0,0,.2)'}}>
       <div className="mx-auto max-w-7xl pt-32 pb-32 xl:flex lg:items-center lg:gap-x-10">
-                <div>
-                <h1 className="max-w-5xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#FC1938]">
+                
+                <div className="">
+
+                <h1 className="pt-16 pl-10 max-w-6xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#fff]">
                     Getting Started
                 </h1>                
-                <p className="mt-6 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
-                  Creating a Baby Registry Wish List is fun with BabyPouch. 
-                </p>              
-                <p className="mt-1 max-w-5xl text-2xl text-[#FC1938] tracking-tight">
-                Help your loved ones get what you actually need for your new baby. 
-                </p>              
+                <p className="pt-8 px-10 max-w-5xl text-2xl text-[#fff] tracking-tight">
+                  Creating a Baby Registry Wish List is fun with BabyPouch. Help your loved ones get what you actually need for your new baby.
+                </p>                                          
                 </div>                
                   
                 <div className="mt-10 mx-auto max-w-2xl w-full overflow-hidden">
@@ -58,15 +63,17 @@ export function HowItWorksHero() {
                         className="w-full whitespace-nowrap h-200"
                         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
                     >
+                      {/* <Image src={pinkBalloon} className="opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block"/> */}
                         {/* {colors.map((backgroundColor, idx) => (
-                            <Image src={backgroundColor} key={idx} className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}/>
+                            
                         ))} */}
                     </div>
                 </div>
+                </div>
+        </div>
       </div>
-
-      
-    </Container>
-    </div>
+      </div>  
+    </>
+    
   )
 }

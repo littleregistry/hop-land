@@ -16,10 +16,10 @@ export function Footer() {
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
         // {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
-    "Compare": [
-      {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
-      {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
-    ],
+    // "Compare": [
+    //   {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
+    //   {'label': 'Babylist', 'link': '/vs-babylist', 'key': 'about-link'}
+    // ],
     // "Resources": [
       // {'label': 'Checklist', 'link': '/registry-checklist', 'key': 'checklist-link'},       
        // {'label': 'Registry Inspo', 'link': '/checklist', 'key': 'checklist-link'},        
@@ -53,7 +53,7 @@ export function Footer() {
                   } 
           </div>
 
-          <div className="pl-20">
+          {/* <div className="pl-20">
             <div className="text-2xl py-2 font-semibold">Compare</div>
               {
                   links['Compare'].map((link) => {
@@ -61,7 +61,7 @@ export function Footer() {
                         <div>{link.label}</div></Link>)
                   })
               }
-          </div> 
+          </div>  */}
 
           {/* <div className="pl-20">
             <div className="text-2xl py-2 font-semibold">Resources</div>
@@ -76,17 +76,19 @@ export function Footer() {
         </div>
 
         <div className="flex py-6 ">
-        <Button href="/register">
-              <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
-                Log in
-              </div>            
-        </Button>
+            <a href="/register">
+                  <div className="w-max m-3 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-lg p-3 rounded-lg">
+                    Log in
+                  </div>            
+            </a>
+            
+            {/* Button */}
+            <a href="/register">
+              <div className="w-max my-3 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-lg p-3 rounded-full">
+                Sign up free
+              </div>
+            </a>
 
-        <Button href="/register">
-          <div className="bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-xl p-4 rounded-full">
-            Sign up free
-          </div>
-        </Button>
         </div>
         
         <div className="flex flex-col items-center py-6 sm:flex-row-reverse sm:justify-between border-t border-[#d1d1d1]">

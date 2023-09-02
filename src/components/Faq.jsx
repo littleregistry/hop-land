@@ -94,24 +94,24 @@ const faqs = [
 
 export function Faq() {
   return (
-    <div className="pt-20 relative lg:pt-32 lg:pb-24 bg-[#E6B8E6]">     
+    <div className="pt-20 pb-20 relative lg:pt-32 lg:pb-24 bg-[#E6B8E6]">     
 
-      <h1 className="mx-auto max-w-4xl text-[#461F69] text-center mb-20 font-display md:text-7xl text-5xl font-medium tracking-tight text-slate-900">
+      <h1 className="mx-auto max-w-4xl text-[#461F69] text-center font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-slate-900">
       🤔 Still have questions?
       </h1>      
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
       <div className="bg-gray-900">
-        <div className="p-10 mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
-          <dl className="mt-10 space-y-6 divide-y divide-white/10">
+        <div className="p-4 mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
+          <dl className="mt-10 mx-6 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-8 rounded-lg">
+              <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-4 rounded-lg">
                 {({ open }) => (
                   <>
                     <dt>
                       <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
-                        <span className="p-3 text-2xl font-semibold leading-7">{faq.question}</span>
-                        <span className="p-3 ml-6 flex h-7 items-center">
+                        <span className="p-3 text-xl md:text-2xl font-semibold leading-7">{faq.question}</span>
+                        <span className="p-3 mt-3 ml-6 flex h-7 items-center">
                           {open ? (
                             <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
                           ) : (
@@ -140,9 +140,7 @@ export function Faq() {
           aria-describedby="email-description"
         />
         <Button href="/" className="bg-pouch-snow-500 hover:bg-pouch-snow-700 px-8 py-3 text-[#fff]">Claim your link</Button>
-      </div> */}
-      <div className="mt-36 lg:mt-44">
-      </div>
+      </div> */}      
     </div>
   )
 }
