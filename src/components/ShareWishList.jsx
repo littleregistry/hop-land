@@ -28,17 +28,15 @@ export function ShareWishList() {
     <Container className="relative max-w-7xl">
       <div className="px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 lex-wrap md:flex-nowrap flex-row-reverse">               
                 <div>
-                <h1 className="max-w-4xl font-display md:text-7xl text-5xl font-medium tracking-tight text-[#005394]">
+                <h1 className="max-w-4xl font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#005394]">
                 Share your Wishlist & Receive gifts from friends & family
 
                 </h1>
-                <p className="mt-6 max-w-5xl text-2xl text-[#005394] tracking-tight">
+                <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-[#005394] tracking-tight">
                 We’ve got the easiest checkout experience out of any universal baby registries. Designed for guests of any age. 
                 </p>
-                <div className="flex">
-                    <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 mr-5 px-8 py-5 text-[#fff] text-xl">Try it</Button>
-
-                    <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 px-8 py-5 text-[#fff] text-xl">View Sample</Button>
+                <div className="mt-10">                    
+                    <a href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Try now</a>                    
                 </div>
                 <div className="mt-10 flex gap-x-6">
                 </div>

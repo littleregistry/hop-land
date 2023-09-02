@@ -8,7 +8,11 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
-import pouchLogo from '@/images/pouchlogo-red-withtext.svg'
+// import pouchLogo from '@/images/pouchlogo-red-withtext.svg'
+import pouchDesktopLogo from '@/images/pouchlogo-red-withtext-2.svg'
+
+import pouchMobileLogo from '@/images/pouchlogo-red.svg'
+
 
 function MobileNavLink({ href, children }) {
   return (
@@ -96,11 +100,12 @@ export function Header() {
     <header className="bg-[#FAEAE7]">
       <Container className="">      
         <nav className="">
-          <div className="bg-[#fff] z-20 h-24 fixed rounded-full flex justify-between items-center right-10 left-10 top-10">
+          <div className="bg-[#fff] z-20 h-20 fixed rounded-full flex justify-between items-center right-10 left-10 top-6">
           
           <a href="/">
           <div className="flex md:gap-x-6 align-baseline">
-            <Image src={pouchLogo} width={215} />
+            <Image className="hidden md:inline mx-5" src={pouchDesktopLogo} width={215} />
+            <Image className="md:hidden mx-5" src={pouchMobileLogo} width={65} />
             {/* <div className="hidden md:flex md:gap-x-6">
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
@@ -110,17 +115,19 @@ export function Header() {
           </a>
 
           <div className="flex py-6 ">
-            <Button href="/register">
-                  <div className="bg-[#E9E9E9] hover:bg-[#e2dede] text-xl p-4 rounded-lg">
+            <a href="/register">
+                  <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-lg p-3 rounded-lg">
                     Log in
                   </div>            
-            </Button>
-
-            <Button href="/register">
-              <div className="bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-xl p-4 rounded-full">
+            </a>
+            
+            {/* Button */}
+            <a href="/register">
+              <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-lg p-3 rounded-full">
                 Sign up free
               </div>
-            </Button>
+            </a>
+
           </div>
 
           {/* <div className="flex items-end">          */}
