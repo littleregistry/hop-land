@@ -87,8 +87,7 @@ export function Footer() {
               <div className="w-max my-3 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-lg p-3 rounded-full">
                 Sign up free
               </div>
-            </Linak>
-
+            </Link> 
         </div>
         
         <div className="flex flex-col items-center py-6 sm:flex-row-reverse sm:justify-between border-t border-[#d1d1d1]">
