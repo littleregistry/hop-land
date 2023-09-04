@@ -56,7 +56,7 @@ export function SectionTwo() {
                     aria-describedby="email-description"
                     />
 
-                    <a href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 text-[#fff] text-xl font-semibold rounded-full">Claim your link</a>
+                    <Link href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 text-[#fff] text-xl font-semibold rounded-full">Claim your link</Link>
         </div>
       {/* </div> */}
       {/* <div className="mt-36 lg:mt-44">
