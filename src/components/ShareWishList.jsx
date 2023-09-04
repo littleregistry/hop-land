@@ -36,14 +36,14 @@ export function ShareWishList() {
                 We’ve got the easiest checkout experience out of any universal baby registries. Designed for guests of any age. 
                 </p>
                 <div className="mt-10">                    
-                    <a href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Try now</a>                    
+                    <Link href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Try now</Link>
                 </div>
                 <div className="mt-10 flex gap-x-6">
                 </div>
                 </div>
 
                 <div className="mx-auto max-w-xl">
-                    <Image src={shareWishList} />
+                    <Image src={shareWishList} alt="share-wish-list"/>
                 </div>
 
       </div>

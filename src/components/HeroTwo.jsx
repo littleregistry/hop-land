@@ -58,7 +58,7 @@ export function HeroTwo() {
                     aria-describedby="email-description"
                     />
 
-                    <a href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-24 sm:px-8 text-[#fff] text-xl font-semibold rounded-full">Try now</a>
+                    <Link href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-24 sm:px-8 text-[#fff] text-xl font-semibold rounded-full">Try now</Link>
                 </div>
                 </div>
                 <div className="mt-10 mx-auto max-w-2xl w-full overflow-hidden">
@@ -67,7 +67,7 @@ export function HeroTwo() {
                         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
                     >
                         {colors.map((backgroundColor, idx) => (
-                            <Image src={backgroundColor} key={idx} className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}/>
+                            <Image src={backgroundColor} key={idx} alt={`hero-image-${idx}`} className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}/>
                         ))}
                     </div>
                 </div>

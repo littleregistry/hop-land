@@ -76,18 +76,18 @@ export function Footer() {
         </div>
 
         <div className="flex py-6 ">
-            <a href="/register">
+            <Link href="/register">
                   <div className="w-max m-3 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-lg p-3 rounded-lg">
                     Log in
                   </div>            
-            </a>
+            </Link>
             
             {/* Button */}
-            <a href="/register">
+            <Link href="/register">
               <div className="w-max my-3 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-lg p-3 rounded-full">
                 Sign up free
               </div>
-            </a>
+            </Linak>
 
         </div>
         

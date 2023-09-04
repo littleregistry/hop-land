@@ -36,14 +36,14 @@ export function SetupCashFund() {
                 doula, childcare, or baby’s future savings accounts.
                 </p>
                 <div className="mt-10">                    
-                    <a href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] py-4 px-16 sm:px-10 text-[#545154] text-xl rounded-full font-semibold ">Join Now</a>                    
+                    <Link href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] py-4 px-16 sm:px-10 text-[#545154] text-xl rounded-full font-semibold ">Join Now</Link>
                 </div>                
 
                 <div className="mt-10 flex gap-x-6">
                 </div>
                 </div>
                 <div className="mx-auto max-w-xl">
-                    <Image src={cashfunds} />
+                    <Image src={cashfunds} alt="cash-funds-graphic"/>
                 </div>
 
 
