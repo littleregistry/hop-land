@@ -33,7 +33,7 @@ const posts = [
   {
     id: 3,
     title: 'Beautiful profiles',
-    desc: 'Choose from 20+ themes to match your baby shower or nursery theme',
+    desc: 'Choose from 20+ themes to personalize your registry',
     href: '#',
     description: '',
     imageUrl: checkListGraphic,
@@ -98,7 +98,7 @@ export function WhyLove() {
         <Button href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] m-5 px-8 py-5 text-[#545154] text-xl">Get Started Now</Button>
       </div>
 
-      <div className="mx-auto mt-20 grid max-w-lg grid-cols-2 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+      <div className="mx-auto mt-20 grid grid-cols-2 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none md:grid-cols-3">
           {posts.map((post) => (
             <article key={post.id} className="flex flex-col bg-[#fff] pt-16 px-8 rounded-3xl justify-between">
               <div className="relative w-full">

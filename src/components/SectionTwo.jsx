@@ -52,7 +52,7 @@ export function SectionTwo() {
                     name="email"
                     id="email"
                     className="block rounded-full border-0 mb-8 py-5 px-10 sm:px-8 mx-auto text-gray-900 shadow-sm placeholder:text-gray-400 w-72 sm:text-lg sm:leading-6"
-                    placeholder="babypouch.co/yourname"
+                    placeholder="littleregistry.com/you"
                     aria-describedby="email-description"
                     />
 

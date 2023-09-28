@@ -12,7 +12,8 @@ export function Footer() {
   const links = {    
     "About": [
         // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
-        {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
+        // {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
+        {'label': 'Registry Checklist', 'link': '/demo', 'key': 'demo-link'},
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
         // {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
     ],
@@ -44,7 +45,7 @@ export function Footer() {
         <div className="max-w-[625px] px-4 py-10 flex">    
 
           <div >
-            <div className="text-2xl py-2 font-semibold">About Us</div>
+            <div className="text-2xl py-2 font-semibold">Resources</div>
                   {
                       links['About'].map((link) => {
                           return (<Link key={link.key} href={link.link} className="text-xl text-[#7f7b7b] hover:underline">
