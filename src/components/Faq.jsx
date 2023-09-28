@@ -34,13 +34,12 @@ const faqs = [
     question: "Why should I use BabyPouch?",
     answer:
       "BabyPouch gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
-      "Here are 6 other reasons to use BabyPouch. You want: <br/><br/>"+ 
-      "1. <b>A registry that works across Canada</b> – You can use BabyPouch with all Canadian stores. You can take advantage of any registry perks and completion discounts.<br/><br/>"+ 
-      "2. <b>Group gifting</b> – We let your loved ones chip in for any big ticket items, like strollers, car seats or high chairs. If you want to save up for diaper deliveries or baby’s future college fund, we let you add any cash funds for others to contribute.<br/><br/>"+ 
-      "3. <b>Privacy</b> - With BabyPouch, your address and contact info stays private. No need to pass your address back and forth with guests.<br/><br/>" + 
-      "4. <b>Unlimited gift exchange</b> - You might change your mind and want to get something else even after you send out the registry. When someone buys from your BabyPouch registry, you receive the cash equivalent of the product. You can take that cash out and swap for something else that you actually want. Your guest won’t be notified when you swap behind the scenes. <br/><br/>"+
-      "5. <b>Ship when you want</b> - When someone buys from your BabyPouch registry, you can cash out the amount your guest paid to order products at your leisure. If you don’t want to store a high chair for 6 months before it’s useful, you can order it later.<br/><br/>"+  
-      "6. <b>Extra personalised registry site</b> – Create a custom domain to make it easy to remember for you and your guests. Add a custom theme to make it feel like you.",
+      "In addition to all the benefits of using an all-in-one baby registry, we're the only registry that offers the following:<br/><br/>"+ 
+      "1. <b>Group gifts on anything</b> – We let your loved ones chip in for any big ticket items, like strollers, car seats or high chairs from different stores. If you want to save up for diaper deliveries or baby’s future college fund, we let you add any cash funds for others to contribute.<br/><br/>"+ 
+      "2. <b>Unlimited gift exchange</b> - You might change your mind and want to get something else even after you send out the registry. When someone buys from your registry, you receive the cash equivalent of the product. You can take that cash out and swap for something else that you actually want. Your guest won’t be notified when you swap behind the scenes. <br/><br/>"+
+      "3. <b>Ship when you want</b> - When someone buys from your registry, you can cash out the amount your guest paid to order products at your leisure. If you don’t want to store a high chair for 6 months before it’s useful, you can order it later.<br/><br/>"+  
+      "4. <b>Privacy</b> - With BabyPouch, your address and contact info stays private. No need to pass your address back and forth with guests.<br/><br/>" + 
+      "5. <b>Extra personalised registry site</b> – Create a custom domain to make it easy to remember for you and your guests. Add a custom theme to make it feel like you.",
   },  
   {
     question: "How does BabyPouch work?",
@@ -49,14 +48,13 @@ const faqs = [
       "1. <b>Customize your registry </b>– Add a photo, greeting message and update the background colour of your registry. <br/><br/>"+
       "2. <b>Add gifts & cash funds</b> – In a click, you can add gifts from any URL or registries and set up your custom cash fund. <br/><br/>"+
       "3. <b>Share your registry</b> – Once you’re done adding gifts, you can start sharing it with friends and family.  <br/><br/>"+
-      "4. <b>Get notified & track gifts </b>– Get notified when guests buy you something and track what’s remaining on your registry. <br/><br/>"+
+      "4. <b>Get notified when someone buys you gifts </b>– Get notified when guests buy you something and track what’s remaining on your registry. <br/><br/>"+
       "When guests buy you something, we proceed to convert the value of the gift to cash. This cash can then be used at your discretion to purchase anything you actually need. <br/><br/>"
   },
   {
     question: "Is there a sample registry I can visit? ",
     answer:
-      "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the BabyPouch experience from your guest’s perspective. Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal. <br/><br/>"+
-      "It’s really easy for guests to choose a gift, or contribute towards any cash funds. All they need to do is to click on the items they want to buy, then it’ll take them to a page to fill in their greeting note, payment info and confirm their purchases.",
+      "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the BabyPouch experience from your guest’s perspective. <br /><br /> Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal.",
   },
   {
     question: "How is BabyPouch different from other baby registries?",
@@ -99,19 +97,19 @@ export function Faq() {
       <h1 className="mx-auto max-w-4xl text-[#461F69] text-center font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-slate-900">
       🤔 Still have questions?
       </h1>      
-      <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
+      <p className="mx-auto mt-4 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
       <div className="bg-gray-900">
         <div className="p-4 mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
-          <dl className="mt-10 mx-6 space-y-6 divide-y divide-white/10">
+          <dl className="mt-2 mx-6 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
-              <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-4 py-4 rounded-lg">
+              <Disclosure as="div" key={faq.question} className="bg-[#461F69] text-[#fff] px-2 py-2 rounded-lg">
                 {({ open }) => (
                   <>
                     <dt>
                       <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
-                        <span className="p-3 text-xl md:text-2xl font-semibold leading-7">{faq.question}</span>
-                        <span className="p-3 mt-3 ml-6 flex h-7 items-center">
+                        <span className="p-2 sm:p-4 text-medium sm:text-xl font-semibold leading-7">{faq.question}</span>
+                        <span className="p-3 mt-3 flex h-7 items-center">
                           {open ? (
                             <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
                           ) : (
@@ -121,7 +119,7 @@ export function Faq() {
                       </Disclosure.Button>
                     </dt>
                     <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                      <p className="p-3 text-xl leading-7 text-gray-300" dangerouslySetInnerHTML={{__html: faq.answer}} />
+                      <p className="p-2 sm:p-4 text-medium sm:text-xl leading-2 text-gray-300" dangerouslySetInnerHTML={{__html: faq.answer}} />
                     </Disclosure.Panel>
                   </>
                 )}

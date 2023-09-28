@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 import { CallToAction } from '@/components/CallToAction'
-import { Faqs } from '@/components/Faqs'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { Hero } from '@/components/Hero'
@@ -14,10 +13,13 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
 import screenshotRegistry from '@/images/main.gif'
-import { AddToPouch } from '@/components/AddToPouch'
+import { OrganizeShopList } from '@/components/OrganizeShopList'
 import { SetupCashFund } from '@/components/SetupCashFund'
-import { ShareWishList } from '@/components/ShareWishList.jsx'
-import { EasyWithPouch } from '@/components/EasyWithPouch.jsx'
+import { ShareWishList } from '@/components/ShareWishList'
+import { WhyLove } from '@/components/WhyLove.jsx'
+import { ReceiveGifts } from '@/components/ReceiveGifts.jsx'
+import { TrackGifts } from '@/components/TrackGifts.jsx'
+
 import { Faq } from '@/components/Faq.jsx'
 
 
@@ -34,22 +36,26 @@ export default function Home() {
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
 
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff"></meta>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        
       </Head>
       <Header />
       <main className="">
 
         <HeroTwo />
-        <AddToPouch />
+        <OrganizeShopList />
         <SetupCashFund />
         <ShareWishList />
+        <ReceiveGifts />
+        <TrackGifts />
 
-        <EasyWithPouch />
+
+        <WhyLove />
 
         <Faq />
         
