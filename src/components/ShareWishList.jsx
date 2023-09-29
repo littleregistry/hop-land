@@ -23,7 +23,7 @@ export function ShareWishList() {
                 Share one link for your guests to shop everything in one place!  Customize your domain name so it's easy to remember & share.
                 </p>
                 <div className="mt-10">                    
-                    <Link href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Try now</Link>
+                    <Link href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Try now</Link>
                 </div>
                 <div className="mt-10 flex gap-x-6">
                 </div>
