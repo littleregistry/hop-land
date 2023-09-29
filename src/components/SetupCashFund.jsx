@@ -26,18 +26,17 @@ export function SetupCashFund() {
     <div className="bg-[#13253B]">
       {/* lg:pt-32 */}
     <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl px-6 py-24 xl:flex  lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
+      <div className="mx-auto max-w-7xl px-6 py-24 lg:flex  lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
                 <div>
                 <h1 className="max-w-4xl font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#FEF2D4]">
-                  Set up a cash fund
+                  Set up Cash Funds
                 </h1>
-                <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-[#FEF2D4] tracking-tight">
-                Let your friends and family contribute and save towards anything from diapers, 
-                doula, childcare, or baby’s future savings accounts.
+                <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-[#FEF2D4] tracking-tight">                
+                Let your friends and family contribute and save towards anything from diapers, doula, childcare, or baby’s future savings accounts.
                 </p>
                 <div className="mt-10">                    
-                    <Link href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] py-4 px-16 sm:px-10 text-[#545154] text-xl rounded-full font-semibold ">Join Now</Link>
-                </div>                
+                    <a href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] py-4 px-16 sm:px-10 text-[#545154] text-xl rounded-full font-semibold ">Join Now</a>                    
+                </div>                 
 
                 <div className="mt-10 flex gap-x-6">
                 </div>

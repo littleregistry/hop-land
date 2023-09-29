@@ -10,7 +10,6 @@ import { Logo } from '@/components/Logo'
 import { NavLink } from '@/components/NavLink'
 // import pouchLogo from '@/images/pouchlogo-red-withtext.svg'
 import pouchDesktopLogo from '@/images/pouchlogo-red-withtext-2.svg'
-
 import pouchMobileLogo from '@/images/pouchlogo-red.svg'
 
 
@@ -100,33 +99,32 @@ export function Header() {
     <header className="bg-[#FAEAE7]">
       <Container className="">      
         <nav className="">
-          <div className="bg-[#fff] z-20 h-20 fixed rounded-full flex justify-between items-center right-10 left-10 top-6">
+          <div className="bg-[#fff] z-20 h-14 sm:h-20 fixed rounded-full flex justify-between items-center right-6 left-6 top-6">
           
           <Link href="/">
           <div className="flex md:gap-x-6 align-baseline">
-            <Image className="hidden md:inline mx-5" src={pouchDesktopLogo} width={215} alt="desktop-logo"/>
-            <Image className="md:hidden mx-5" src={pouchMobileLogo} width={65} alt="mobile-logo" />
-            {/* <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
-            </div> */}
+            <div className="hidden md:flex mx-5 items-center">
+              <div className="text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
+              <div><Image className="mx-1 p-2" src={pouchMobileLogo} width={65} /></div>
+            </div>
+            {/* <Image className="hidden md:inline mx-5" src={pouchDesktopLogo} width={215} /> */}
+            <Image className="md:hidden mx-2 p-2" src={pouchMobileLogo} width={65} />            
           </div>
           </Link>
 
           <div className="flex py-6 ">
-            <Link href="/register">
-                  <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-lg p-3 rounded-lg">
+            <a href="/register">
+                  <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-medium sm:text-lg p-2 sm:p-4 rounded-lg">
                     Log in
                   </div>            
-            </Link>
+            </a>
             
             {/* Button */}
-            <Link href="/register">
-              <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-lg p-3 rounded-full">
+            <a href="/register">
+              <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-medium sm:text-lg p-2 sm:p-4 rounded-full">
                 Sign up free
               </div>
-            </Link>
+            </a>
 
           </div>
 
