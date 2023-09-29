@@ -2,6 +2,7 @@
     {
         "category_id": 1,
         "category": "Gear",
+        "publicCategoryIcon": "feedingIcon",
         "categoryIcon": "/checklist-icons/pram.svg",
         "category_order": 1,
         "category_visible": false,

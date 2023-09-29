@@ -9,9 +9,6 @@ import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline'
 
 import registryChecklist from './registry-checklist-items.json';
 
-import feedingIcon from '@/images/checklist-icons/baby-bottle.svg'
-
-
 export default function Checklist() {
 
     const [userChecklist, setUserCheckList] = useState([])
@@ -37,14 +34,7 @@ export default function Checklist() {
 
         let productCheckedBoxValue = newUserChecklist[listIndex].products[productItemIndex].checked
 
-        newUserChecklist[listIndex].products[productItemIndex].checked = !productCheckedBoxValue
-
-        let res = await AxiosClient.post('/registries/update_checklist', {
-            checklist: newUserChecklist,
-        },
-        {
-            withCredentials: true,
-        })
+        newUserChecklist[listIndex].products[productItemIndex].checked = !productCheckedBoxValue       
 
         setUserCheckList(newUserChecklist)
     };
@@ -97,16 +87,14 @@ export default function Checklist() {
                                     <div className="w-full">
 
                                     <div className="flex justify-between text-left text-gray-900">
-                                            <div className="flex items-center text-xl font-medium leading-7">
-                                            
-                                            <Image src={feedingIcon} className="" alt="" />
-                                            {/* <Image 
+                                            <div className="flex items-center text-xl font-medium leading-7">                                                      
+                                            <Image 
                                             className="p-2 in-block"
                                             width={60}
                                             height={60}
-                                            alt="A checkmark indicating a successful payment"
+                                            alt="category icon"
                                             src={checklist.categoryIcon}
-                                            /> */}
+                                            />
 
                                             <div className="p-2">{checklist.category}</div>
                                             </div>                                                                   
@@ -155,7 +143,7 @@ export default function Checklist() {
 
                                                 
                                             <div className="">
-                                                <h3 className="text text-gray-700 line-clamp-2 text-center">{product.product_type}</h3>
+                                                <h3 className="text text-gray-700 font-semibold line-clamp-2 text-center">{product.product_type}</h3>
                                                 <h3 className="text text-gray-700 line-clamp-2 text-center text-stone-400">{product.tag}</h3>
                                             </div>
 
