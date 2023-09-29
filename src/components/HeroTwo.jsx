@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import babypouchLogo from '@/images/logos/babypouch.jpg'
 import { useEffect, useState, useRef } from 'react'
+import { useForm } from 'react-hook-form'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -27,6 +28,12 @@ const canadianLogos = [
 ]
 
 export function HeroTwo() {
+    const [domainName, setDomainName] = useState("");
+    
+    const handleChange = (e) => {
+        setDomainName(e.target.value)        
+    }
+
     const [index, setIndex] = useState(0);
     const timeoutRef = useRef(null);
     const delay = 2500;
@@ -52,10 +59,12 @@ export function HeroTwo() {
             resetTimeout();
         };
     }, [index]);
+
+
   return (
     <div className="bg-[#FAEAE7] p-4">
     <Container className="relative max-w-7xl">
-      <div className="mx-auto max-w-7xl pt-32 sm:pt-36 pb-32 lg:flex lg:items-center lg:gap-x-10">
+      <div className="mx-auto max-w-7xl pt-32 sm:pt-36 pb-32 lg:flex lg:items-center">
                 <div>
                 <h1 className="max-w-5xl font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#FC1938]">
                     Create an all-in-one baby registry in minutes
@@ -65,17 +74,30 @@ export function HeroTwo() {
                     Combine multiple registries into one wish list.                   
                 </p>
 
-                <div className="mt-10 sm:flex gap-x-6">
-                    <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    className="block px-8 rounded-full border-0 mb-8 sm:mb-0 py-5 text-gray-900 shadow-sm placeholder:text-gray-400 w-72 sm:text-lg sm:leading-6"
-                    placeholder="littleregistry.com/you"
-                    aria-describedby="email-description"
-                    />
+                <div className="mt-10 sm:flex gap-x-6">                    
 
-                    <a href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-24 sm:px-8 text-[#fff] text-xl font-semibold rounded-full">Try now</a>
+            <div className="px-8 rounded-full py-2 md:py-5 mb-8 md:mb-0" style={{background: "white"}}>          
+                <div className="flex p-2 rounded-md sm:max-w-md">                    
+                  <span 
+                  style={{color: 'gray', fontSize: 'larger'}}
+                  className="flex select-none items-center ">littleregistry.com/</span>
+                  <input
+                    className="outline-none"
+                    onChange={handleChange}
+                    style={{border: 'none', fontSize: 'larger', width: '120px', left: '0', color: 'gray'
+                    }}                    
+                    type="text"                    
+                    placeholder="yourname"
+                  />                   
+                </div>
+              </div>
+
+                    <a href={"/signup?name="+domainName} className="text-[#fff] text-xl md:text-medium font-semibold grid place-items-start">
+                        <span className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 sm:px-6 sm:py-8 rounded-full ">
+                        Try now
+                        </span>
+                        
+                    </a>
                 </div>                
                 </div>
                 <div className="mt-10 mx-auto max-w-2xl w-fit flex justify-end">
@@ -89,9 +111,7 @@ export function HeroTwo() {
                         {colors.map((backgroundColor, idx) => (
                             <Image src={backgroundColor} height={700} key={idx} className={idx == index ? "opacity-1 visible transition-opacity ease-in duration-700 inline-block h-full" : "opacity-0 invisible transition-opacity ease-in duration-700 inline-block h-full"}/>
                         ))}
-
-                        {/* <Image src={registryGraphicTwo} height={700} key={'test'}/>
-                        <Image src={registryGraphicOne} height={700} key={'test'}/> */}
+                     
                     </div>
                 </div>
       </div>

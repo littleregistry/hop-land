@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import babypouchLogo from '@/images/logos/babypouch.jpg'
+import { useState } from 'react'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -20,6 +21,12 @@ import toyCard from '@/images/hero-cards/nursery-toys.png'
 
 
 export function SectionTwo() {
+  const [domainName, setDomainName] = useState("");
+    
+    const handleChange = (e) => {
+        setDomainName(e.target.value)        
+    }
+
   return (
     <div className="bg-[#FAEAE7] py-32 overflow-x-hidden overflow-y-hidden">
     <Container className="relative max-w-7xl text-center lg:pt-32">
@@ -47,18 +54,26 @@ export function SectionTwo() {
       </h1>
       <p className="mx-auto mt-6 max-w-lg text-lg tracking-tight text-slate-700">
       </p>      
-      <div className="mt-10  gap-x-6">
-                    <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    className="block rounded-full border-0 mb-8 py-5 px-10 sm:px-8 mx-auto text-gray-900 shadow-sm placeholder:text-gray-400 w-72 sm:text-lg sm:leading-6"
-                    placeholder="littleregistry.com/you"
-                    aria-describedby="email-description"
-                    />
+      <div className="mt-10">                   
 
-                    <a href="/" className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 text-[#fff] text-xl font-semibold rounded-full">Claim your link</a>
+            <div className="mt-10 mb-8 mx-auto px-8 w-96 rounded-full py-2 " style={{background: "white"}}>          
+                <div className="flex p-2 rounded-md sm:max-w-md">                    
+                  <span 
+                  style={{color: 'gray', fontSize: 'larger'}}
+                  className="flex select-none items-center ">littleregistry.com/</span>
+                  <input
+                    onChange={handleChange}
+                    className="outline-none"
+                    style={{border: 'none', fontSize: 'larger', width: '120px', left: '0', color: 'gray'
+                    }}                    
+                    type="text"                                       
+                    placeholder="yourname"
+                  />                   
+                </div>
+              </div>                    
         </div>
+
+        <a href={"/signup?name="+domainName}  className="mt-12 bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 text-[#fff] text-xl font-semibold rounded-4xl">Claim your link</a>
       {/* </div> */}
       {/* <div className="mt-36 lg:mt-44">
       </div> */}
