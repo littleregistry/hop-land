@@ -101,7 +101,7 @@ export function Header() {
         <nav className="">
           <div className="bg-[#fff] z-20 h-14 sm:h-20 fixed rounded-full flex justify-between items-center right-6 left-6 top-6">
           
-          <a href="/">
+          <Link href="/">
           <div className="flex md:gap-x-6 align-baseline">
             <div className="hidden md:flex mx-5 items-center">
               <div className="text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
@@ -110,21 +110,21 @@ export function Header() {
             {/* <Image className="hidden md:inline mx-5" src={pouchDesktopLogo} width={215} /> */}
             <Image className="md:hidden mx-2 p-2" src={pouchMobileLogo} width={65} />            
           </div>
-          </a>
+          </Link>
 
           <div className="flex py-6 ">
             <a href="/register">
                   <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-medium sm:text-lg p-2 sm:p-4 rounded-lg">
                     Log in
                   </div>            
-            </a>
+            </Link>
             
             {/* Button */}
             <a href="/register">
               <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-medium sm:text-lg p-2 sm:p-4 rounded-full">
                 Sign up free
               </div>
-            </a>
+            </Link>
 
           </div>
 

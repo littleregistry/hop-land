@@ -131,8 +131,8 @@ const steps = [
 export function HowItWorks() {
   return (
     <>
-        {steps.map((step) => {
-            return (<div className={step.backgroundColor === "black" ? "bg-[#222324]" : "bg-[#ebeff5]"}>
+        {steps.map((step, idx) => {
+            return (<div key={idx} className={step.backgroundColor === "black" ? "bg-[#222324]" : "bg-[#ebeff5]"}>
             {/* lg:pt-2 */}
           <Container className="relative max-w-7xl">        
             <div className={step.align === "left" ? "mx-auto px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 flex-wrap md:flex-nowrap": "mx-auto px-6 py-20 mx-auto xl:flex lg:items-center lg:gap-x-10 flex-wrap md:flex-nowrap flex-row-reverse"}>
@@ -155,7 +155,6 @@ export function HowItWorks() {
                       </div>
       
                       <div className="mx-auto max-w-xl">
-                          <Image src={""} />
                       </div>
       
             </div>

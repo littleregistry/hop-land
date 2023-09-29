@@ -42,7 +42,7 @@ export function SetupCashFund() {
                 </div>
                 </div>
                 <div className="mx-auto max-w-xl">
-                    <Image src={cashfunds} />
+                    <Image src={cashfunds} alt="cash-funds-graphic"/>
                 </div>
 
 
