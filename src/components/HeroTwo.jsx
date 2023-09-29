@@ -133,7 +133,7 @@ export function HeroTwo() {
         <Image src={Etsy} key={'logo-c'} height={70} className="p-2" />   
         <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" />   
         <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" />   
-        <Image src={Westcoastkids} key={'logo-f'} height={50} className="p-2" />   
+        <Image src={Westcoastkids} key={'logo-f'} height={60} className="p-2" />   
         <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" />
         <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" />
         </div>

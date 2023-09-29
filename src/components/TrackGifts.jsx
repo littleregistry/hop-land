@@ -48,7 +48,7 @@ export function TrackGifts() {
                 </div>
                 </div>
 
-                <div className="mx-auto max-w-xl">
+                <div className="mx-auto max-w-xl p-6">
                     <Image src={giftTracker} />
                 </div>
 

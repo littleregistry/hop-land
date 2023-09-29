@@ -30,8 +30,9 @@ const faqs = [
   {
     question: "Why should I use LittleRegistry?",
     answer:
-      "Little Registry gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. "+
-      "We're the only registry that offers the following: <b>Group gifts on items from any store, cash funds, discreet gift exchange, privacy first features, lots of registry customization options.</b>" 
+      "Little Registry gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/>"+
+      "We're a <b>privacy-first</b> registry and we make sure no employers or strangers can google you and find out your due date and mailing address.</b><br/>"+
+      "We're the only registry that offers the following: <b> Group gifts on items from any store, cash funds, discreet gift exchange, lots of registry customization options.</b><br/>"      
   },  
   {
     question: "How does LittleRegistry work?",

@@ -62,7 +62,7 @@ const posts = [
   {
     id: 6,
     title: 'Privacy first',
-    desc: 'No strangers can access your page to see your home address.',
+    desc: 'No strangers can access your page to see your due date/ address.',
     href: '#',
     description: '',
     imageUrl: privacyIcon,
