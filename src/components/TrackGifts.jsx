@@ -17,6 +17,7 @@ import diaperCard from '@/images/hero-cards/diaper-fund.png'
 import toyCard from '@/images/hero-cards/nursery-toys.png'
 import mainRegistry from '@/images/mainregistry.png'
 import addAnything from '@/images/addAnything.png'
+import giftTracker from '@/images/gift-tracker.png'
 import hero from '@/images/hero.png'
 
 
@@ -32,9 +33,8 @@ export function TrackGifts() {
                   <h1 className="max-w-4xl font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#005394]">
                     Track who bought you gifts
                   </h1>
-                  <p className="mt-6 max-w-4xl text-xl sm:text-2xl text-[#005394] tracking-tight">
-                  Add gifts from your favorite brands or registries, set up cash funds with a few clicks. Share one link with guests 
-                  Keep track of who bought you gifts and thank you notes in your gift tracker 
+                  <p className="mt-6 max-w-4xl text-xl sm:text-2xl text-[#005394] tracking-tight"> 
+                  Get notified every time someone buys you a gift. Keep track of all contributions and kind messages in your gift tracker. 
                   </p>  
 
                   <div className="mt-10">                    
@@ -49,7 +49,7 @@ export function TrackGifts() {
                 </div>
 
                 <div className="mx-auto max-w-xl">
-                    <Image src={addAnything} />
+                    <Image src={giftTracker} />
                 </div>
 
       </div>

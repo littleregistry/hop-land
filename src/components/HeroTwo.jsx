@@ -61,15 +61,17 @@ export function HeroTwo() {
                     Create an all-in-one baby registry in minutes
                 </h1>                
                 <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-[#FC1938] tracking-tight">
-                    Add anything from any store. Combine multiple registries into one wish list.                   
-                  </p>
+                    Add anything from any store. 
+                    Combine multiple registries into one wish list.                   
+                </p>
+
                 <div className="mt-10 sm:flex gap-x-6">
                     <input
                     type="email"
                     name="email"
                     id="email"
                     className="block px-8 rounded-full border-0 mb-8 sm:mb-0 py-5 text-gray-900 shadow-sm placeholder:text-gray-400 w-72 sm:text-lg sm:leading-6"
-                    placeholder="babypouch.co/yourname"
+                    placeholder="littleregistry.com/you"
                     aria-describedby="email-description"
                     />
 
@@ -95,10 +97,11 @@ export function HeroTwo() {
       </div>
 
        <div className="grid items-center">
-        <div className="flex justify-center mt-6 ml-10 max-w-6xl text-center font-medium text-lg sm:text-xl text-[#919191] tracking-tight">Connect all Canadian brands & stores in one list. Enjoy perks & discounts from any stores </div>
+        <div className="flex justify-center mt-6 ml-10 max-w-6xl text-center font-semibold text-xl sm:text-2xl text-[#919191] tracking-tight">Connect all Canadian brands & stores in one list.</div>
+        <div className="flex justify-center my-2 ml-10 max-w-6xl text-center font-medium text-lg sm:text-xl text-[#919191] tracking-tight">Enjoy perks & discounts from any stores </div>
 
         {/* LOGOS */}
-        <div className="flex flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center mb-10">
         {/* {canadianLogos.map((logo, idx) => (
                                 <Image src={logo} key={'logo-'+idx} height={70} className="p-3" />
                                 // className={idx == index ? "opacity-1 visible w-full h-full transition-opacity ease-in duration-700 inline-block" : "opacity-0 invisible w-full h-full transition-opacity ease-in duration-700 inline-block"}
@@ -111,7 +114,7 @@ export function HeroTwo() {
         <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" />   
         <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" />   
         <Image src={Westcoastkids} key={'logo-f'} height={50} className="p-2" />   
-        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70}width={240} className="p-2" />
+        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" />
         <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" />
         </div>
      </div>                     

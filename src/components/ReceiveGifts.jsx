@@ -21,7 +21,7 @@ export function ReceiveGifts() {
                 Receive gifts from your love ones 
                 </h1>
                 <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-[#FEF2D4] tracking-tight">
-                Your most wanted gifts, Gift cards, Cash Gifts! Guests can shop everything and checkout all in one place (No redirects)
+                Easy one-step checkout (No redirects). Your love ones can shop items from different store, checkout once all in one place. 
                 </p>
                 <div className="mt-10">                    
                     <a href="/" className="bg-[#E8C0E8] hover:bg-[#d3a9d3] py-4 px-16 sm:px-10 text-[#545154] text-xl rounded-full font-semibold ">Join Now</a>                    

@@ -31,15 +31,10 @@ const faqs = [
       "4. <b>Stay super organised</b> – It’s a tool to help you keep track of everything you need all in one place. It’s also sharable and shoppable."
   },
   {
-    question: "Why should I use BabyPouch?",
+    question: "Why should I use Little Registry?",
     answer:
       "BabyPouch gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
-      "In addition to all the benefits of using an all-in-one baby registry, we're the only registry that offers the following:<br/><br/>"+ 
-      "1. <b>Group gifts on anything</b> – We let your loved ones chip in for any big ticket items, like strollers, car seats or high chairs from different stores. If you want to save up for diaper deliveries or baby’s future college fund, we let you add any cash funds for others to contribute.<br/><br/>"+ 
-      "2. <b>Unlimited gift exchange</b> - You might change your mind and want to get something else even after you send out the registry. When someone buys from your registry, you receive the cash equivalent of the product. You can take that cash out and swap for something else that you actually want. Your guest won’t be notified when you swap behind the scenes. <br/><br/>"+
-      "3. <b>Ship when you want</b> - When someone buys from your registry, you can cash out the amount your guest paid to order products at your leisure. If you don’t want to store a high chair for 6 months before it’s useful, you can order it later.<br/><br/>"+  
-      "4. <b>Privacy</b> - With BabyPouch, your address and contact info stays private. No need to pass your address back and forth with guests.<br/><br/>" + 
-      "5. <b>Extra personalised registry site</b> – Create a custom domain to make it easy to remember for you and your guests. Add a custom theme to make it feel like you.",
+      "We're the only registry that offers the following: Group gifts on anything, cash funds,discreet gift exchange, Ship when you want, Privacy first features, lots of registry customization options." 
   },  
   {
     question: "How does BabyPouch work?",

@@ -33,7 +33,7 @@ export function OrganizeShopList() {
       <div className="mx-auto pb-20 lg:flex flex-1 lg:items-center lg:gap-x-10 flex-wrap md:flex-nowrap flex-row-reverse">
                 <div className="pl-4 pt-20 pb-20">
                   <h1 className="max-w-4xl lg:pt-0 font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#005394]">
-                    Organize your baby shopping list
+                    Organize your shopping list
                   </h1>
                   <p className="mt-6 max-w-4xl text-xl sm:text-2xl text-[#005394] tracking-tight">
                   One link to curate everything you need for your new baby.
