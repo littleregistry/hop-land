@@ -90,7 +90,7 @@ export function WhyLove() {
       <div className="mx-auto mt-20 grid grid-cols-2 gap-x-8 gap-y-8 lg:mx-0 lg:max-w-none md:grid-cols-3">
           {posts.map((post) => (
             <article key={post.id} className="flex flex-col bg-[#fff] pt-8 px-8 rounded-3xl justify-between">
-              <div className="relative w-full">
+              <div className="relative h-[199px] flex">
                 <Image
                   src={post.imageUrl}
                   alt=""

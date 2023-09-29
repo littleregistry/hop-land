@@ -117,14 +117,14 @@ export function Header() {
                   <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-medium sm:text-lg p-2 sm:p-4 rounded-lg">
                     Log in
                   </div>            
-            </Link>
+            </a>
             
             {/* Button */}
             <a href="/register">
               <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-medium sm:text-lg p-2 sm:p-4 rounded-full">
                 Sign up free
               </div>
-            </Link>
+            </a>
 
           </div>
 
