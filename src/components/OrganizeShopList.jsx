@@ -42,7 +42,7 @@ export function OrganizeShopList() {
                   </p>  
 
                   <div className="mt-10">                    
-                    <a href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</a>                    
+                    <a href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</a>                    
                   </div>
 
                   <a href="/baby-registry-checklist">
