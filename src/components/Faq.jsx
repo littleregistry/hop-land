@@ -21,64 +21,61 @@ import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 
 const faqs = [  
   {
-    question: "Why do I need an all-in-one baby registry?",
+    question: "Why do I need a universal baby registry?",
     answer:      
-      "Right now, many individual registries only allow you to register gifts in their store. But sometimes it’s hard to find everything you want in one place. <br/><br/>"+
-      "Here are 4 benefits of using an all-in-one baby registry. <br/><br/>"+
-      "1. <b>Make things easy for your friends and family</b> – It’s a hassle to send out multiple registries for your friends and family. You can combine all the registries in one list for them to shop. <br/><br/>"+
-      "2. <b>Registry at as many stores as you want</b> – Enjoy all the perks and completion discounts in any stores. Support small businesses and indie brands.  <br/><br/>"+
-      "3. <b>Registry for any cash fund</b> – You can easily set up a cash fund (eg. diapers, doulas). Many individual store registries don’t allow it.  <br/><br/>"+
-      "4. <b>Stay super organised</b> – It’s a tool to help you keep track of everything you need all in one place. It’s also sharable and shoppable."
+      "Right now, many individual registries only allow you to register gifts in their store. But sometimes it’s hard to find everything you want in one place. With a universal registry:<br/>"+      
+      "1. <b>You make things easy for your friends and family</b> – No need to send out multiple registries. You can combine all the registries in one list for them to shop. <br/>"+
+      "2. <b>Register at as many stores as you want</b> – Retain all the perks and completion discounts in any stores. Support small businesses and indie brands.  <br/><br/>"      
   },
   {
-    question: "Why should I use Little Registry?",
+    question: "Why should I use LittleRegistry?",
     answer:
-      "BabyPouch gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
-      "We're the only registry that offers the following: Group gifts on anything, cash funds,discreet gift exchange, Ship when you want, Privacy first features, lots of registry customization options." 
+      "Little Registry gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. "+
+      "We're the only registry that offers the following: <b>Group gifts on items from any store, cash funds, discreet gift exchange, privacy first features, lots of registry customization options.</b>" 
   },  
   {
-    question: "How does BabyPouch work?",
+    question: "How does LittleRegistry work?",
     answer:
-      "There are 4 steps to using BabyPouch. <br/><br/>"+ 
-      "1. <b>Customize your registry </b>– Add a photo, greeting message and update the background colour of your registry. <br/><br/>"+
-      "2. <b>Add gifts & cash funds</b> – In a click, you can add gifts from any URL or registries and set up your custom cash fund. <br/><br/>"+
-      "3. <b>Share your registry</b> – Once you’re done adding gifts, you can start sharing it with friends and family.  <br/><br/>"+
-      "4. <b>Get notified when someone buys you gifts </b>– Get notified when guests buy you something and track what’s remaining on your registry. <br/><br/>"+
+      "There are 4 steps to using LittleRegistry. <br/>"+ 
+      "1. Customize your registry with a photo, theme and greeting message<br/>"+
+      "2. Add gifts from any URL & cash funds in a click<br/>"+
+      "3. Share your registry with friends and family<br/>"+
+      "4. Get notified when guests buy you something and track what’s remaining on your registry<br/><br/>"+
       "When guests buy you something, we proceed to convert the value of the gift to cash. This cash can then be used at your discretion to purchase anything you actually need. <br/><br/>"
   },
   {
     question: "Is there a sample registry I can visit? ",
     answer:
-      "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the BabyPouch experience from your guest’s perspective. <br /><br /> Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal.",
+      "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the LittleRegistry experience from your guest’s perspective. Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal.",
   },
   {
-    question: "How is BabyPouch different from other baby registries?",
+    question: "How is LittleRegistry different from other baby registries?",
     answer:
       "The biggest complaint people have about other universal registries is the complex checkout experience – redirecting guests to checkout in other stores, then going back to mark products as purchased. <br/><br/>"+
-      "This experience often leads to confusion if guests forget to mark gifts as purchased or enter the wrong shipping address. When that happens, you have a high chance of receiving nothing or duplicates from different friends and family members. It’s awkward to ask for a gift receipt to return someone’s gift. BabyPouch eliminate these concerns entirely with our unique approach. <br/><br/>"+
-      "BabyPouch offers a 1-step checkout experience for your guests. Your guests can shop and checkout all in one place. BabyPouch also offers the most customizations options compared to any baby registries. You have full control over what gets ordered and shipped at your leisure."
+      "This experience often leads to confusion if guests forget to mark gifts as purchased or enter the wrong shipping address. When that happens, you have a high chance of receiving nothing or duplicates from different friends and family members. It’s awkward to ask for a gift receipt to return someone’s gift. LittleRegistry eliminate these concerns entirely with our unique approach. <br/><br/>"+
+      "LittleRegistry offers a 1-step checkout experience for your guests. Your guests can shop and checkout all in one place."
   },
   {
-    question: "What countries does BabyPouch support? ",
+    question: "What countries does LittleRegistry support? ",
     answer:
-      "Our customer support team only supports customers in Canada. However, our features work for users in both US & Canada. <br/><br/> If you have family members and friends from the US who want to contribute to your baby registry, they can do so with no problem.",
+      "Our customer support team only supports parents in Canada at the moment. However, if you have family members and friends from around the world who want to contribute to your baby registry, they can do so with no problem.",
   },
   {
     question: "Do you offer any completion discounts?",
     answer:
-      "BabyPouch is not an actual store and therefore doesn't offer any completion discounts. However, BabyPouch is designed to let you take advantage of completion discounts from multiple stores. We let you combine multiple registries into one. <br/><br/>"+ 
-      "To qualify for completion discounts offered by any store, you still need to set up a registry directly on their site. Then you can proceed to paste the product link onto BabyPouch. <br/><br/>"+
-      "If you already created a registry on their site, send us a message in the chat. We will transfer your existing products to BabyPouch for you."
+      "LittleRegistry is not an actual store and therefore doesn't offer any completion discounts. However, LittleRegistry is designed to let you take advantage of completion discounts from multiple stores. We let you combine multiple registries into one. <br/><br/>"+ 
+      "To qualify for completion discounts offered by any store, you still need to set up a registry directly on their site. Then you can proceed to paste the product link onto LittleRegistry. <br/><br/>"+
+      "If you already created a registry on their site, send us a message in the chat. We will transfer your existing products to LittleRegistry for you."
   },
   {
     question: "What is your return policy? ",
     answer:
-      "BabyPouch is not an actual store and therefore doesn't offer any returns or exchange. BabyPouch is designed to help you link multiple stores to one site. The return policy depends on the brand or store you registered at.",
+      "LittleRegistry is not an actual store and therefore doesn't offer any returns. LittleRegistry is designed to help you link multiple stores to one site. The return policy depends on the brand or store you registered at.",
   },
   {
-    question: "Is BabyPouch free?",
+    question: "Is LittleRegistry free?",
     answer:
-      "BabyPouch is completely free to use for you as a registrant.<br/><br/>"+
+      "LittleRegistry is completely free to use for you as a registrant.<br/><br/>"+
       "When guests purchase through our platform, we charge a 3% transaction fee. For example, if your guest purchased a $20 gift, we take a $0.6 transaction fee."
   },   
 ]

@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Baby Pouch - People-Friendly Baby Registry</title>
+        <title>LittleRegistry - The Best Canadian Baby Registry</title>
         <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."

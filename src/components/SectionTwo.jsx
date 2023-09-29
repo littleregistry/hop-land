@@ -10,6 +10,7 @@ import logoStatamic from '@/images/logos/statamic.svg'
 import logoStaticKit from '@/images/logos/statickit.svg'
 import logoTransistor from '@/images/logos/transistor.svg'
 import logoTuple from '@/images/logos/tuple.svg'
+
 import nunaCard from '@/images/hero-cards/nuna-trvl-stroller.png'
 import collegeCard from '@/images/hero-cards/college-fund.png'
 import mobyCard from '@/images/hero-cards/moby-wrap.png'

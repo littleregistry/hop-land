@@ -1,0 +1,811 @@
+[
+    {
+        "category_id": 1,
+        "category": "Gear",
+        "categoryIcon": "/checklist-icons/pram.svg",
+        "category_order": 1,
+        "category_visible": false,
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Stroller",
+                "product_type_order": 1,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692586790/babypouch-checklist-img/ji8onc9djqxgngwqetyd.png",                
+                "product_type_id": "11",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Car Seats",
+                "product_type_order": 2,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692587662/babypouch-checklist-img/y05th96bclxkjsayl1fk.png",
+                "product_type_id": "12",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Carriers",
+                "product_type_order": 3,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588526/babypouch-checklist-img/d9ua2fsak3mjmpqlypey.png",
+                "product_type_id": "13",
+                "checked": false
+            },                        
+            {
+                "tag": "",
+                "product_type": "Stroller Accessories",
+                "product_type_order": 4,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588277/babypouch-checklist-img/lw7frd5mqoojkte3zrk7.png",
+                "product_type_id": "14",
+                "checked": false
+            },            
+            {
+                "tag": "",
+                "product_type": "Car Seat Accessories",
+                "product_type_order": 5,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588618/babypouch-checklist-img/shfsxngzehubsge6axwy.png",
+                "product_type_id": "15",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Diaper Bag",
+                "product_type_order": 6,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692587788/babypouch-checklist-img/kgpslg7jpqyuopcxckyn.png",
+                "product_type_id": "16",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 2,
+        "category": "Sleeping",
+        "categoryIcon": "/checklist-icons/cradle.svg",
+        "category_order": 2,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Bassinet",
+                "product_type_order": 1,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588758/babypouch-checklist-img/w1buutqgruojghsnxnjf.png",
+                "product_type_id": "21",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Crib",
+                "product_type_order": 2,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589026/babypouch-checklist-img/beqyvl4hvoufm7unsnlc.png",
+                "product_type_id": "22",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Playard",
+                "product_type_order": 3,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589148/babypouch-checklist-img/lvry14ramnn6vc3acvwt.png",
+                "product_type_id": "23",
+                "checked": false
+            },           
+            {
+                "tag": "Essential",
+                "product_type": "Crib Mattress",
+                "product_type_order": 4,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589336/babypouch-checklist-img/lkpeicfo3d0bkyrp7ve9.png",
+                "product_type_id": "24",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Crib Sheets",
+                "product_type_order": 5,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589461/babypouch-checklist-img/hfx3o8njdzb4vkvl68m7.png",
+                "product_type_id": "25",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Monitor",
+                "product_type_order": 6,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589904/babypouch-checklist-img/axdmqqdzyclfchclus9w.png",
+                "product_type_id": "26",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Swaddles",
+                "product_type_order": 7,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589997/babypouch-checklist-img/naqhk8co8ozv7vwidghx.png",
+                "product_type_id": "27",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Sleep Sacks",
+                "product_type_order": 8,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692590409/babypouch-checklist-img/qukmxm2j3tzbdnf3flme.png",
+                "product_type_id": "28",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 3,
+        "category": "Nursery & Decor",
+        "categoryIcon": "/checklist-icons/hanging-toys.svg",
+        "category_order": 3,
+        "products": [
+            {
+                "tag": "",
+                "product_type": "Dresser",
+                "product_type_order": 1,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987715/lkiv3vhgchdzamxenfaa.png",
+                "product_type_id": "61",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Glider or Rocking Chair",
+                "product_type_order": 2,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987798/k3pgfg1jeluhss2gzuli.png",
+                "product_type_id": "62",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Sound Machine",
+                "product_type_order": 3,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987879/hywu5wiswlopmrttdl3y.png",
+                "product_type_id": "63",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Night Light",
+                "product_type_order": 4,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692992595/bpxpsk0grcjogs7hko6a.png",
+                "product_type_id": "64",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Mobile",
+                "product_type_order": 5,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692992767/skueaiu7dqptburharar.png",
+                "product_type_id": "65",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Blankets",
+                "product_type_order": 6,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692994655/nstnwjpl0sjcfcmfkllm.png",
+                "product_type_id": "66",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Shelves",
+                "product_type_order": 7,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692995663/wloecijl5wotphotqhzy.png",
+                "product_type_id": "67",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Storage Baskets",
+                "product_type_order": 8,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692995746/cufjeuzdgw3riytzryo1.png",
+                "product_type_id": "68",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Wall Decor",
+                "product_type_order": 9,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692995829/whiryiwktwlinhpch61k.png",
+                "product_type_id": "69",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 4,
+        "category": "Feeding",
+        "categoryIcon": "/checklist-icons/baby-bottle.svg",
+        "category_order": 4,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Formula",
+                "product_type_order": 1,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591056/babypouch-checklist-img/wf65gvdxujemq6u5ue2u.png",
+                "product_type_id": "31",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Bottles & Nipples",
+                "product_type_order": 2,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591145/babypouch-checklist-img/fc5c2gmbnaufqak8jltn.png",
+                "product_type_id": "32",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Bottle Cleaning Brush",
+                "product_type_order": 3,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591439/babypouch-checklist-img/nfiotzvfbjat6cwmci5z.png",
+                "product_type_id": "33",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Bottle Drying Rack",
+                "product_type_order": 4,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591517/babypouch-checklist-img/n2qvz5f46vevlvsa03ws.png",
+                "product_type_id": "34",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Bibs",
+                "product_type_order": 5,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591770/babypouch-checklist-img/r1picwvsl85boxioj9fb.png",
+                "product_type_id": "35",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Burp Cloths",
+                "product_type_order": 6,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591849/babypouch-checklist-img/czdyhe6uq6u0pmyuilii.png",
+                "product_type_id": "36",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nursing Pillow",
+                "product_type_order": 7,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591947/babypouch-checklist-img/tgoie0dypijqy2kphiki.png",
+                "product_type_id": "37",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Breast Pumps",
+                "product_type_order": 8,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692592113/babypouch-checklist-img/wnx7zqp62q7ny0gkvbpp.png",                
+                "product_type_id": "38",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Breastfeeding Accessories",
+                "product_type_order": 9,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692996084/lne8nmu3dmx6juupgopk.png",
+                "product_type_id": "39",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "High Chair",
+                "product_type_order": 10,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692996282/q8lbbjpiwq18p8ydqnyv.png",
+                "product_type_id": "310",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Bowls & Plates",
+                "product_type_order": 11,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692997478/i4poiltxip9aidlxuozz.png",
+                "product_type_id": "311",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Cups",
+                "product_type_order": 12,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692997638/zrxlg0qbfsmipffg5nmz.png",
+                "product_type_id": "312",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Formula Mixer",
+                "product_type_order": 13,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692997757/vr6u0ggkklvp6wadwsak.png",
+                "product_type_id": "313",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Formula Dispenser",
+                "product_type_order": 14,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692997960/fhq5zfbkuz0ifndnvmp8.png",
+                "product_type_id": "314",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bottle Cooler Bag",
+                "product_type_order": 15,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692998146/cu86b7pe2ymxjbxqtli0.png",
+                "product_type_id": "315",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bottle Warmer",
+                "product_type_order": 16,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692998210/agtigcplofgk4qeog1dy.png",
+                "product_type_id": "316",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bottle Sterilizer",
+                "product_type_order": 17,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692998276/jculhxjmitzvxturfhvt.png",
+                "product_type_id": "317",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Food Maker",
+                "product_type_order": 18,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692998391/q28sb6rw2ktm3zl0aucw.png",
+                "product_type_id": "318",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Food Storage & Containers",
+                "product_type_order": 19,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692998478/vimmdvq9mjlvq3llxc90.png",
+                "product_type_id": "319",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 5,
+        "category": "Diapering",
+        "categoryIcon": "/checklist-icons/diaper.svg",
+        "category_order": 5,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Changing Pad",
+                "product_type_order": 1,
+                "image_url": "https://m.media-amazon.com/images/I/71TxWuhSwoL._SL1500_.jpg",
+                "product_type_id": "41",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Portable Changing Pad",
+                "product_type_order": 2,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/2e92541d9209a54ad76677094762e80ebbafb7076ef6007b9c36a8f1f1f1fcc0/5bb8bab7aa0ddb05fc98fbb8a88c0d04/2e92541d9209a54ad76677094762e80ebbafb7076ef6007b9c36a8f1f1f1fcc0.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "42",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Diapers",
+                "product_type_order": 3,
+                "image_url": "https://m.media-amazon.com/images/I/81gHUMEK1TL._SL1500_.jpg",
+                "product_type_id": "43",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Wipes",
+                "product_type_order": 4,
+                "image_url": "https://i5.peapod.com/c/BN/BN33P.png",
+                "product_type_id": "44",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Diaper Rash Cream",
+                "product_type_order": 5,
+                "image_url": "https://mcprod.ecom.clxdtc.com/media/catalog/product/7/9/792850030503.jpg?optimize=low&fit=bounds&height=&width=",
+                "product_type_id": "45",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Diaper Pail & Refills",
+                "product_type_order": 6,
+                "image_url": "https://m.media-amazon.com/images/I/61p5kdhgdML._SL1500_.jpg",
+                "product_type_id": "46",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Diaper Cream Applicator",
+                "product_type_order": 7,
+                "image_url": "https://m.media-amazon.com/images/I/51Cdao-Q-yL._SL1500_.jpg",
+                "product_type_id": "47",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Diaper Caddy",
+                "product_type_order": 8,
+                "image_url": "https://m.media-amazon.com/images/I/811M2SvH5MS._SL1500_.jpg",
+                "product_type_id": "48",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Potty Seat",
+                "product_type_order": 9,
+                "image_url": "https://cdn.shopify.com/s/files/1/0693/0212/4823/files/BB-055266US-babybjorn-potty-chair-powder-yellow-white-WEB_c976b65a-ad25-4b93-93df-585850f7764f.jpg?height=600&pad_color=fff&v=1688846186&width=600",
+                "product_type_id": "49",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 6,
+        "category": "Bathing",
+        "categoryIcon": "/checklist-icons/soap.svg",
+        "category_order": 6,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Bathtub",
+                "product_type_order": 1,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/aecf0b3e9d29869521583323c4adc425e7bb5846936e159f01553ae71b24534e/bba8ca21f779da8b2624bb8c151d8011/aecf0b3e9d29869521583323c4adc425e7bb5846936e159f01553ae71b24534e.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "51",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Shampoo & Wash",
+                "product_type_order": 2,
+                "image_url": "https://www.sunbum.com/cdn/shop/products/1_SB_USA_BABY_Bath_FoamingShampoo_Wash_Front_2000x2400_PDP_444107_1024x1024.jpg?v=1673036230",
+                "product_type_id": "52",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Lotions",
+                "product_type_order": 3,
+                "image_url": "https://www.parents.com/thmb/KfH0a2AsjlHeT8r94KBHVgHSoKI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Aveeno-Baby-Daily-Moisture-Body-Lotion-9529616be26943f480e8e938495d883a.jpg",
+                "product_type_id": "53",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Wash Cloths",
+                "product_type_order": 4,
+                "image_url": "https://m.media-amazon.com/images/I/717MB4C-7zL._SL1001_.jpg",
+                "product_type_id": "54",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Hooded Towels",
+                "product_type_order": 5,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_8587850d-340d-49f9-afa6-e34af7aca199?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "55",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bath Toys",
+                "product_type_order": 6,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_cc032d78-7158-4818-9801-0489f5e50bf6?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "56",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bath Thermometer",
+                "product_type_order": 7,
+                "image_url": "https://www.kideno.com/wp-content/uploads/2023/01/B09N3KS617_2.jpg",
+                "product_type_id": "57",
+                "checked": false
+            }
+        ]
+    },         
+    {
+        "category_id": 7,
+        "category": "Clothing",
+        "categoryIcon": "/checklist-icons/baby-clothes.svg",
+        "category_order": 7,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Bodysuits",
+                "product_type_order": 1,
+                "image_url": "https://cdn.shopify.com/s/files/1/2338/2917/products/citrus_ss-jjb_039.jpg?v=1680579801",
+                "product_type_id": "71",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Footies",
+                "product_type_order": 2,
+                "image_url": "https://oldnavy.gap.com/webcontent/0054/026/436/cn54026436.jpg",
+                "product_type_id": "72",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Mittens",
+                "product_type_order": 3,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_1331a6db-271a-4a4b-836c-cd07ddf047a2?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "73",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Hats",
+                "product_type_order": 4,
+                "image_url": "https://i5.walmartimages.com/asr/79f7d8ef-c805-427d-80d2-aba987804fc9_1.6093a66eedb6b6034e8e5f0dc4dd5a49.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+                "product_type_id": "74",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Jackets",
+                "product_type_order": 5,
+                "image_url": "https://assets.theplace.com/image/upload/t_pdp_img_d,f_auto,q_auto,dpr_1.5/v1/ecom/assets/products/tcp/3040419/3040419_IV.png",
+                "product_type_id": "75",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Socks",
+                "product_type_order": 6,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_dcbe1d40-6987-44d1-8cdb-585b1bd4503e",
+                "product_type_id": "76",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Head Bands",
+                "product_type_order": 8,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_3e9c5bcb-d458-4845-b168-072cc3ee1d29?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "78",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Laundry Detergent",
+                "product_type_order": 9,
+                "image_url": "https://cdn11.bigcommerce.com/s-aye17snbxl/images/stencil/original/products/144/550/BGX_ProductImages_PDP_MiscBG_3xLaundryDetergent_FF_60oz_60loads_Front78__29134.1651254487.jpg?c=1",
+                "product_type_id": "79",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Stain Remover",
+                "product_type_order": 10,
+                "image_url": "https://m.media-amazon.com/images/I/61MDtkmJhTL._AC_SL1500_.jpg",
+                "product_type_id": "710",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 8,
+        "category": "Playing",
+        "categoryIcon": "/checklist-icons/horse-hopper.svg",
+        "category_order": 8,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Pacifiers",
+                "product_type_order": 1,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_8ab67242-c658-4050-b948-2725defded1f?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "81",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Play Mat",
+                "product_type_order": 2,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/9ae085dbf532b7d516045cb81da5c406e84c19bd107a1766ba8066d337e30f86/3eaefdb4d953218586275b1e5f2a261a/9ae085dbf532b7d516045cb81da5c406e84c19bd107a1766ba8066d337e30f86.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "82",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Activity Gym",
+                "product_type_order": 3,
+                "image_url": "https://www.adenandanais.com/media/catalog/product/A/A/AAGM10001_1-baby-playtime-activity-gym.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=",
+                "product_type_id": "83",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Bouncer",
+                "product_type_order": 4,
+                "image_url": "https://www.cybex-online.com/dw/image/v2/BFHM_PRD/on/demandware.static/-/Sites-cybex-master-catalog/default/dw33d8031f/images/products/10090998/cyb_21_int_y045_lemo_bouncer_nest_comfortpack_stand_sobl_17d51224f9b0c070.jpeg?sw=690&sh=690&sm=fit&q=80&strip=false",
+                "product_type_id": "84",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Swing",
+                "product_type_order": 5,
+                "image_url": "https://www.munchkin.com/media/catalog/product/cache/6ebc13d0c0e34f391e9e75dc0e2b175c/s/w/swing_1.jpg",
+                "product_type_id": "85",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Teethers",
+                "product_type_order": 6,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/fd46d3c20be1449ba96d3790c300ea14fe40b413152f48fa339fe39981dbca9f/4f8a7556aba587a1e46f7cffcf02391c/fd46d3c20be1449ba96d3790c300ea14fe40b413152f48fa339fe39981dbca9f.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "86",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Toys",
+                "product_type_order": 7,
+                "image_url": "https://wonderandwise.com/wp-content/uploads/2020/09/rainbow-nesting.jpg",
+                "product_type_id": "87",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Books",
+                "product_type_order": 8,
+                "image_url": "https://img.fruugo.com/product/6/90/191348906_max.jpg",
+                "product_type_id": "88",
+                "checked": false
+            }
+        ]
+    },
+    {
+        "category_id": 9,
+        "category": "Health & Safety",
+        "categoryIcon": "/checklist-icons/medical-clipboard.svg",
+        "category_order": 9,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Baby Thermometer",
+                "product_type_order": 1,
+                "image_url": "https://frida.com/cdn/shop/products/10_29_Fridababy26255_edit_600x.jpg?v=1691701364",
+                "product_type_id": "101",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nasal Aspirator",
+                "product_type_order": 2,
+                "image_url": "https://hsastore.com/on/demandware.static/-/Sites-hec-master/default/dw72f97dab/images/large/fridababy-electric-nosefrida-31191-2.jpg",
+                "product_type_id": "102",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Nail Clipper / Filers",
+                "product_type_order": 3,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_ed35a157-cc95-44c4-a28e-40007dc5f040?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "103",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Medicine Dispenser",
+                "product_type_order": 4,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_fb1d23b3-7fac-49c3-a01f-dd5a5bebfa72?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "104",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "First Aid Kit",
+                "product_type_order": 5,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_817b43d9-ef38-4184-88b9-d844767cd830?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "105",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Toothbrush",
+                "product_type_order": 6,
+                "image_url": "https://target.scene7.com/is/image/Target/GUEST_45d099c0-b115-4f52-bbe9-8d71ea21972c?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "product_type_id": "106",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Baby Sunscreen",
+                "product_type_order": 7,
+                "image_url": "https://tastyganics.com/cdn/shop/products/Thinkbaby-baby-Sunscreen-SPF-50-6-fl-oz-177-ml_400x.jpg?v=1656348813",
+                "product_type_id": "107",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Ear + Nose Picker",
+                "product_type_order": 8,
+                "image_url": "https://oogiebear.com/cdn/shop/products/MicrosoftTeams-image_21_720x.jpg?v=1667578532",
+                "product_type_id": "108",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Baby Scale",
+                "product_type_order": 9,
+                "image_url": "https://i5.walmartimages.com/asr/e1fc8e0f-9640-418b-b080-d120f1a80a84.3a0b81fd659b9a24ef07435625b1c5ec.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+                "product_type_id": "109",
+                "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Humidifier",
+                "product_type_order": 10,
+                "image_url": "https://crane-baby.com/wp-content/uploads/2022/01/1-EE-5301W-HERO.jpg",
+                "product_type_id": "110",
+                "checked": false
+            }
+        ]
+    },  
+    {
+        "category_id": 10,
+        "category": "For Mom",
+        "categoryIcon": "/checklist-icons/pregnant-woman.svg",
+        "category_order": 10,        
+        "products": [
+            {
+                "tag": "Essential",
+                "product_type": "Pregnancy Pillow",
+                "product_type_order": 1,
+                "image_url": "https://momcozy.com/cdn/shop/products/MomcozyUShapedPregnancyPillow_5.jpg?v=1689921332&width=540",
+                "product_type_id": "91",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nursing Bras",
+                "product_type_order": 2,
+                "image_url": "https://themommasshop.com/cdn/shop/products/Momma-s-Comfy-Maternity-Bra-_-Free-Bra-Extender-Momma-s-Shop-1677858007.jpg?v=1677858009",
+                "product_type_id": "92",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nursing Pads",
+                "product_type_order": 3,
+                "image_url": "https://www.kindredbravely.com/cdn/shop/files/Organic-Bamboo-Nursing-Pads-10-Count-Kindred-Bravely.jpg?v=1684877617",
+                "product_type_id": "93",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nipple Cream",
+                "product_type_order": 4,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/0a2f92142705f685efabf9250d1a28eaeef7302246a2f27a903d6626b76307f8/d7ccae167dc9dd081e7fac82adfc1866/0a2f92142705f685efabf9250d1a28eaeef7302246a2f27a903d6626b76307f8.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "94",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Nursing Cover",
+                "product_type_order": 5,
+                "image_url": "https://images.ctfassets.net/50gzycvace50/23da0d8df1d229b4927192cb5751f52947f4014d49e88081c361308bfc48bf14/659281fe25ca945d66f7a552dbc233e7/23da0d8df1d229b4927192cb5751f52947f4014d49e88081c361308bfc48bf14.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
+                "product_type_id": "95",
+                "checked": false
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Postpartum Kit",
+                "product_type_order": 6,
+                "image_url": "https://m.media-amazon.com/images/I/619umG0cLRS._AC_SL1500_.jpg",
+                "product_type_id": "96",
+                "checked": false
+            }
+        ]
+    }    
+]

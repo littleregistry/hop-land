@@ -45,9 +45,12 @@ export function OrganizeShopList() {
                     <a href="/" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</a>                    
                   </div>
 
+                  <a href="/baby-registry-checklist">
                   <p className="underline ml-4 mt-6 max-w-4xl text-xl sm:text-2xl text-[#005394] tracking-tight">
                   Go to Checklist
                   </p>
+                  </a>
+                  
                   
                 </div>
 

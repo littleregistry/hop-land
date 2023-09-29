@@ -13,9 +13,9 @@ export function Footer() {
     "About": [
         // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         // {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
-        {'label': 'Registry Checklist', 'link': '/demo', 'key': 'demo-link'},
+        {'label': 'Registry Checklist', 'link': '/baby-registry-checklist', 'key': 'checklist-link'},
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
-        // {'label': 'Contact', 'link': '/contact', 'key': 'contact-link'},
+        {'label': 'Contact Us', 'link': '/contact', 'key': 'contact-link'},
     ],
     // "Compare": [
     //   {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
@@ -95,7 +95,7 @@ export function Footer() {
         <div className="flex flex-col items-center py-6 sm:flex-row-reverse sm:justify-between border-t border-[#d1d1d1]">
 
         <p className="mt-6 text-sm text-[#b5b3b3] sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} Baby Pouch. All rights
+            Copyright &copy; {new Date().getFullYear()} LittleRegistry. All rights
             reserved.
           </p>
         </div>
