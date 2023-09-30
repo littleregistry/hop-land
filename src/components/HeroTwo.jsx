@@ -94,7 +94,7 @@ export function HeroTwo() {
 
                     <a href={"/signup?name="+domainName} className="text-[#fff] text-xl md:text-medium font-semibold grid place-items-start">
                         <span className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 sm:px-6 sm:py-8 rounded-full ">
-                        Try now
+                        Try Now
                         </span>
                         
                     </a>
@@ -117,7 +117,7 @@ export function HeroTwo() {
       </div>
 
        <div className="grid items-center">
-        <div className="flex justify-center mt-6 ml-10 max-w-6xl text-center font-semibold text-xl sm:text-2xl text-[#919191] tracking-tight">Connect all Canadian brands & stores in one list.</div>
+        <div className="flex justify-center mt-6 ml-10 max-w-6xl text-center font-semibold text-xl sm:text-2xl text-[#595757] tracking-tight">Connect all Canadian brands & stores in one list.</div>
         <div className="flex justify-center my-2 ml-10 max-w-6xl text-center font-medium text-lg sm:text-xl text-[#919191] tracking-tight">Enjoy perks & discounts from any stores </div>
 
         {/* LOGOS */}
@@ -133,7 +133,7 @@ export function HeroTwo() {
         <Image src={Etsy} key={'logo-c'} height={70} className="p-2" />   
         <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" />   
         <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" />   
-        <Image src={Westcoastkids} key={'logo-f'} height={50} className="p-2" />   
+        <Image src={Westcoastkids} key={'logo-f'} height={70} className="p-2" />   
         <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" />
         <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" />
         </div>

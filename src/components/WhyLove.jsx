@@ -62,7 +62,7 @@ const posts = [
   {
     id: 6,
     title: 'Privacy first',
-    desc: 'No strangers can access your page to see your home address.',
+    desc: 'No strangers or employers can see your due date/address from your page.',
     href: '#',
     description: '',
     imageUrl: privacyIcon,
@@ -119,12 +119,12 @@ export function WhyLove() {
       </p>
       
      
-      <div className="my-28 p-20 rounded-3xl bg-[#461F69] text-[#ffffff]">
+      <div className="mx-6 my-28 p-20 rounded-3xl bg-[#461F69] text-[#ffffff]">
       <h1 className="mx-auto max-w-4xl text-center font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight ">
         Free registry consultation
       </h1>
-      <p className="mt-6 max-w-5xl text-xl sm:text-2xl text-center tracking-tight">
-      We understand how overwhelming the whole research process is. <br/>We're happy to chat if you need any help!
+      <p className="m-6 max-w-5xl text-xl sm:text-2xl text-center tracking-tight">
+      We understand how overwhelming the whole research process is. We're happy to chat if you need any help!
       </p>
 
       <div className="text-center ">

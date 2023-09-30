@@ -30,8 +30,9 @@ const faqs = [
   {
     question: "Why should I use LittleRegistry?",
     answer:
-      "Little Registry gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. "+
-      "We're the only registry that offers the following: <b>Group gifts on items from any store, cash funds, discreet gift exchange, privacy first features, lots of registry customization options.</b>" 
+      "Little Registry gives you total flexibility to register anything on your baby registry - gifts from any stores and any cash funds. You can keep all your items on one page, easily track what's available or purchased, and who you need to thank. <br/><br/>"+
+      "We're a <b>privacy-first</b> registry and we make sure no employers or strangers can google you and find out about your due date and mailing address.</b><br/><br/>"+
+      "We're the only registry that offers the following: <b> Group gifts on items from any store, cash funds, discreet gift exchange, lots of registry customization options.</b><br/>"      
   },  
   {
     question: "How does LittleRegistry work?",
@@ -53,7 +54,8 @@ const faqs = [
     answer:
       "The biggest complaint people have about other universal registries is the complex checkout experience – redirecting guests to checkout in other stores, then going back to mark products as purchased. <br/><br/>"+
       "This experience often leads to confusion if guests forget to mark gifts as purchased or enter the wrong shipping address. When that happens, you have a high chance of receiving nothing or duplicates from different friends and family members. It’s awkward to ask for a gift receipt to return someone’s gift. LittleRegistry eliminate these concerns entirely with our unique approach. <br/><br/>"+
-      "LittleRegistry offers a 1-step checkout experience for your guests. Your guests can shop and checkout all in one place."
+      "LittleRegistry offers a 1-step checkout experience for your guests. Your guests can shop and checkout all in one place. "+
+      "We're also a <b>privacy-first</b> registry. We make sure no employers or strangers can easily google you and find out about your due date and mailing address.</b><br/><br/>"
   },
   {
     question: "What countries does LittleRegistry support? ",

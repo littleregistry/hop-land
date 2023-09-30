@@ -103,12 +103,12 @@ export function Header() {
           
           <Link href="/">
           <div className="flex md:gap-x-6 align-baseline">
-            <div className="hidden md:flex mx-5 items-center">
-              <div className="text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
-              <div><Image className="mx-1 p-2" src={pouchMobileLogo} width={65} /></div>
+            {/* hidden md: */}
+            <div className="flex mx-5 items-center">
+              <div className="hidden sm:inline-block text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
+              <div><Image className="p-3" src={pouchMobileLogo} width={65} /></div>
             </div>
-            {/* <Image className="hidden md:inline mx-5" src={pouchDesktopLogo} width={215} /> */}
-            <Image className="md:hidden mx-2 p-2" src={pouchMobileLogo} width={65} />            
+                        
           </div>
           </Link>
 
