@@ -80,7 +80,7 @@ export default function Checklist() {
 
                     {/* Desc */}
                     <p className="flex justify-center mt-2 text-medium text-center text-gray-400">
-                     Let's make sure you don't miss a single thing.<br/>Sign up to build your list and save your progress.
+                     {`Let's make sure you don't miss a single thing.<br/>Sign up to build your list and save your progress.`}
                     </p>
                 </div>                       
                 

@@ -54,7 +54,7 @@ export default function HowitworksPage() {
             <br/>
 
             <p>
-            Let our registry consultant help you narrow down your options based on your lifestyle and family needs.  <b>It's free.</b>
+            Let our registry consultant help you narrow down your options based on your lifestyle and family needs.  <b>{`It's free.`}</b>
             </p>
 
             <br/>
