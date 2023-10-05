@@ -42,20 +42,20 @@ export function OrganizeShopList() {
                   </p>  
 
                   <div className="mt-10">                    
-                    <a href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</a>                    
+                    <Link href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</Link>                    
                   </div>
 
-                  <a href="/baby-registry-checklist">
+                  <Link href="/baby-registry-checklist">
                   <p className="underline ml-4 mt-6 max-w-4xl text-xl sm:text-2xl text-[#005394] tracking-tight">
                   Go to Checklist
                   </p>
-                  </a>
+                  </Link>
                   
                   
                 </div>
 
                 <div className="w-full pt-2 lg:pt-20 mx-10 max-w-xl relative">
-                    <Image height={1200} src={checklist} />
+                    <Image height={1200} src={checklist} alt='checklist-icon'/>
                 </div>
 
       </div>

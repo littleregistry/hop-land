@@ -62,8 +62,8 @@ export default function Signup() {
             <div>
               <Link href="/">
               <div className="flex md:gap-x-6 justify-start align-baseline">
-                <Image className="hidden md:inline" height={100} src='/pouchlogo-red-withtext-2.svg' width={215} />
-                <Image className="md:hidden" src='/pouchlogo-red.svg' height={100} width={65} />            
+                <Image className="hidden md:inline" height={100} src='/pouchlogo-red-withtext-2.svg' width={215} alt="little-registry-logo"/>
+                <Image className="md:hidden" src='/pouchlogo-red.svg' height={100} width={65} alt="little-registry-mobile-logo"/>            
               </div>
               </Link>
             <h2 className={"text-4xl font-semibold tracking-wider text-gray-900"}>Let&#39;s get started on your registry</h2>
@@ -243,6 +243,7 @@ export default function Signup() {
         </div>
         <div className="flex h-screen relative w-full justify-center items-center">
           <Image
+            alt="baby-bedroom"
             fill
             style={{ objectFit: 'cover'}}
  src="https://images.unsplash.com/photo-1607322851003-f5a88dc5b960?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format" />

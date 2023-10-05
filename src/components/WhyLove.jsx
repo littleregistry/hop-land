@@ -124,7 +124,7 @@ export function WhyLove() {
         Free registry consultation
       </h1>
       <p className="m-6 max-w-5xl text-xl sm:text-2xl text-center tracking-tight">
-      We understand how overwhelming the whole research process is. We're happy to chat if you need any help!
+      {`We understand how overwhelming the whole research process is. We're happy to chat if you need any help!`}
       </p>
 
       <div className="text-center ">
