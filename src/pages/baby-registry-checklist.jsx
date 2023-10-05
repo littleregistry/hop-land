@@ -61,7 +61,7 @@ export default function Checklist() {
                     Baby Registry Checklist
                     </h1>
                     <p className="flex justify-center mt-2 text-sm text-gray-500">
-                    Let's make sure you don't miss a single thing.
+                    {`Let's make sure you don't miss a single thing.`}
                     </p>
                 </div>            
                 

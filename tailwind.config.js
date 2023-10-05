@@ -1,12 +1,13 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
+
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   theme: {
     colors: {
-      'pouch-snow-500': '#5AA2EA',
-      'pouch-snow-700': '#3F96E8',
+      ...colors,
     },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '1rem' }],

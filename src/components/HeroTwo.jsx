@@ -3,12 +3,14 @@ import Link from 'next/link'
 import babypouchLogo from '@/images/logos/babypouch.jpg'
 import { useEffect, useState, useRef } from 'react'
 import { useForm } from 'react-hook-form'
+import axios from 'axios'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import registryGraphicOne from '@/images/hero-one.png'
 import registryGraphicTwo from '@/images/hero-two.png'
 import registryGraphicThree from '@/images/hero-three.png'
+import { AxiosClient } from '@/lib/axios'
 
 import Amazon from '@/images/logo-display/amazon-logo.png'
 import Babyrus from '@/images/logo-display/babies-r-us-logo.png'
@@ -18,6 +20,7 @@ import Snugglebugz from '@/images/logo-display/snugglebugz-logo.png'
 import Westcoastkids from '@/images/logo-display/westcoastkids-logo.png'
 import PotteryBarnKids from '@/images/logo-display/potterybarnkids-logo.png'
 import Walmart from '@/images/logo-display/walmart-logo.png'
+import { useRouter } from 'next/router'
 
 
 const colors = [registryGraphicOne, registryGraphicThree];
@@ -28,7 +31,23 @@ const canadianLogos = [
 ]
 
 export function HeroTwo() {
+    const router = useRouter()
     const [domainName, setDomainName] = useState("");
+    const {
+      control,
+      register,
+      handleSubmit,
+      getValues,
+      setValue,
+      setError,
+      reset,
+      watch,
+      trigger,
+		formState: { errors },
+    } = useForm({
+        mode: 'onChange',
+    });
+
     
     const handleChange = (e) => {
         setDomainName(e.target.value)        
@@ -42,6 +61,10 @@ export function HeroTwo() {
         if (timeoutRef.current) {
           clearTimeout(timeoutRef.current);
         }
+    }
+    const saveData = () => {
+        router.push('/signup?registryName='+getValues('registryName'))
+
     }
 
     useEffect(() => {
@@ -74,45 +97,48 @@ export function HeroTwo() {
                     Combine multiple registries into one wish list.                   
                 </p>
 
-                <div className="mt-10 sm:flex gap-x-6">                    
 
-            <div className="px-8 rounded-full py-2 md:py-5 mb-8 md:mb-0" style={{background: "white"}}>          
-                <div className="flex p-2 rounded-md sm:max-w-md">                    
-                  <span 
-                  style={{color: 'gray', fontSize: 'larger'}}
-                  className="flex select-none items-center ">littleregistry.com/</span>
-                  <input
-                    className="outline-none"
-                    onChange={handleChange}
-                    style={{border: 'none', fontSize: 'larger', width: '120px', left: '0', color: 'gray'
-                    }}                    
-                    type="text"                    
-                    placeholder="yourname"
-                  />                   
-                </div>
-              </div>
-
-                    <a href={"/signup?name="+domainName} className="text-[#fff] text-xl md:text-medium font-semibold grid place-items-start">
-                        <span className="bg-[#FC1938] hover:bg-[#FC1938] py-4 px-16 sm:px-6 sm:py-8 rounded-full ">
-                        Try Now
-                        </span>
-                        
-                    </a>
-                </div>                
+              <form onSubmit={handleSubmit(saveData)} className="mt-10 sm:space-x-4 flex">
+                    <div 
+                        className="relative flex bg-white rounded-full border-1 py-1 text-gray-900 ring-1
+                        ring-gray-300 placeholder:text-gray-500 focus:z-10 text-sm
+                        focus:ring-2 focus:ring-inset focus:ring-indigo-600">
+                      <span className="flex select-none items-center pl-3 text-gray-900">littleregistry.ca/</span>
+                      <input
+                        type="text"
+                        {...register('registryName', {
+                          required: {
+                            value: true,
+                            message: 'Please choose a registry name'
+                          },
+                          validate: {
+                            checkName: async(values) => {
+                                try {
+                                    let result = await AxiosClient.get(`registries/check_name?registry_name=${values}`)
+                                    if (result.data.registry_name_exists) { return "This registry name already exists" }
+                                    return true
+                                } catch(e) {
+                                    return "There was an error validating your registry name"
+                                }
+                            }
+                          }
+                        })}
+                        className="block flex-1 text-sm border-0 bg-transparent py-0.5 pl-1 text-gray-900 placeholder:text-gray-500 focus:ring-0 sm:leading-6"
+                        placeholder="myregistry"
+                      />
+                    </div>
+                    
+                    <button type="submit" className="bg-[#FC1938] hover:bg-[#FC1938] px-16 sm:px-6 text-white rounded-full ">Try now</button>
+                </form>
+                {errors.registryName &&
+                <p className="mt-2 text-sm text-red-600">
+                {errors.registryName.message}
+                </p>
+                }
                 </div>
                 <div className="mt-10 mx-auto max-w-2xl w-fit flex justify-end">
                 {/* overflow-hidden */}
-                    <div 
-                        className="w-full whitespace-nowrap h-200 w-100"
-                        style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-                    >
-                        {/*  */}
-
-                        {colors.map((backgroundColor, idx) => (
-                            <Image src={backgroundColor} height={700} key={idx} className={idx == index ? "opacity-1 visible transition-opacity ease-in duration-700 inline-block h-full" : "opacity-0 invisible transition-opacity ease-in duration-700 inline-block h-full"}/>
-                        ))}
-                     
-                    </div>
+                <Image src={registryGraphicThree}/>
                 </div>
       </div>
 
@@ -128,14 +154,14 @@ export function HeroTwo() {
             ))}
         </div> */}
 
-        <Image src={Amazon} key={'logo-a'} height={70} width={160} className="p-2" />   
-        <Image src={Babyrus} key={'logo-b'} height={70} className="p-2" />   
-        <Image src={Etsy} key={'logo-c'} height={70} className="p-2" />   
-        <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" />   
-        <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" />   
-        <Image src={Westcoastkids} key={'logo-f'} height={70} className="p-2" />   
-        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" />
-        <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" />
+        <Image src={Amazon} key={'logo-a'} height={70} width={160} className="p-2" alt="amazon-logo" />   
+        <Image src={Babyrus} key={'logo-b'} height={70} className="p-2" alt="babyrus-logo"/>   
+        <Image src={Etsy} key={'logo-c'} height={70} className="p-2" alt="etsy-logo" />   
+        <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" alt="indigo-logo" />   
+        <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" alt="snuggle-bugz-logo" />   
+        <Image src={Westcoastkids} key={'logo-f'} height={70} className="p-2" alt="westcoast-kids-logo"/>   
+        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" alt="pottery-barn-kids-logo"/>
+        <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" alt="walmart-logo"/>
         </div>
      </div>                     
 
