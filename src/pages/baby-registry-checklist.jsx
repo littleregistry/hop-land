@@ -5,7 +5,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from "react";
 import { Disclosure } from '@headlessui/react'
+import { Button } from '@/components/Button'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline'
+import { Helmet } from 'react-helmet';
 
 import registryChecklist from './registry-checklist-items.json';
 
@@ -51,21 +53,51 @@ export default function Checklist() {
 
     return(        
         <div className="pt-4">
-        <Header />
+        <Helmet>
+            <title>Baby Registry Checklist (with Pictures & Tips)</title>
+            <meta name="description" content="Get your free personalized baby registry checklist & recommendations." />
+            <meta name="keywords" content="baby registry checklist, shopping, baby product recommendations" />
+            {/* <meta name="author" content="Your Name" /> */}
+            <meta property="og:title" content="Personalized baby registry checklist" />
+            <meta property="og:description" content="Get your free personalized baby registry checklist & recommendations." />
+            {/* <meta property="og:image" content="https://example.com/image.jpg" /> */}
+            <meta property="og:url" content="https://littleregistry.ca/baby-registry-checklist" />
+            {/* <meta name="twitter:title" content="My Page Title" />
+            <meta name="twitter:description" content="This is a description of my page" />
+            <meta name="twitter:image" content="https://example.com/image.jpg" />
+            <meta name="twitter:card" content="summary_large_image" /> */}
+        </Helmet>
+
+        <Header />        
 
         <div className="px-4 md:px-12 pt-2">            
 
             <div className="flex flex-nowrap justify-center mt-24">
                 <div className="max-w-xl">
-                    <h1 id="your-orders-heading" className="text-3xl font-bold tracking-tight text-gray-900">
+                    <h1 id="your-orders-heading" className="text-center text-3xl font-bold tracking-tight text-gray-900">
                     Baby Registry Checklist
-                    </h1>
-                    <p className="flex justify-center mt-2 text-sm text-gray-500">
-                    {`Let's make sure you don't miss a single thing.`}
+                    </h1>                    
+
+                    {/* Desc */}
+                    <p className="flex justify-center mt-2 text-medium text-center text-gray-400">
+                     Let's make sure you don't miss a single thing.<br/>Sign up to build your list and save your progress.
                     </p>
-                </div>            
+                </div>                       
                 
             </div>
+
+             {/* CTA */}
+             <div className="flex justify-center">
+             <Button href="/registry-consultant" className=" bg-[#E8C0E8] hover:bg-[#d3a9d3] m-5 px-5 py-2 text-[#545154] text-xl">
+                    {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
+                            <p className="m-6 max-w-5xl text-lg sm:text-xl text-center tracking-tight">
+                            Get your baby registry list built by experts for free <br/><b>(limited time only)</b>
+                            </p>                        
+                    {/* </div> */}
+            </Button>     
+            </div>
+           
+            
                     
                                                                          
             <div className="grid place-content-center grid-cols-1 px-0 md:px-20">

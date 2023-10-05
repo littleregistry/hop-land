@@ -136,8 +136,7 @@ export function HeroTwo() {
                 </p>
                 }
                 </div>
-                <div className="mt-10 mx-auto max-w-2xl w-fit flex justify-end">
-                {/* overflow-hidden */}
+                <div className="mt-10 mx-auto max-w-2xl w-fit flex justify-end">              
                 <Image src={registryGraphicThree}/>
                 </div>
       </div>
