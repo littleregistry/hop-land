@@ -155,13 +155,13 @@ export default function Checklist() {
                                 
                                 <Disclosure.Panel as="dd" className="mt-2 pr-12">
                                 <p className="text-base leading-7 text-gray-600">
-                                <div className="grid grid-cols-3 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
+                                <div className="grid grid-cols-2 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
                                         {checklist.products.map((product) => (
                                         <>                                
 
                                         <div className="group relative rounded-lg p-2 ring-offset-2 ring-1 ring-[#EBEBEB] shadow-[0px_6px_4px_2px_#f7fafc]">
                                             
-                                            <div className="w-full relative sm:h-36 md:h-36 lg:h-64 
+                                            <div className="w-full relative h-36 md:h-36 lg:h-64 
                                                 rounded-lg bg-white">                                            
                                                     <Image                                                key={product.image_url}
                                                         fill={true}

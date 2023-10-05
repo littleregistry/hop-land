@@ -5,6 +5,7 @@ import {useForm, Controller} from 'react-hook-form'
 import { useRouter } from 'next/router'
 import toast from 'react-hot-toast'
 import { AxiosClient } from '@/lib/axios'
+import pouchMobileLogo from '@/images/pouchlogo-red.svg'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -59,11 +60,11 @@ export default function Signup() {
         <div className={"flex flex-col lg:flex-row bg-white min-h-full h-screen " + inter.className}>
         <div className="relative flex flex-1 flex-col justify-center px-4 py-12 md:w-1/2 sm:px-6 lg:flex-none lg:px-20 xl:px-24">
           <div className="mx-auto w-full max-w-sm g:w-96">
-            <div>
+            <div className="mt-8">
               <Link href="/">
-              <div className="flex md:gap-x-6 justify-start align-baseline">
-                <Image className="hidden md:inline" height={100} src='/pouchlogo-red-withtext-2.svg' width={215} alt="little-registry-logo"/>
-                <Image className="md:hidden" src='/pouchlogo-red.svg' height={100} width={65} alt="little-registry-mobile-logo"/>            
+              <div className="flex md:gap-x-2">
+                <div className="hidden sm:inline-block text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
+                <Image className="relative bottom-2" src={pouchMobileLogo} width={45} alt="mobile-logo"/>
               </div>
               </Link>
             <h2 className={"text-4xl font-semibold tracking-wider text-gray-900"}>Let&#39;s get started on your registry</h2>
