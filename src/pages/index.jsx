@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { useEffect } from 'react'
+import { Helmet } from 'react-helmet'
 
 import { CallToAction } from '@/components/CallToAction'
 import { Footer } from '@/components/Footer'
@@ -24,27 +26,32 @@ import { Faq } from '@/components/Faq.jsx'
 
 
 export default function Home() {
+  const isMobile = typeof window !== "undefined"
+  useEffect(() => {
+    if (isMobile) {
+      const head = document.querySelector("head");
+      const script = document.createElement("script");
+  
+      script.setAttribute("src", '../scripts/crisp.js');
+      head.appendChild(script);
+  
+      return () => {
+        head.removeChild(script);
+      };
+    }
+    
+  }, []);
   return (
-    <>
-      <Head>
-        <title>LittleRegistry - The Best Canadian Baby Registry</title>
-        <meta
+    <>    
+      <Header />
+
+      {/* <meta
           name="description"
           content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
         />        
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
-        <meta name="theme-color" content="#ffffff"></meta>
-        
-      </Head>
-      <Header />
+        <meta name="theme-color" content="#ffffff"></meta> */}
+
       <main className="">
 
         <HeroTwo />
@@ -66,7 +73,7 @@ export default function Home() {
         {/* all the logos */}
 
         {/* <LogoCloud />               */}
-
+        
       </main>
       <Footer />
     </>

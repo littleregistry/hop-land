@@ -101,18 +101,19 @@ export function HeroTwo() {
                 </div>                
                 </div>
                 <div className="mt-10 mx-auto max-w-2xl w-fit flex justify-end">
+                <Image src={registryGraphicThree} height={700} className={ "opacity-1 visible transition-opacity ease-in duration-700 inline-block h-full"}/>             
+
                 {/* overflow-hidden */}
-                    <div 
+                    {/* <div 
                         className="w-full whitespace-nowrap h-200 w-100"
                         style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
-                    >
-                        {/*  */}
+                    > */}                     
 
-                        {colors.map((backgroundColor, idx) => (
+                        {/* {colors.map((backgroundColor, idx) => (
                             <Image src={backgroundColor} height={700} key={idx} className={idx == index ? "opacity-1 visible transition-opacity ease-in duration-700 inline-block h-full" : "opacity-0 invisible transition-opacity ease-in duration-700 inline-block h-full"}/>
-                        ))}
+                        ))} */}
                      
-                    </div>
+                    {/* </div> */}
                 </div>
       </div>
 

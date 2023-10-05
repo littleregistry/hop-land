@@ -32,7 +32,7 @@ export function Footer() {
   }
 
   return (
-    <footer className="bg-slate-50">
+    <footer className="bg-slate-50  ">
       <Container>        
           {/* <nav className="mt-10 text-sm" aria-label="quick links">
             <div className="-my-1 flex justify-center gap-x-6">

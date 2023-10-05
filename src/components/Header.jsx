@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import Head from 'next/head'
 import { Popover, Transition, } from '@headlessui/react'
 import clsx from 'clsx'
 
@@ -96,7 +97,23 @@ function MobileNavigation() {
 
 export function Header() {
   return (
+    <>
+    <Head>
+        <title>LittleRegistry - The Best Canadian Baby Registry</title>
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />       
+               
+    </Head>
+    
     <header className="bg-[#FAEAE7]">
+
       <Container className="">      
         <nav className="">
           <div className="bg-[#fff] z-20 h-14 sm:h-20 fixed rounded-full flex justify-between items-center right-6 left-6 top-6">
@@ -137,5 +154,6 @@ export function Header() {
         </nav>
       </Container>
     </header>
+    </>
   )
 }
