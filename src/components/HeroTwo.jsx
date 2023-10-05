@@ -154,14 +154,14 @@ export function HeroTwo() {
             ))}
         </div> */}
 
-        <Image src={Amazon} key={'logo-a'} height={70} width={160} className="p-2" />   
-        <Image src={Babyrus} key={'logo-b'} height={70} className="p-2" />   
-        <Image src={Etsy} key={'logo-c'} height={70} className="p-2" />   
-        <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" />   
-        <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" />   
-        <Image src={Westcoastkids} key={'logo-f'} height={70} className="p-2" />   
-        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" />
-        <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" />
+        <Image src={Amazon} key={'logo-a'} height={70} width={160} className="p-2" alt="amazon-logo" />   
+        <Image src={Babyrus} key={'logo-b'} height={70} className="p-2" alt="babyrus-logo"/>   
+        <Image src={Etsy} key={'logo-c'} height={70} className="p-2" alt="etsy-logo" />   
+        <Image src={Indigo} key={'logo-d'} height={70} width={180} className="p-2" alt="indigo-logo" />   
+        <Image src={Snugglebugz} key={'logo-e'} height={60} className="p-2" alt="snuggle-bugz-logo" />   
+        <Image src={Westcoastkids} key={'logo-f'} height={70} className="p-2" alt="westcoast-kids-logo"/>   
+        <Image src={PotteryBarnKids} key={'logo-pbk'} height={70} className="p-2" alt="pottery-barn-kids-logo"/>
+        <Image src={Walmart} key={'logo-walmart'} height={80} className="p-2" alt="walmart-logo"/>
         </div>
      </div>                     
 

@@ -106,25 +106,25 @@ export function Header() {
             {/* hidden md: */}
             <div className="flex mx-5 items-center">
               <div className="hidden sm:inline-block text-2xl font-semibold text-[#FC1938]">LittleRegistry</div>
-              <div><Image className="p-3" src={pouchMobileLogo} width={65} /></div>
+              <div><Image className="p-3" src={pouchMobileLogo} width={65} alt="mobile-logo"/></div>
             </div>
                         
           </div>
           </Link>
 
           <div className="flex py-6 ">
-            <a href="/login">
+            <Link href="/login">
                   <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-medium sm:text-lg p-2 sm:p-4 rounded-lg">
                     Log in
                   </div>            
-            </a>
+            </Link>
             
             {/* Button */}
-            <a href="/signup">
+            <Link href="/signup">
               <div className="w-max my-1 mx-2 mr-3 font-semibold bg-[#1E2330] hover:bg-[#5a6070] text-[#fff] text-medium sm:text-lg p-2 sm:p-4 rounded-full">
                 Sign up free
               </div>
-            </a>
+            </Link>
 
           </div>
 

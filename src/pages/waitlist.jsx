@@ -58,7 +58,7 @@ export default function WaitlistPage() {
     return (
        <div className="min-h-screen flex items-center justify-center text-center">
         <div>
-        <Image className="p-3" src={waitlist} width="650" height="450" />
+        <Image className="p-3" src={waitlist} width="650" height="450" alt="waitlist-icon" />
         <h1 className="text-xl">{`Thanks for joining our waitlist. We'll send you an email when little registry is ready!`}</h1>
         <button
             onClick={() => {router.push('/')}}

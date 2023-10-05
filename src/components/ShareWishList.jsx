@@ -30,7 +30,7 @@ export function ShareWishList() {
                 </div>
 
                 <div className="mx-auto max-w-xl">
-                    <Image  src={shareRegistry} />
+                    <Image  src={shareRegistry} alt="share-wish-list-icon" />
                 </div>
 
       </div>
