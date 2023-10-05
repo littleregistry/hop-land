@@ -130,11 +130,11 @@ export function Header() {
           </Link>
 
           <div className="flex py-6 ">
-            <Link href="/login">
+            {/* <Link href="/login">
                   <div className="w-max m-1 font-medium bg-[#E9E9E9] hover:bg-[#e2dede] text-medium sm:text-lg p-2 sm:p-4 rounded-lg">
                     Log in
                   </div>            
-            </Link>
+            </Link> */}
             
             {/* Button */}
             <Link href="/signup">
