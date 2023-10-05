@@ -38,7 +38,7 @@ export function TrackGifts() {
                   </p>  
 
                   <div className="mt-10">                    
-                    <a href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</a>                    
+                    <Link href="/signup" className="bg-[#005394] hover:bg-[#1162a0] py-4 px-16 sm:px-10 text-[#fff] text-xl rounded-full font-semibold ">Start Adding Gifts</Link>
                   </div>
                   {/* <div className="">
                     <Button href="/" className="bg-[#005394] hover:bg-[#1162a0] mt-10 px-8 py-5 text-[#fff] text-xl">Start Adding Gifts</Button>
@@ -49,7 +49,7 @@ export function TrackGifts() {
                 </div>
 
                 <div className="mx-auto max-w-xl p-6">
-                    <Image src={giftTracker} />
+                    <Image src={giftTracker} alt='gift-tracker-icon'/>
                 </div>
 
       </div>
