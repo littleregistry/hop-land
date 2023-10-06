@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import consultantIllustration from '@/images/consultant.svg'
 
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
@@ -9,6 +10,7 @@ import { Helmet } from 'react-helmet';
 
 import { HowItWorksHero } from '@/components/HowItWorksHero'
 import { HowItWorks } from '@/components/HowItWorks'
+
 
 
 export default function HowitworksPage() {
@@ -41,7 +43,7 @@ export default function HowitworksPage() {
         </Helmet>
             
       <Header />
-      <main className="min-h-[1000px]">
+      <main className="pb-8">
 
         <div className="mt-40 mx-10">
             <h1 className="text-2xl font-bold">Registry Consultant</h1>
@@ -91,6 +93,9 @@ export default function HowitworksPage() {
             3. Still not convinced? Let us send you a link so you can book a 1-1 call with any questions you have.
             </p>
         
+        </div>
+        <div className="mt-12 flex justify-center">
+          <Image src={consultantIllustration} width={450} height={450}/>
         </div>
         
         {/* <HowItWorksHero />
