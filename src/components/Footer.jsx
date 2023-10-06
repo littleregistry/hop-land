@@ -14,7 +14,6 @@ export function Footer() {
         // {'label': 'Our Story', 'link': '/about', 'key': 'about-link'},
         // {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
         {'label': 'Registry Checklist', 'link': '/baby-registry-checklist', 'key': 'checklist-link'},
-        {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
     ],
     // "Compare": [
     //   {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},

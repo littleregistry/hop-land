@@ -79,8 +79,9 @@ export default function Checklist() {
                     </h1>                    
 
                     {/* Desc */}
-                    <p className="flex justify-center mt-2 text-medium text-center text-gray-400">
-                     {`Let's make sure you don't miss a single thing.<br/>Sign up to build your list and save your progress.`}
+                    <p className="flex justify-center mt-2 text-lg text-center text-gray-600">
+                     Sign up to build your list and save your progress.<br></br>
+                     {`Let's make sure you don't miss a single thing.`}
                     </p>
                 </div>                       
                 
@@ -88,13 +89,13 @@ export default function Checklist() {
 
              {/* CTA */}
              <div className="flex justify-center">
-             <Button href="/registry-consultant" className=" bg-[#E8C0E8] hover:bg-[#d3a9d3] m-5 px-5 py-2 text-[#545154] text-xl">
+             <button href="/registry-consultant" className="px-4 py-4 bg-[#E8C0E8] rounded-full hover:bg-[#d3a9d3] m-5 text-[#545154]">
                     {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
-                            <p className="m-6 max-w-5xl text-lg sm:text-xl text-center tracking-tight">
+                            <p className="max-w-5xl sm:text-lg text-center tracking-tight">
                             Get your baby registry list built by experts for free <br/><b>(limited time only)</b>
                             </p>                        
                     {/* </div> */}
-            </Button>     
+            </button>     
             </div>
            
             
@@ -153,7 +154,7 @@ export default function Checklist() {
                                 </Disclosure.Button>
                                 </dt>
                                 
-                                <Disclosure.Panel as="dd" className="mt-2 pr-12">
+                                <Disclosure.Panel as="dd" className="mt-2">
                                 <p className="text-base leading-7 text-gray-600">
                                 <div className="grid grid-cols-2 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
                                         {checklist.products.map((product) => (
