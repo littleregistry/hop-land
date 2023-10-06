@@ -93,7 +93,7 @@ export function Faq() {
       </h1>      
       <p className="mx-auto mt-4 max-w-lg text-lg tracking-tight text-slate-700">
       </p>
-      <div className="bg-gray-900">
+      <div className="">
         <div className="p-4 mx-auto max-w-4xl divide-y divide-white/10 text-[#461F69]">          
           <dl className="mt-2 mx-6 space-y-6 divide-y divide-white/10">
             {faqs.map((faq) => (
