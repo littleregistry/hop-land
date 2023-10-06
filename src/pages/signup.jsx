@@ -10,8 +10,6 @@ import { AnalyticsBrowser } from '@segment/analytics-next'
 
 const analytics = AnalyticsBrowser.load({ writeKey: 'F1Q561QsfUIG0c6UiPrdHhIMAobwEFMt' })
 
-
-
 const inter = Inter({ subsets: ['latin'] })
 
 export async function getServerSideProps({req, params}) {
@@ -39,11 +37,16 @@ export default function Signup() {
         }
     });
 
-    analytics.identify('viewed sign up')
+    if (process.env.NODE_ENV != 'development') {
+      analytics.identify('viewed sign up')
+    }
+
 
     const handleSignup = async(data)=> {
 		try {
-      analytics.identify('completed sign up')
+      if (process.env.NODE_ENV != 'development') {
+        analytics.identify('completed sign up')
+      }
 
       let res = await AxiosClient.post('auth/signup',
       {
