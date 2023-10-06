@@ -88,7 +88,7 @@ export function HeroTwo() {
     <div className="bg-[#FAEAE7] p-4">
     <Container className="relative max-w-7xl">
       <div className="mx-auto max-w-7xl pt-32 sm:pt-36 pb-32 lg:flex lg:items-center">
-                <div>
+              <div>
                 <h1 className="max-w-5xl font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight text-[#FC1938]">
                     Create an all-in-one baby registry in minutes
                 </h1>                
@@ -98,7 +98,7 @@ export function HeroTwo() {
                 </p>
 
 
-              <form onSubmit={handleSubmit(saveData)} className="mt-10 sm:space-x-4 flex">
+              <form onSubmit={handleSubmit(saveData)} className="mt-10 sm:space-x-4 flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:flex">
                     <div 
                         className="relative flex bg-white rounded-full border-1 py-1 text-gray-900 ring-1
                         ring-gray-300 placeholder:text-gray-500 focus:z-10 text-sm
@@ -128,7 +128,7 @@ export function HeroTwo() {
                       />
                     </div>
                     
-                    <button type="submit" className="bg-[#FC1938] hover:bg-[#FC1938] px-16 sm:px-6 text-white rounded-full ">Try now</button>
+                    <button type="submit" className="bg-[#FC1938] hover:bg-[#FC1938] py-2 px-16 sm:px-6 text-white rounded-full ">Try now</button>
                 </form>
                 {errors.registryName &&
                 <p className="mt-2 text-sm text-red-600">
