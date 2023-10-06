@@ -54,8 +54,8 @@ export function OrganizeShopList() {
                   
                 </div>
 
-                <div className="w-full pt-2 lg:pt-20 mx-10 max-w-xl relative">
-                    <Image height={1200} src={checklist} alt='checklist-icon'/>
+                <div className="w-full pt-2 lg:pt-20 max-w-xl relative">
+                    <Image width="100%" height={1200} src={checklist} alt='checklist-icon'/>
                 </div>
 
       </div>
