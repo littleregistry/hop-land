@@ -119,11 +119,11 @@ export function WhyLove() {
       </p>
       
      
-      <div className="mx-6 my-28 p-20 rounded-3xl bg-[#461F69] text-[#ffffff]">
-      <h1 className="mx-auto max-w-4xl text-center font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight ">
+      <div className="my-28 py-20 px-12 rounded-3xl bg-[#461F69] text-[#ffffff]">
+      <h1 className="mb-8 mx-auto max-w-4xl text-center font-display md:text-6xl sm:text-5xl text-3xl font-medium tracking-tight ">
         Free registry consultation
       </h1>
-      <p className="m-6 max-w-5xl text-xl sm:text-2xl text-center tracking-tight">
+      <p className="mb-8 max-w-5xl text-xl sm:text-2xl text-center tracking-tight">
       {`We understand how overwhelming the whole research process is. We're happy to chat if you need any help!`}
       </p>
 
