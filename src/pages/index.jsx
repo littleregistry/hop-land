@@ -33,9 +33,6 @@ export default function Home() {
     analytics.identify('viewed home page')
   }
   useEffect(() => {
-
-    
-
     if (isMobile) {
       const head = document.querySelector("head");
       const script = document.createElement("script");

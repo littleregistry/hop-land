@@ -44,11 +44,11 @@ const faqs = [
       "4. Get notified when guests buy you something and track what’s remaining on your registry<br/><br/>"+
       "When guests buy you something, we proceed to convert the value of the gift to cash. This cash can then be used at your discretion to purchase anything you actually need. <br/><br/>"
   },
-  {
-    question: "Is there a sample registry I can visit? ",
-    answer:
-      "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the LittleRegistry experience from your guest’s perspective. Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal.",
-  },
+  // {
+  //   question: "Is there a sample registry I can visit? ",
+  //   answer:
+  //     "Most definitely! You can check out our <a href='/'>sample registry</a> to explore the LittleRegistry experience from your guest’s perspective. Our registry is designed to be used by anyone from any age. The experience is incredibly seamless and personal.",
+  // },
   {
     question: "How is LittleRegistry different from other baby registries?",
     answer:
