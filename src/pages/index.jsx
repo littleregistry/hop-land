@@ -29,8 +29,12 @@ const analytics = AnalyticsBrowser.load({ writeKey: 'F1Q561QsfUIG0c6UiPrdHhIMAob
 
 export default function Home() {
   const isMobile = typeof window !== "undefined"
-  useEffect(() => {
+  if (process.env.NODE_ENV != 'development') {
     analytics.identify('viewed home page')
+  }
+  useEffect(() => {
+
+    
 
     if (isMobile) {
       const head = document.querySelector("head");
