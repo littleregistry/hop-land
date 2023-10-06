@@ -23,11 +23,15 @@ import { ReceiveGifts } from '@/components/ReceiveGifts.jsx'
 import { TrackGifts } from '@/components/TrackGifts.jsx'
 
 import { Faq } from '@/components/Faq.jsx'
+import { AnalyticsBrowser } from '@segment/analytics-next'
 
+const analytics = AnalyticsBrowser.load({ writeKey: 'F1Q561QsfUIG0c6UiPrdHhIMAobwEFMt' })
 
 export default function Home() {
   const isMobile = typeof window !== "undefined"
   useEffect(() => {
+    analytics.identify('viewed home page')
+
     if (isMobile) {
       const head = document.querySelector("head");
       const script = document.createElement("script");
