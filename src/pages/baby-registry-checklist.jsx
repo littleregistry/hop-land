@@ -80,8 +80,7 @@ export default function Checklist() {
 
                     {/* Desc */}
                     <p className="flex justify-center mt-2 text-lg text-center text-gray-600">
-                     Sign up to build your list and save your progress.<br></br>
-                     {`Let's make sure you don't miss a single thing.`}
+                     Sign up to build your list and save your progress. {`Let's make sure you don't miss a single thing.`}
                     </p>
                 </div>                       
                 
@@ -89,13 +88,13 @@ export default function Checklist() {
 
              {/* CTA */}
              <div className="flex justify-center">
-             <button href="/registry-consultant" className="px-4 py-4 bg-[#E8C0E8] rounded-full hover:bg-[#d3a9d3] m-5 text-[#545154]">
+             <Link href="/registry-consultant" className="px-4 py-4 bg-[#E8C0E8] rounded-full hover:bg-[#d3a9d3] m-5 text-[#545154]">
                     {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
                             <p className="max-w-5xl sm:text-lg text-center tracking-tight">
                             Get your baby registry list built by experts for free <br/><b>(limited time only)</b>
                             </p>                        
                     {/* </div> */}
-            </button>     
+            </Link>     
             </div>
            
             
