@@ -130,7 +130,7 @@ export function WhyLove() {
       <div className="text-center ">
       <button href="/" 
         onClick={() => {document.getElementsByClassName('cc-nsge')[0].click() }}
-        className="bg-[#E8C0E8] hover:bg-[#d3a9d3] m-5 px-8 py-5 text-[#545154] text-xl rounded-full font-semibold">Start Chat</button>
+        className="bg-[#E8C0E8] hover:bg-[#d3a9d3] px-8 py-5 text-[#545154] text-xl rounded-full font-semibold">Start Chat</button>
       </div>
 
       </div>
