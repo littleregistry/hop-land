@@ -58,44 +58,18 @@ export default function HowitworksPage() {
             <p>
             Let our registry consultant help you narrow down your options based on your lifestyle and family needs.  <b>{`It's free.`}</b>
             </p>
+            <button
+                onClick={() => {document.getElementsByClassName('cc-nsge')[0].click() }}
+                type="button"
+                className="rounded-full mt-8 bg-gray-800 px-3.5 py-2.5 text-white text-sm font-semibold text-gray-900 hover:bg-gray-600"
+            >
+              Chat with a registry consultant now
+            </button>
 
-            <br/>
 
-            <p>
-            1. Fill out the forms below so we can serve you better. We want to tailor our recommendactions to meet your budget and family needs.  
-            </p>
-           
-            <Link href="https://forms.gle/yPXVQAMQ1PhPx3zR8">
-                <p className="text-[#fc1938] font-semibold underline">
-                    Form A) I only need several product recommendations 
-                </p>
-            </Link>
-            
-            <Link href="https://forms.gle/8RRZd1azDXKLXZR4A">
-                <p className="text-[#fc1938] font-semibold underline">
-                    Form B) I need help building the entire baby registry 
-                </p>
-            </Link>
-            
-
-            <br/>
-
-            <p>
-            2. We will get back to you within 24 hours with product and brand recommendations. Your whole baby registry is built with careful selection. 
-            </p>
-            <p>
-            (Receive additional 2-3 brand recommendactions per product and explained)
-            </p>
-
-            <br/>
-
-            <p>
-            3. Still not convinced? Let us send you a link so you can book a 1-1 call with any questions you have.
-            </p>
-        
         </div>
         <div className="mt-12 flex justify-center">
-          <Image src={consultantIllustration} width={450} height={450}/>
+          <Image src={consultantIllustration} width={450} height={450} alt="woman-typing-on-laptop-with-flower-on-right"/>
         </div>
         
         {/* <HowItWorksHero />
