@@ -69,7 +69,7 @@ export default function HowitworksPage() {
 
         </div>
         <div className="mt-12 flex justify-center">
-          <Image src={consultantIllustration} width={450} height={450}/>
+          <Image src={consultantIllustration} width={450} height={450} alt="woman-typing-on-laptop-with-flower-on-right"/>
         </div>
         
         {/* <HowItWorksHero />
