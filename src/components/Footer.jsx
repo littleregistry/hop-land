@@ -15,7 +15,6 @@ export function Footer() {
         // {'label': 'How it works', 'link': '/how-it-works', 'key': 'how-it-works-link'},
         {'label': 'Registry Checklist', 'link': '/baby-registry-checklist', 'key': 'checklist-link'},
         {'label': 'View Demo', 'link': '/demo', 'key': 'demo-link'},
-        {'label': 'Contact Us', 'link': '/contact', 'key': 'contact-link'},
     ],
     // "Compare": [
     //   {'label': 'MyRegistry', 'link': '/vs-myregistry', 'key': 'about-link'},
@@ -52,6 +51,12 @@ export function Footer() {
                             <div>{link.label}</div></Link>)
                       })
                   } 
+                  <div 
+                  onClick={() => {document.getElementsByClassName('cc-nsge')[0].click() }}
+                  className="text-xl text-[#7f7b7b] hover:underline cursor-pointer"
+                  >
+                    Contact Us
+                  </div>
           </div>
 
           {/* <div className="pl-20">
