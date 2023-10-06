@@ -80,7 +80,7 @@ export function SectionTwo() {
         <form onSubmit={handleSubmit(saveData)} className="mt-10 sm:space-x-4 space-y-4 sm:space-y-0 flex flex-col sm:flex-row">
                     <div 
                         className="relative flex bg-white rounded-full border-1 py-1 text-gray-900 ring-1
-                        ring-gray-300 placeholder:text-gray-500 focus:z-10 text-sm
+                        ring-gray-300 placeholder:text-gray-500 focus:z-10 text-lg
                         focus:ring-2 focus:ring-inset focus:ring-indigo-600">
                       <span className="flex select-none items-center pl-3 text-gray-900">littleregistry.ca/</span>
                       <input
@@ -102,12 +102,12 @@ export function SectionTwo() {
                             }
                           }
                         })}
-                        className="block flex-1 text-sm border-0 bg-transparent py-0.5 pl-1 text-gray-900 placeholder:text-gray-500 focus:ring-0 sm:leading-6"
+                        className="block flex-1 text-lg border-0 bg-transparent py-0.5 pl-1 text-gray-900 placeholder:text-gray-500 focus:ring-0 sm:leading-6"
                         placeholder="myregistry"
                       />
                     </div>
                     
-                    <button type="submit" className="bg-[#FC1938] hover:bg-[#FC1938] py-2 px-16 sm:px-6 text-white rounded-full ">Try now</button>
+                    <button type="submit" className="bg-[#FC1938] hover:bg-[#FC1938] py-2 px-16 sm:px-6 text-lg text-white rounded-full ">Try now</button>
                 </form>
                 
         </div>
