@@ -1,4 +1,7 @@
 import { Head, Html, Main, NextScript } from 'next/document'
+import { Analytics } from '@vercel/analytics/react';
+
+
 
 
 export default function Document(props) {
@@ -23,6 +26,7 @@ export default function Document(props) {
       </Head>
       <body className="flex h-full flex-col">
         <Main />
+        <Analytics />
         <NextScript />
       </body>
     </Html>
