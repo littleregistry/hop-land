@@ -75,12 +75,11 @@ export default function Checklist() {
             <div className="flex flex-nowrap justify-center mt-24">
                 <div className="max-w-xl">
                     <h1 id="your-orders-heading" className="text-center text-3xl font-bold tracking-tight text-gray-900">
-                    Baby Registry Checklist
+                    Use our Baby Registry Checklist to keep track of what you need to buy
                     </h1>                    
 
                     {/* Desc */}
-                    <p className="flex justify-center mt-2 text-lg text-center text-gray-600">
-                     Sign up to build your list and save your progress. {`Let's make sure you don't miss a single thing.`}
+                    <p className="flex justify-center mt-2 text-xl text-center text-gray-600">
                     </p>
                 </div>                       
                 
@@ -88,14 +87,22 @@ export default function Checklist() {
 
              {/* CTA */}
              <div className="flex justify-center">
-             <Link href="/registry-consultant" className="px-4 py-4 bg-[#E8C0E8] rounded-full hover:bg-[#d3a9d3] m-5 text-[#545154]">
+             <Link href="https://forms.gle/H4qqXrk4Ttnhbs9CA" 
+                className="rounded-md bg-indigo-50 px-3.5 py-2.5 text-lg my-8 text-center font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
                     {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
-                            <p className="max-w-5xl sm:text-lg text-center tracking-tight">
-                            Get your baby registry list built by experts for free <br/><b>(limited time only)</b>
+                    <p>
+                        Signup to save your checklist progress
+                    </p>                        
+            </Link>     
+            </div>
+            <Link href="https://forms.gle/H4qqXrk4Ttnhbs9CA">
+                    {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
+                            <p className="text-sm underline sm:text-lg hover:text-gray-500 text-center tracking-tight">
+                                Want more personalized brand recommendations?<br/>Fill in a short form and get advice from a baby registry expert.
                             </p>                        
                     {/* </div> */}
             </Link>     
-            </div>
+
            
             
                     
