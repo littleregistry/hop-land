@@ -8,6 +8,8 @@ import { Disclosure } from '@headlessui/react'
 import { Button } from '@/components/Button'
 import { ChevronDownIcon, ChevronUpIcon } from '@heroicons/react/24/outline'
 import { Helmet } from 'react-helmet';
+import { track } from '@vercel/analytics';
+
 
 import registryChecklist from './registry-checklist-items.json';
 
@@ -21,6 +23,8 @@ export default function Checklist() {
 
     const handleCheckboxChange = async(productTypeName, checklistCategoryId) => {
         console.log(productTypeName, checklistCategoryId)
+        track(`Clicked on ${productTypeName} in ${checklistCategoryId}`);
+
 
         let newUserChecklist = [...userChecklist]
 
