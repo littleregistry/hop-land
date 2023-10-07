@@ -108,7 +108,7 @@ export default function Checklist() {
                             let productsChecked = countOccurrences(checklist.products, 'checked')
                             let percentageChecked = productsChecked / checklist.products.length *100                                    
 
-                            return (<Disclosure as="div" key={checklist.category_id} className="p-4 md:p-6 border-2 rounded-3xl bg-white">
+                            return (<Disclosure as="div" key={checklist.category_id} className="p-4 md:p-6 border-2 rounded-3xl bg-white" defaultOpen>
                             {({ open }) => (
                             <>
                                 <dt>
