@@ -13,13 +13,24 @@ import { track } from '@vercel/analytics';
 
 import registryChecklist from './registry-checklist-items.json';
 
+import {ChecklistTipsModal} from '@/components/ChecklistTipsModal'
+
 export default function Checklist() {
 
     const [userChecklist, setUserCheckList] = useState([])
+    const [open, setOpen] = useState(false)
+
+    const [productTip, setProductTip] = useState("")
+
 
     useEffect(() => {
 		setUserCheckList(registryChecklist)
 	}, [])
+
+    const openModal = (product) => {
+        setOpen(true)
+        setProductTip(product)
+    }
 
     const handleCheckboxChange = async(productTypeName, checklistCategoryId) => {
         console.log(productTypeName, checklistCategoryId)
@@ -79,11 +90,12 @@ export default function Checklist() {
             <div className="flex flex-nowrap justify-center mt-24">
                 <div className="max-w-xl">
                     <h1 id="your-orders-heading" className="text-center text-3xl font-bold tracking-tight text-gray-900">
-                    Use our Baby Registry Checklist to keep track of what you need to buy
+                    Baby Registry Checklist
                     </h1>                    
 
                     {/* Desc */}
-                    <p className="flex justify-center mt-2 text-xl text-center text-gray-600">
+                    <p className="flex justify-center mt-2 text-medium text-center text-gray-600">
+                        Click on each product to learn more. Sign up to save your progress.
                     </p>
                 </div>                       
                 
@@ -95,7 +107,7 @@ export default function Checklist() {
                 className="rounded-md bg-indigo-50 px-3.5 py-2.5 text-lg my-8 text-center font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
                     {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
                     <p>
-                        Signup to save your checklist progress
+                        Sign up to set up your baby registry in minutes
                     </p>                        
             </Link>     
             </div>
@@ -112,7 +124,9 @@ export default function Checklist() {
                     
                                                                          
             <div className="grid place-content-center grid-cols-1 px-0 md:px-20">
-        
+            
+                <ChecklistTipsModal productTip={productTip} open={open} setOpen={setOpen} />
+
                 <>                    
                     <dl className="mt-10 space-y-6 ">
                         {userChecklist.map((checklist) => {
@@ -121,13 +135,15 @@ export default function Checklist() {
 
                             return (<Disclosure as="div" key={checklist.category_id} className="p-4 md:p-6 border-2 rounded-3xl bg-white" defaultOpen>
                             {({ open }) => (
-                            <>
+                            <>                                
                                 <dt>
                                 <Disclosure.Button className="w-full">
 
                                     <div>                                
                                     {/* CATEGORY NAME & EXPAND */}
                                     <div className="w-full">
+
+                                    
 
                                     <div className="flex justify-between text-left text-gray-900">
                                             <div className="flex items-center text-xl font-medium leading-7">                                                      
@@ -168,11 +184,10 @@ export default function Checklist() {
                                 <p className="text-base leading-7 text-gray-600">
                                 <div className="grid grid-cols-2 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8 mt-10">
                                         {checklist.products.map((product) => (
-                                        <>                                
-
+                                        <>                                                                        
                                         <div className="group relative rounded-lg p-2 ring-offset-2 ring-1 ring-[#EBEBEB] shadow-[0px_6px_4px_2px_#f7fafc]">
                                             
-                                            <div className="w-full relative h-36 md:h-36 lg:h-64 
+                                            <div onClick={() => openModal(product)} className="cursor-pointer w-full relative h-36 md:h-36 lg:h-64 
                                                 rounded-lg bg-white">                                            
                                                     <Image                                                key={product.image_url}
                                                         fill={true}
@@ -219,7 +234,26 @@ export default function Checklist() {
 
                 </>
                 
-            </div>                        
+            </div>   
+
+             <div className="flex justify-center">
+             <Link href="/signup" 
+                className="rounded-md bg-indigo-50 px-3.5 py-2.5 text-lg my-8 text-center font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
+                    {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
+                    <p>
+                        Sign up to set up your baby registry in minutes
+                    </p>                        
+            </Link>     
+            </div>
+            <Link href="https://forms.gle/H4qqXrk4Ttnhbs9CA">
+                    {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
+                            <p className="text-sm underline sm:text-lg hover:text-gray-500 text-center tracking-tight">
+                                Want more personalized brand recommendations?<br/>Fill in a short form and get advice from a baby registry expert.
+                            </p>                        
+                    {/* </div> */}
+            </Link>      
+
+            <br /><br />                 
                                                                   
         </div>
         <Footer />

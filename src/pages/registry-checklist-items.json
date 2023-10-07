@@ -1,8 +1,7 @@
 [
     {
         "category_id": 1,
-        "category": "Gear",
-        "publicCategoryIcon": "feedingIcon",
+        "category": "Gear",        
         "categoryIcon": "/checklist-icons/pram.svg",
         "category_order": 1,
         "category_visible": false,
@@ -13,7 +12,8 @@
                 "product_type_order": 1,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692586790/babypouch-checklist-img/ji8onc9djqxgngwqetyd.png",                
                 "product_type_id": "11",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "A stroller provides extra bit of convenience on the go and it also provides enough storage space on the go for essentials such as wipes, diapers, baby food and etc. Look for a stroller that maneuvers well in the terrain you live in"
             },
             {
                 "tag": "Essential",
@@ -21,7 +21,8 @@
                 "product_type_order": 2,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692587662/babypouch-checklist-img/y05th96bclxkjsayl1fk.png",
                 "product_type_id": "12",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Baby car seats help protect their head, neck and back throughout the car ride journey, during sudden stops or in a crash. There are many baby car seats for different age range. Start with an infant car seat or a convertible car seat."
             },
             {
                 "tag": "Essential",
@@ -29,23 +30,26 @@
                 "product_type_order": 3,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588526/babypouch-checklist-img/d9ua2fsak3mjmpqlypey.png",
                 "product_type_id": "13",
-                "checked": false
-            },                        
+                "checked": false,
+                "extraShortDesc": "Baby carriers allow your baby to feel secure and safe in their new environment and increase the bond between you and your baby. When choosing a baby carrier, make sure you can use it from month 0 and that it fits your body shape."
+            },
             {
                 "tag": "",
                 "product_type": "Stroller Accessories",
                 "product_type_order": 4,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588277/babypouch-checklist-img/lw7frd5mqoojkte3zrk7.png",
                 "product_type_id": "14",
-                "checked": false
-            },            
+                "checked": false,
+                "extraShortDesc": "Stroller accessories keep baby cool, warm, entertained and give you extra storage. Consider accessories such as stroller organizers, phone holders, stroller fans, stroller toys, footmuffs and rain/wind shields"
+            },
             {
                 "tag": "",
                 "product_type": "Car Seat Accessories",
                 "product_type_order": 5,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588618/babypouch-checklist-img/shfsxngzehubsge6axwy.png",
                 "product_type_id": "15",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "There are many car seat accessories such as rainshields, car seat protectors, car seat mirrors. Make sure to check with the car seat safety guidelines before use."
             },
             {
                 "tag": "Essential",
@@ -53,7 +57,8 @@
                 "product_type_order": 6,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692587788/babypouch-checklist-img/kgpslg7jpqyuopcxckyn.png",
                 "product_type_id": "16",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "A diaper bag is a bag parents can use to tote around all the baby essentials on the go. It usually contain different compartments to hold diapers, bottles, formula, extra change of clothes and more."
             }
         ]
     },
@@ -69,7 +74,8 @@
                 "product_type_order": 1,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692588758/babypouch-checklist-img/w1buutqgruojghsnxnjf.png",
                 "product_type_id": "21",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Although babies do not necessarily have to sleep in a bassinet, many use bassinets for the first 6 months because they are smaller in size, making them more portable. The sides are lower, so leaning over to get the baby is much easier than with a standard or convertible crib."
             },
             {
                 "tag": "Essential",
@@ -77,7 +83,8 @@
                 "product_type_order": 2,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589026/babypouch-checklist-img/beqyvl4hvoufm7unsnlc.png",
                 "product_type_id": "22",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Cribs are designed to be safe sleeping spaces for infants, with high sides that prevent the baby from rolling out of the bed or getting trapped between the mattress and the wall. Convertible cribs have adjustable floors and rails that can be lowered as your little one gets older, transitioning from a crib to a toddler bed."
             },
             {
                 "tag": "Essential",
@@ -85,7 +92,8 @@
                 "product_type_order": 3,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589148/babypouch-checklist-img/lvry14ramnn6vc3acvwt.png",
                 "product_type_id": "23",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Playards are baby-safe space you can use as a travel crib, changing station, play space, or bassinet. It folds down for storage for porability, and some come with wheels so it's easy to move from room to room."
             },           
             {
                 "tag": "Essential",
@@ -93,7 +101,8 @@
                 "product_type_order": 4,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589336/babypouch-checklist-img/lkpeicfo3d0bkyrp7ve9.png",
                 "product_type_id": "24",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Babies spends a lot of time with mattresses in the first year. It's worth exploring organic and breathable mattresses that offer a peace of mind. Even if your baby rolls over onto their belly while sleeping, breathable mattresses would be able to breathe through the mattress, which helps to reduce the risk of suffocation. Make sure to shop for a mattress that fits the crib you're purchasing"
             },
             {
                 "tag": "Essential",
@@ -101,7 +110,17 @@
                 "product_type_order": 5,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589461/babypouch-checklist-img/hfx3o8njdzb4vkvl68m7.png",
                 "product_type_id": "25",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Crib sheets are important as they provide comfort for your baby and also protection to the crib mattress. Have 3-4 extra sheets in hand in case of blowup or spills."
+            },
+            {
+                "tag": "Essential",
+                "product_type": "Crib Mattress Protector",
+                "product_type_order": 5,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1696719635/Untitled_design_11_umrfmv.png",
+                "product_type_id": "25",
+                "checked": false,
+                "extraShortDesc": "Waterpoof crib mattress protector protects against leaky messes & accidents that happen in the night. With the pad, you'll create a more sanitary sleeping surface for baby."
             },
             {
                 "tag": "",
@@ -109,7 +128,8 @@
                 "product_type_order": 6,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589904/babypouch-checklist-img/axdmqqdzyclfchclus9w.png",
                 "product_type_id": "26",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "A baby monitor can help you listen or look out for your baby from a distance. For example, you might choose to use a baby monitor so you can hear your baby cry if you are downstairs or in another room where you cannot easily hear them."
             },
             {
                 "tag": "Essential",
@@ -117,7 +137,8 @@
                 "product_type_order": 7,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692589997/babypouch-checklist-img/naqhk8co8ozv7vwidghx.png",
                 "product_type_id": "27",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Swaddling protects your baby against their natural startle reflex, which means better sleep for both of you. However, you'll want to stop swaddling when your little one is showing signs of rolling (typically around 3-4 months). Then you can transition into a sleep sack."
             },
             {
                 "tag": "Essential",
@@ -125,7 +146,8 @@
                 "product_type_order": 8,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692590409/babypouch-checklist-img/qukmxm2j3tzbdnf3flme.png",
                 "product_type_id": "28",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Sleep sacks can safely keep babies warm and cozy during naps and night sleep. They can also be used as a consistent cue for sleep, which can make it easier for babies to transition at bedtime to sleep. Most babies can use a sleep sack until they're about 2 years old."
             }
         ]
     },
@@ -141,7 +163,8 @@
                 "product_type_order": 1,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987715/lkiv3vhgchdzamxenfaa.png",
                 "product_type_id": "61",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": ""
             },
             {
                 "tag": "",
@@ -149,7 +172,8 @@
                 "product_type_order": 2,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987798/k3pgfg1jeluhss2gzuli.png",
                 "product_type_id": "62",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": ""
             },
             {
                 "tag": "",
@@ -157,7 +181,8 @@
                 "product_type_order": 3,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692987879/hywu5wiswlopmrttdl3y.png",
                 "product_type_id": "63",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "White noise helps to create a comforting environment for your baby because it mimics the sounds your baby heard in the womb"
             },
             {
                 "tag": "",
@@ -229,7 +254,8 @@
                 "product_type_order": 2,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591145/babypouch-checklist-img/fc5c2gmbnaufqak8jltn.png",
                 "product_type_id": "32",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Wider, sloped bottle nipple shapes like a breast. This makes them great for breastfed babies and babies with a wider latch. Also easier to clean."
             },
             {
                 "tag": "Essential",
@@ -237,7 +263,8 @@
                 "product_type_order": 3,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591439/babypouch-checklist-img/nfiotzvfbjat6cwmci5z.png",
                 "product_type_id": "33",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "When it comes to cleaning bottles, a regular brush just won't do. You need a brush designed to get in all those nooks and crannies of baby bottles, nipples, and pump parts"
             },
             {
                 "tag": "Essential",
@@ -245,7 +272,8 @@
                 "product_type_order": 4,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591517/babypouch-checklist-img/n2qvz5f46vevlvsa03ws.png",
                 "product_type_id": "34",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Allow the clean feeding items, bottle brushes, and wash basins to air-dry thoroughly before storing to help prevent germs and mold from growing"
             },
             {
                 "tag": "Essential",
@@ -269,7 +297,8 @@
                 "product_type_order": 7,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692591947/babypouch-checklist-img/tgoie0dypijqy2kphiki.png",
                 "product_type_id": "37",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Designed to aid breastfeeding and bottle-feeding. During breastfeeding, it helps you raise your newborn up to your breast while supporting your back, shoulders, and arms"
             },
             {
                 "tag": "Essential",
@@ -277,7 +306,8 @@
                 "product_type_order": 8,
                 "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1692592113/babypouch-checklist-img/wnx7zqp62q7ny0gkvbpp.png",                
                 "product_type_id": "38",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Manual pumps are easy to transport and there's no need for a power source. They're more convenient if you are pumping in a car or any place where electricity is not easily accessible"
             },
             {
                 "tag": "",
@@ -381,7 +411,8 @@
                 "product_type_order": 1,
                 "image_url": "https://m.media-amazon.com/images/I/71TxWuhSwoL._SL1500_.jpg",
                 "product_type_id": "41",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Protect your baby from dirty surfaces, and to protect surfaces from diaper leakage during changing time"
             },
             {
                 "tag": "Essential",
@@ -421,7 +452,8 @@
                 "product_type_order": 6,
                 "image_url": "https://m.media-amazon.com/images/I/61p5kdhgdML._SL1500_.jpg",
                 "product_type_id": "46",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Make the hourly task of changing a baby's diaper easier and conceal the stink of the discard pile"
             },
             {
                 "tag": "",
@@ -429,7 +461,8 @@
                 "product_type_order": 7,
                 "image_url": "https://m.media-amazon.com/images/I/51Cdao-Q-yL._SL1500_.jpg",
                 "product_type_id": "47",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Using a diaper cream applicator is more hygienic and precise for parents than using their fingers"
             },
             {
                 "tag": "",
@@ -438,6 +471,15 @@
                 "image_url": "https://m.media-amazon.com/images/I/811M2SvH5MS._SL1500_.jpg",
                 "product_type_id": "48",
                 "checked": false
+            },
+            {
+                "tag": "",
+                "product_type": "Storage Cart",
+                "product_type_order": 8,
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1693491665/pouch-sample-essentials/51_CkXfj7gL-PhotoRoom_mpv32p.png",
+                "product_type_id": "48",
+                "checked": false,
+                "extraShortDesc": "Use a cart to store feeding and diaper changing supplies so you can move it around to where you need it, especially when you need to change baby's diaper in a hurry"
             },
             {
                 "tag": "",
@@ -521,9 +563,9 @@
         "products": [
             {
                 "tag": "Essential",
-                "product_type": "Bodysuits",
+                "product_type": "Onesies",
                 "product_type_order": 1,
-                "image_url": "https://cdn.shopify.com/s/files/1/2338/2917/products/citrus_ss-jjb_039.jpg?v=1680579801",
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1696706067/Copy_of_Copy_of_Copy_of_Baby_Food_Maker_jyhs11.png",
                 "product_type_id": "71",
                 "checked": false
             },
@@ -531,7 +573,7 @@
                 "tag": "Essential",
                 "product_type": "Footies",
                 "product_type_order": 2,
-                "image_url": "https://oldnavy.gap.com/webcontent/0054/026/436/cn54026436.jpg",
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1696706273/Copy_of_Copy_of_Copy_of_Copy_of_Baby_Food_Maker_o4viob.png",
                 "product_type_id": "72",
                 "checked": false
             },
@@ -539,7 +581,7 @@
                 "tag": "Essential",
                 "product_type": "Baby Mittens",
                 "product_type_order": 3,
-                "image_url": "https://target.scene7.com/is/image/Target/GUEST_1331a6db-271a-4a4b-836c-cd07ddf047a2?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
+                "image_url": "https://res.cloudinary.com/dn5vitqo9/image/upload/v1696706444/Copy_of_Copy_of_Copy_of_Copy_of_Copy_of_Baby_Food_Maker_bltcyu.png",
                 "product_type_id": "73",
                 "checked": false
             },
@@ -685,7 +727,8 @@
                 "product_type_order": 2,
                 "image_url": "https://hsastore.com/on/demandware.static/-/Sites-hec-master/default/dw72f97dab/images/large/fridababy-electric-nosefrida-31191-2.jpg",
                 "product_type_id": "102",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "It is normal for a baby's nose to get congested (stuffed up) from time to time. When this happens, you can use nasal saline to thin their mucus and then suction it out with this"
             },
             {
                 "tag": "Essential",
@@ -693,7 +736,8 @@
                 "product_type_order": 3,
                 "image_url": "https://target.scene7.com/is/image/Target/GUEST_ed35a157-cc95-44c4-a28e-40007dc5f040?wid=800&hei=800&fit=constrain&qlt=80&fmt=webp",
                 "product_type_id": "103",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Because baby lacks muscle control, they can easily scratch and cut their own delicate skin while waving their hands. Babies' nails tend to grow quickly, so they might need to be trimmed as often as once or twice a week"
             },
             {
                 "tag": "Essential",
@@ -725,7 +769,8 @@
                 "product_type_order": 7,
                 "image_url": "https://tastyganics.com/cdn/shop/products/Thinkbaby-baby-Sunscreen-SPF-50-6-fl-oz-177-ml_400x.jpg?v=1656348813",
                 "product_type_id": "107",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Protect babies' skin from harmful UV radiation and painful sunburns"
             },
             {
                 "tag": "Essential",
@@ -733,7 +778,8 @@
                 "product_type_order": 8,
                 "image_url": "https://oogiebear.com/cdn/shop/products/MicrosoftTeams-image_21_720x.jpg?v=1667578532",
                 "product_type_id": "108",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Perfect tool to get rid of the boogers in baby's nose, clean under the nail, remove visible wax from ears"
             },
             {
                 "tag": "",
@@ -781,15 +827,17 @@
                 "product_type_order": 3,
                 "image_url": "https://www.kindredbravely.com/cdn/shop/files/Organic-Bamboo-Nursing-Pads-10-Count-Kindred-Bravely.jpg?v=1684877617",
                 "product_type_id": "93",
-                "checked": false
+                "checked": false,
+                "extraShortDesc": "Nursing pads absorb milk that may leak between feedings. You wear them inside your bra to keep it dry and keep milk away from your clothing"
             },
             {
                 "tag": "Essential",
                 "product_type": "Nipple Cream",
                 "product_type_order": 4,
                 "image_url": "https://images.ctfassets.net/50gzycvace50/0a2f92142705f685efabf9250d1a28eaeef7302246a2f27a903d6626b76307f8/d7ccae167dc9dd081e7fac82adfc1866/0a2f92142705f685efabf9250d1a28eaeef7302246a2f27a903d6626b76307f8.png?fl=progressive&fm=jpg&bg=rgb:f9f9f9&w=1240&h=1240",
-                "product_type_id": "94",
-                "checked": false
+                "product_type_id": "94",                
+                "checked": false,
+                "extraShortDesc": "Nipple creams can help to soothe and heal the skin around your nipples. Breastfeeding can lead to cracks, sores, itchiness"
             },
             {
                 "tag": "Essential",
