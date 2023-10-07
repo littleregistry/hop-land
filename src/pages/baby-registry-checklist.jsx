@@ -87,7 +87,7 @@ export default function Checklist() {
 
              {/* CTA */}
              <div className="flex justify-center">
-             <Link href="https://forms.gle/H4qqXrk4Ttnhbs9CA" 
+             <Link href="/signup" 
                 className="rounded-md bg-indigo-50 px-3.5 py-2.5 text-lg my-8 text-center font-semibold text-indigo-600 shadow-sm hover:bg-indigo-100">
                     {/* <div className="mx-6 my-10 p-10 rounded-3xl bg-[#461F69] text-[#ffffff]">                     */}
                     <p>
