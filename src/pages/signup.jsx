@@ -34,16 +34,16 @@ export default function Signup() {
         }
     });
 
-    if (process.env.NODE_ENV != 'development') {
-      analytics.identify('viewed sign up')
-    }
+    // if (process.env.NODE_ENV != 'development') {
+    //   analytics.identify('viewed sign up')
+    // }
 
 
     const handleSignup = async(data)=> {
 		try {
-      if (process.env.NODE_ENV != 'development') {
-        analytics.identify('completed sign up')
-      }
+      // if (process.env.NODE_ENV != 'development') {
+      //   analytics.identify('completed sign up')
+      // }
 
       let res = await AxiosClient.post('auth/signup',
       {

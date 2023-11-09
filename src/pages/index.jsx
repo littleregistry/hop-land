@@ -27,9 +27,9 @@ import { Faq } from '@/components/Faq.jsx'
 
 export default function Home() {
   const isMobile = typeof window !== "undefined"
-  if (process.env.NODE_ENV != 'development') {
-    analytics.identify('viewed home page')
-  }
+  // if (process.env.NODE_ENV != 'development') {
+  //   analytics.identify('viewed home page')
+  // }
   useEffect(() => {
     if (isMobile) {
       const head = document.querySelector("head");
