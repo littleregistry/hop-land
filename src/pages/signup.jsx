@@ -6,9 +6,6 @@ import { useRouter } from 'next/router'
 import toast from 'react-hot-toast'
 import { AxiosClient } from '@/lib/axios'
 import pouchMobileLogo from '@/images/pouchlogo-red.svg'
-import { AnalyticsBrowser } from '@segment/analytics-next'
-
-const analytics = AnalyticsBrowser.load({ writeKey: 'F1Q561QsfUIG0c6UiPrdHhIMAobwEFMt' })
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -37,16 +34,16 @@ export default function Signup() {
         }
     });
 
-    if (process.env.NODE_ENV != 'development') {
-      analytics.identify('viewed sign up')
-    }
+    // if (process.env.NODE_ENV != 'development') {
+    //   analytics.identify('viewed sign up')
+    // }
 
 
     const handleSignup = async(data)=> {
 		try {
-      if (process.env.NODE_ENV != 'development') {
-        analytics.identify('completed sign up')
-      }
+      // if (process.env.NODE_ENV != 'development') {
+      //   analytics.identify('completed sign up')
+      // }
 
       let res = await AxiosClient.post('auth/signup',
       {
